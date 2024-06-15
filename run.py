@@ -1,7 +1,3 @@
-
-
-
-
 import pyperclip # for reading the SDS text content that we'll put into the Windows clipboard
 
 import time # for pausing
@@ -13,13 +9,14 @@ from selenium.webdriver import Keys # for backspace key to clear a text box
 # Basically this is used to tell us when HTML buttons aren't clickable
 from selenium.common.exceptions import WebDriverException
 
-# This function extracts a webpage (as a url) as a string
-def html_extract(my_url):
-	fp = urllib.request.urlopen(my_url)
-	mybytes = fp.read()
-	mystr = mybytes.decode("utf8")
-	fp.close()
-	return(mystr)
+# These are to extract text from an online PDF
+import io
+import requests
+import fitz
+import wget
+
+
+
 
 # This function finds a chemical's CAS number and DOT hazards. 
 # It does this by putting your queried chemical name into Millipore Sigma's search engine then pulling the 1st SDS.
@@ -87,6 +84,7 @@ def get_chem_info(chemical_name):
 	
 	# driver.find_element("id","sds-MM1.94500").click()
 	
+	driver.execute_script("document.body.style.zoom='50%'")
 	time.sleep(3)
 	html_string = driver.page_source
 	
@@ -105,9 +103,17 @@ def get_chem_info(chemical_name):
 	button_name = new_html[ new_html.index("\"")+1 : new_html.index(" ")-1 ]
 	print(button_name)
 	
-	time.sleep(1)
-	driver.find_element("id",button_name).click()
-
+	time.sleep(4)
+	try:
+		driver.find_element("id",button_name).click()
+	except:
+		driver.execute_script("document.body.style.zoom='75%'")
+		try:
+			driver.find_element("id",button_name).click()
+		except:
+			driver.execute_script("document.body.style.zoom='100%'")	
+			driver.find_element("id",button_name).click()
+			
 
 
 	# click the English button
@@ -115,21 +121,20 @@ def get_chem_info(chemical_name):
 	driver.find_element("xpath",r"""//*[@id="sds-link-EN"]""").click()
 
 	time.sleep(5)
-	# The PDF is now open; switch Selenium's brain to the new window and select all the text
+	# The PDF is now open; switch Selenium's brain to the new window and get the PDF's url
 	
 	driver.switch_to.window(driver.window_handles[1])
+	print(driver.current_url)
+	pdf_url = driver.current_url
+
+	driver.close()
+	# Save that PDF 
+	wget.download(pdf_url)
+	exit()
 
 
 
-	driver.find_element("xpath",r"""/html/body/embed""").send_keys(Keys.CONTROL, "a")
-	#driver.find_element("xpath","//body").send_keys(Keys.CONTROL, "a")
-	time.sleep(1)
-	
-	driver.find_element("xpath","//body").send_keys(Keys.CONTROL, "c")
-	time.sleep(1)
 
-	SDS_content = pyperclip.paste()
-	print(SDS_content)
 
 	for myline in SDS_content:
 		if myline[0:3] == "CAS":
