@@ -22,10 +22,8 @@ import os
 # This function finds a chemical's CAS number and DOT hazards. 
 # It does this by putting your queried chemical name into Millipore Sigma's search engine then pulling the 1st SDS.
 # If MS's website has results for your chemical, then it'll return it as a list of [MS-given chemical name, CAS number, DOT hazards]
-def get_chem_info(chemical_name):
-	return_GivenName = ""
-	return_CAS = ""
-	return_DOT = ""
+def get_sds_url(chemical_name):
+
 	
 	# Make the browser headless and set the URL of some existing chemical search 
 	# because for some reason this works better then the general page of https://www.sigmaaldrich.com/US/en/search/
@@ -133,38 +131,18 @@ def get_chem_info(chemical_name):
 	# The PDF is now open; switch Selenium's brain to the new window and get the PDF's url
 	
 	driver.switch_to.window(driver.window_handles[1])
-	print("success.")
-	print(driver.current_url)
 	pdf_url = driver.current_url
-
 	driver.close()
-	#driver.close()
+	print("Successfully found SDS link for ",chemical_name,". It is:\n" , pdf_url)
+	return(pdf_url)
 
 
-	# Save that PDF 
 
-	response = requests.get(pdf_url)
-
-	with open('/tmp/metadata.pdf', 'wb') as f:
-		f.write(response.text)
-	exit()
-
-
+def get_info_from_pdf(pdf_url):
+	return_GivenName = ""
+	return_CAS = ""
+	return_DOT = ""
 	
-
-
-	response = urllib.request.urlopen(pdf_url)    
-	file = open("FILENAME.pdf", 'wb')
-	file.write(response.read())
-	file.close()
-
-	exit()
-
-
-
-
-
-
 	for myline in SDS_content:
 		if myline[0:3] == "CAS":
 			return_CAS = myline
@@ -184,23 +162,11 @@ def get_chem_info(chemical_name):
 		print(DOT_class)
 		return_DOT = DOT_class
 
-
-	# Grab this chemical's MS-given name. This is so the end user can look at it to make sure it's actually the same chemical they were looking for.
-		
-
-	time.sleep(10)
-	
-	
 	return([return_GivenName,return_CAS,return_DOT])
 
 
 
-
-
-#chemical_name = input("What's your chemical's name? ")
-#get_chem_info(chemical_name)
-
-print(get_chem_info("ethanol"))
+print(get_sds_url("ethanolf"))
 
 
 
