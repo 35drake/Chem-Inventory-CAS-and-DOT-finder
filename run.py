@@ -14,7 +14,8 @@ import io
 import requests
 import fitz
 import wget
-
+import urllib.request
+import os
 
 
 
@@ -87,7 +88,14 @@ def get_chem_info(chemical_name):
 	driver.execute_script("document.body.style.zoom='50%'")
 	time.sleep(3)
 	html_string = driver.page_source
-	
+
+	#delete output.txt if it already exists
+	try:
+	    os.remove("output.txt")
+	except OSError:
+	    pass
+
+	# Create output.txt
 	with open("output.txt", "w", encoding='utf-8') as f:
 		f.write(driver.page_source)
 	with open("output.txt","r", encoding='utf-8') as f:
@@ -117,20 +125,41 @@ def get_chem_info(chemical_name):
 
 
 	# click the English button
-	time.sleep(1)
+	time.sleep(3)
 	driver.find_element("xpath",r"""//*[@id="sds-link-EN"]""").click()
+
 
 	time.sleep(5)
 	# The PDF is now open; switch Selenium's brain to the new window and get the PDF's url
 	
 	driver.switch_to.window(driver.window_handles[1])
+	print("success.")
 	print(driver.current_url)
 	pdf_url = driver.current_url
 
 	driver.close()
+	#driver.close()
+
+
 	# Save that PDF 
-	wget.download(pdf_url)
+
+	response = requests.get(pdf_url)
+
+	with open('/tmp/metadata.pdf', 'wb') as f:
+		f.write(response.text)
 	exit()
+
+
+	
+
+
+	response = urllib.request.urlopen(pdf_url)    
+	file = open("FILENAME.pdf", 'wb')
+	file.write(response.read())
+	file.close()
+
+	exit()
+
 
 
 
