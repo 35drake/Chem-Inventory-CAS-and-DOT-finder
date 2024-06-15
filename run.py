@@ -45,6 +45,9 @@ def get_chem_info(chemical_name):
 	
 	# Load the webpage
 	driver.get(url)
+
+	# Maximize the window so all clickable buttons (namely the SDS download button) will appear later
+	driver.maximize_window()
 	
 	# Close the cookies statement
 	time.sleep(1)
@@ -53,20 +56,29 @@ def get_chem_info(chemical_name):
 	# Clear the search bar of the current word (TESTosterone)
 	time.sleep(1)
 	for count in range(0,len("TESTosterone")):
-		driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(Keys.BACKSPACE)
+		try:
+			driver.find_element("xpath",r"""//*[@id="header-search-search-wrapper-input"]""").send_keys(Keys.BACKSPACE)
+		except: #The "wrapper" part may or may not be present in the element, depending on your screen size
+			driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(Keys.BACKSPACE)
+		#
 		
 
 	# Type in your chemical name
 	time.sleep(1)
-	driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(chemical_name)
+	try:
+		driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(chemical_name)
+	except:
+		driver.find_element("xpath",r"""//*[@id="header-search-search-wrapper-input"]""").send_keys(chemical_name)
 	
 	# Click the "Search" button
 	time.sleep(1)
-	driver.find_element("xpath",r"""//*[@id="header-search-submit-search"]""").click()
+	try:
+		driver.find_element("xpath",r"""//*[@id="header-search-submit-search"]""").click()
+	except:
+		driver.find_element("xpath",r"""//*[@id="header-search-submit-search-wrapper"]""").click()
 		
 
-	# Maximize the window so all clickable buttons (namely the SDS download button) will appear later
-	driver.maximize_window()
+
 
 	
 	
