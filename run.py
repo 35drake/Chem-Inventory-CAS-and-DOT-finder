@@ -239,10 +239,36 @@ def get_chem_info(chem_name):
 		return ["Unknown","Unknown","Unknown"]
 	
 
+# The main part of the program will take the user's lits of chemicals, and one-by-one find the data on them. 
+# In the end, the data will be written into the "RESULTS" text files.
 
+# Take the user's list into a string
+with open("TYPE CHEMICAL LIST HERE.txt" , "r") as f:
+	chem_list = f.read()
 
-print( get_chem_info("reagent") )
-print("\n\n\n\n\n")
-print( get_chem_info("bullshit") )
-print("\n\n\n\n\n")
+# Delete any newlines at the end of the string. You don't want to delete all newlines, because any accidental newlines in the middle of the user's text file shouldn't be deleted. Thats because, if the user is copy-pasting from a spreadsheet, you want the results to also contain that accidental newline so that alignment is conserved.
+while chem_list[-1] == "\n":
+	chem_list = chem_list[:-1]
+
+# Convert the string into a list of the chemicals
+chem_list = chem_list.split("\n") #separate each line of the user's text file as one chemical
+
+#  Initialize the data lists (names of each chemical, CASs of each chemical, and DOTs of each chemical)
+Sigma_Names = []
+CASs = []
+DOTs= []
+
+# Fill all 3 of the lists of data, one chemical at a time
+for item in chem_list:
+	chem_data = get_chem_info(item)
+	Sigma_Names = Sigma_Names + [chem_data[0]]
+	CASs = CASs + [chem_data[1]]
+	DOTs = DOTs + [chem_data[2]]
+
+print("\n\n\n\n\nDone.")
+print(Sigma_Names)
+print(CASs)
+print(DOTs)
+	
+
 

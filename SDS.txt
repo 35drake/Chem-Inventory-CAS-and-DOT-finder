@@ -1,234 +1,185 @@
-SAFETY DATA SHEET  
+SAFETY DATA SHEET 
 
-Blocking Reagent for ELISA 
+Version 6.11 
+Revision Date 03/02/2024 
+Print Date 06/15/2024 
 
-Version  
-1.7 
+SECTION 1: Identification of the substance/mixture and of the company/undertaking 
 
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-SECTION 1. IDENTIFICATION 
+1.1  Product identifiers 
 
 Product name 
 
-:  Blocking Reagent for ELISA 
+:  Anti-Vimentin antibody, Mouse monoclonal 
 
-Product code 
+Product Number 
+Brand 
 
-:  11112589001 
+:  V6389 
+:  Sigma 
 
-Manufacturer or supplier's details 
-Company name of supplier 
+1.2  Relevant identified uses of the substance or mixture and uses advised against 
 
-:  Roche Diagnostics Deutschland GmbH  
+Identified uses 
 
-Address 
+:  Laboratory chemicals, Synthesis of substances 
+
+Uses advised against 
+
+:  The product is being supplied under the TSCA R&D Exemption 
+(40 CFR Section 720.36). It is the recipient’s responsibility to 
+comply with the requirements of the R&D exemption. The 
+product may not be used for a non-exempt commercial purpose 
+under TSCA unless appropriate consent is granted in writing by 
+MilliporeSigma. 
+
+1.3  Details of the supplier of the safety data sheet 
+
+Company 
 
 Telephone 
-Telefax 
-E-mail address 
-Emergency telephone 
-In case of emergencies: 
+Fax 
 
-:  116 Sandhoferstrasse 
-Mannheim, 68305 
-Germany 
+:  Sigma-Aldrich Inc. 
+3050 SPRUCE ST 
+ST. LOUIS MO  63103 
+UNITED STATES 
 
-:  +496217590 
-:  +496217592890 
-: 
+:  +1 314 771-5765 
+:  +1 800 325-5052 
 
-info.dia-sds@roche.com 
+1.4  Emergency telephone 
 
-:  CHEMTREC 
+Emergency Phone # 
 
-Recommended use of the chemical and restrictions on use 
-:  For professional users only. 
-Restrictions on use 
+:  800-424-9300 CHEMTREC (USA) +1-703-
+527-3887 CHEMTREC (International) 24 
+Hours/day; 7 Days/week 
 
-+1 703-741-5970 / 
-1-800-424-9300 
+SECTION 2: Hazards identification 
 
-SECTION 2. HAZARDS IDENTIFICATION 
+2.1  Classification of the substance or mixture 
 
-GHS classification in accordance with the OSHA Hazard Communication Standard (29 CFR 
-1910.1200) 
 Not a hazardous substance or mixture. 
 
-GHS label elements 
+2.2  GHS Label elements, including precautionary statements 
+
 Not a hazardous substance or mixture. 
 
-Other hazards 
-None known. 
+2.3  Hazards not otherwise classified (HNOC) or not covered by GHS - none 
 
-SECTION 3. COMPOSITION/INFORMATION ON INGREDIENTS 
+Sigma - V6389 
 
-Substance / Mixture 
+Page 1  of  10 
 
-:   Mixture 
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
 
-Components 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 3: Composition/information on ingredients 
 
-Chemical name 
-1,3-Propanediol, 2-amino-2-
-(hydroxymethyl)-, hydrochloride (1:1) 
-1,3-Propanediol, 2-amino-2-
-(hydroxymethyl)- 
-Actual concentration is withheld as a trade secret 
+3.2  Mixtures 
 
+Component 
+
+sodium azide 
 CAS-No. 
-1185-53-1 
+EC-No. 
+Index-No. 
+Registration 
+number 
 
-77-86-1 
+26628-22-8 
+247-852-1 
+011-004-00-7 
+01-2119457019-37-
+XXXX 
 
-Concentration (% w/w) 
+Classification 
 
->= 20 -  < 30 
+Concentration 
 
->= 1 -  < 5 
+>= 0.1 - < 1 
+% 
 
-SECTION 4. FIRST AID MEASURES 
+Acute Tox. 2; Acute Tox. 
+1; STOT RE 2; Aquatic 
+Acute 1; Aquatic Chronic 
+1; H300, H330, H310, 
+H373, H400, H410 
+M-Factor - Aquatic Acute: 
+1 
+M-Factor - Aquatic 
+Chronic: 1 
 
-General advice 
+For the full text of the H-Statements mentioned in this Section, see Section 16. 
 
-:  Do not leave the victim unattended. 
+SECTION 4: First aid measures 
 
-1 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
+4.1  Description of first-aid measures 
 
 If inhaled 
-
-:  Move to fresh air. 
-
-If unconscious, place in recovery position and seek medical 
-advice. 
-If symptoms persist, call a physician. 
+After inhalation: fresh air. 
 
 In case of skin contact 
+In case of skin contact: Take off immediately all contaminated clothing. Rinse skin with 
+water/ shower. 
 
 In case of eye contact 
-
-: 
-
-: 
-
-If on skin, rinse well with water. 
-
-Immediately flush eye(s) with plenty of water. 
-Remove contact lenses. 
-Protect unharmed eye. 
-If eye irritation persists, consult a specialist. 
+After eye contact: rinse out with plenty of water. Remove contact lenses. 
 
 If swallowed 
+After swallowing: make victim drink water (two glasses at most). Consult doctor if feeling 
+unwell. 
 
-:  Keep respiratory tract clear. 
+4.2  Most important symptoms and effects, both acute and delayed 
 
-Do not give milk or alcoholic beverages. 
-Never give anything by mouth to an unconscious person. 
-If symptoms persist, call a physician. 
-Rinse mouth with water. 
+The most important known symptoms and effects are described in the labelling (see section 
+2.2) and/or in section 11 
 
-Most important symptoms 
-and effects, both acute and 
-delayed 
+4.3  Indication of any immediate medical attention and special treatment needed 
 
-:  None known. 
+No data available 
 
-Notes to physician 
+SECTION 5: Firefighting measures 
 
-:  The first aid procedure should be established in consultation 
-
-with the doctor responsible for industrial medicine. 
-
-SECTION 5. FIRE-FIGHTING MEASURES 
+5.1  Extinguishing media 
 
 Suitable extinguishing media 
+Use extinguishing measures that are appropriate to local circumstances and the 
+surrounding environment. 
 
-:  Use extinguishing measures that are appropriate to local cir-
+Sigma - V6389 
 
-cumstances and the surrounding environment. 
+Page 2  of  10 
 
-Specific hazards during fire 
-fighting  
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
 
-Hazardous combustion prod-
-ucts 
-
-:  No information available. 
-
-:   Gaseous hydrogen chloride (HCl). 
-
-Sodium oxides 
-Carbon oxides 
-Nitrogen oxides (NOx) 
-
-Further information 
-
-:  Standard procedure for chemical fires. 
-
-Use extinguishing measures that are appropriate to local cir-
-cumstances and the surrounding environment. 
-
-Special protective equipment 
-for fire-fighters 
-
-:  Wear self-contained breathing apparatus for firefighting if 
-
-necessary. 
-
-SECTION 6. ACCIDENTAL RELEASE MEASURES 
-
-Personal precautions, protec-
-tive equipment and emer-
-gency procedures 
-
-:  Avoid dust formation. 
-
-Environmental precautions 
-
-:  Local authorities should be advised if significant spillages 
-
-cannot be contained. 
-
-2 / 16 
-
-  
  
  
  
@@ -252,122 +203,198 @@ cannot be contained.
  
  
  
+Unsuitable extinguishing media 
+For this substance/mixture no limitations of extinguishing agents are given. 
+
+5.2  Special hazards arising from the substance or mixture 
+
+Nature of decomposition products not known. 
+Not combustible. 
+Ambient fire may liberate hazardous vapours. 
+
+5.3  Advice for firefighters 
+
+In the event of fire, wear self-contained breathing apparatus. 
+
+5.4  Further information 
+
+Prevent fire extinguishing water from contaminating surface water or the ground water 
+system. 
+
+SECTION 6: Accidental release measures 
+
+6.1  Personal precautions, protective equipment and emergency procedures 
+
+Advice for non-emergency personnel: Do not breathe vapors, aerosols. Evacuate the 
+danger area, observe emergency procedures, consult an expert. 
+For personal protection see section 8. 
+
+6.2  Environmental precautions 
+
+Do not let product enter drains. 
+
+6.3  Methods and materials for containment and cleaning up 
+
+Cover drains. Collect, bind, and pump off spills. Observe possible material restrictions 
+(see sections 7 and 10). Take up with liquid-absorbent material (e.g. Chemizorb® ). 
+Dispose of properly. Clean up affected area. 
+
+6.4  Reference to other sections 
+
+For disposal see section 13. 
+
+SECTION 7: Handling and storage 
+
+7.1  Precautions for safe handling 
+For precautions see section 2.2. 
+
+7.2  Conditions for safe storage, including any incompatibilities 
+
+Storage conditions 
+Tightly closed. 
+Storage stabilityRecommended storage temperature 
+-20 °C 
+Storage class 
+Storage class (TRGS 510): 12: Non Combustible Liquids 
+
+7.3  Specific end use(s) 
+
+Apart from the uses mentioned in section 1.2 no other specific uses are stipulated 
+
+Sigma - V6389 
+
+Page 3  of  10 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
  
  
  
  
  
  
-SAFETY DATA SHEET  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 8: Exposure controls/personal protection 
 
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-Methods and materials for 
-containment and cleaning up  
-
-:  Pick up and arrange disposal without creating dust. 
-
-Sweep up and shovel. 
-Keep in suitable, closed containers for disposal. 
-
-SECTION 7. HANDLING AND STORAGE 
-
-Advice on protection against 
-fire and explosion 
-
-:   Provide appropriate exhaust ventilation at places where dust 
-
-is formed. 
-
-Advice on safe handling 
-
-:  For personal protection see section 8. 
-
-Smoking, eating and drinking should be prohibited in the ap-
-plication area. 
-
-Conditions for safe storage 
-
-:  Electrical installations / working materials must comply with 
-
-the technological safety standards. 
-
-Further information on stor-
-age conditions 
-
-:   See label, package insert or internal guidelines 
-
-Materials to avoid  
-
-:  No materials to be especially mentioned. 
-
-Further information on stor-
-age stability 
-
-:   No decomposition if stored and applied as directed. 
-
-SECTION 8. EXPOSURE CONTROLS/PERSONAL PROTECTION 
+8.1  Control parameters 
 
 Ingredients with workplace control parameters 
-Contains no substances with occupational exposure limit values. 
+Component 
 
-Engineering measures 
+CAS-No. 
 
-:  No data available 
+Value 
 
-Personal protective equipment 
-Respiratory protection 
+sodium azide 
 
-:  No personal respiratory protective equipment normally requi-
+26628-22-
+8 
 
-red. 
+C 
 
-Hand protection 
+Control 
+parameters 
+0.29 mg/m3 
 
-Material 
-Break through time 
-Glove thickness 
+Basis 
 
-   In case of contact through splashing:  
-:  Nitrile rubber 
-:  > 30 min 
-:  > 0.11 mm 
-
-Material 
-Break through time 
-Glove thickness 
-
-   In case of full contact:  
-:  butyl-rubber 
-:  > 480 min 
-:  > 0.4 mm 
+USA. ACGIH Threshold Limit 
+Values (TLV) 
 
 Remarks 
 
-:  Wear appropriate protective gloves to prevent skin contact. 
+Not classifiable as a human carcinogen 
+C 
 
-Replace torn or punctured gloves promptly. 
+0.11 ppm  
 
-Eye protection 
+USA. ACGIH Threshold Limit 
+Values (TLV) 
 
-:  Safety glasses 
+Not classifiable as a human carcinogen 
+C 
 
-Skin and body protection 
+0.1 ppm  
 
-:  Protective suit 
+USA. NIOSH Recommended 
+Exposure Limits 
 
-3 / 16 
+Potential for dermal absorption 
+C 
 
-  
+0.3 mg/m3 
+
+USA. NIOSH Recommended 
+Exposure Limits 
+
+Potential for dermal absorption 
+C 
+
+0.1 ppm  
+0.3 mg/m3 
+
+California permissible exposure 
+limits for chemical 
+contaminants (Title 8, Article 
+107) 
+
+8.2  Exposure controls 
+
+Skin 
+
+Appropriate engineering controls 
+Change contaminated clothing. Wash hands after working with substance. 
+
+Personal protective equipment 
+
+Eye/face protection 
+Use equipment for eye protection tested and approved under appropriate 
+government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
+
+Skin protection 
+not required 
+
+Respiratory protection 
+Not required; except in case of aerosol formation. 
+
+Control of environmental exposure 
+Do not let product enter drains. 
+
+SECTION 9: Physical and chemical properties 
+
+9.1  Information on basic physical and chemical properties 
+
+a)  Appearance 
+
+Form: liquid 
+
+b)  Odor 
+
+No data available 
+
+Sigma - V6389 
+
+Page 4  of  10 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
  
  
  
@@ -399,1075 +426,376 @@ Skin and body protection
  
  
  
-SAFETY DATA SHEET  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c)  Odor Threshold 
 
-Blocking Reagent for ELISA 
+No data available 
 
-Version  
-1.7 
+d)  pH 
 
-Revision Date:  
-04-10-2022 
+e)  Melting 
 
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
+point/freezing point 
 
-Hygiene measures 
+f) 
 
-:  Handle in accordance with good industrial hygiene and safety 
+Initial boiling point 
+and boiling range 
 
-practice. 
+No data available 
 
-SECTION 9. PHYSICAL AND CHEMICAL PROPERTIES 
+No data available 
 
-Appearance 
+No data available 
 
-:  solid 
+g)  Flash point 
 
-Color 
+ ()Not applicable 
 
-:   white 
+h)  Evaporation rate 
 
-light yellow 
+No data available 
 
-Odor 
+i)  Flammability (solid, 
 
-:   none 
+No data available 
 
-Odor Threshold 
+gas) 
 
-:   Not applicable  
+j)  Upper/lower 
 
-pH 
+No data available 
 
-:  Not applicable  
+flammability or 
+explosive limits 
 
-Melting point/range 
+k)  Vapor pressure 
 
-:  No data available  
+No data available 
 
-Boiling point/boiling range 
+l)  Vapor density 
 
-:  No data available  
+No data available 
 
-Flash point 
+m)  Density 
 
-:  does not flash  
-
-Evaporation rate 
-
-:   No data available  
-
-Flammability (solid, gas) 
-
-:  Sustains combustion 
-
-Flammability (liquids) 
-
-:  Sustains combustion 
-
-Self-ignition 
-
-:  No data available  
-
-Upper explosion limit / Upper 
-flammability limit 
-
-:  No data available  
-
-Lower explosion limit / Lower 
-flammability limit 
-
-:  No data available  
-
-Vapor pressure 
-
-:  No data available  
-
-Relative vapor density  
-
-:  Not applicable  
+No data available 
 
 Relative density 
 
-:  No data available  
+No data available 
 
-Solubility(ies) 
+n)  Water solubility 
 
-Water solubility 
+soluble 
 
-:  completely soluble  
+o)  Partition coefficient: 
+n-octanol/water 
 
-Solubility in other solvents 
+No data available 
 
-:  No data available 
+p)  Autoignition 
+temperature 
 
-Partition coefficient: n-
-octanol/water 
+Not applicable 
 
-:  No data available  
+q)  Decomposition 
 
-4 / 16 
+No data available 
 
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
+temperature 
 
-Blocking Reagent for ELISA 
+r)  Viscosity 
 
-Version  
-1.7 
+No data available 
 
-Revision Date:  
-04-10-2022 
+s)  Explosive properties  Not classified as explosive. 
 
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
+t)  Oxidizing properties  none 
 
-Autoignition temperature 
+9.2  Other safety information 
 
-:  No data available  
+No data available 
 
-Decomposition temperature 
+SECTION 10: Stability and reactivity 
 
-:   No data available 
+10.1  Reactivity 
 
-Viscosity 
+No data available 
 
-Viscosity, dynamic 
+10.2  Chemical stability 
 
-:  Not applicable  
+The product is chemically stable under standard ambient conditions (room temperature) . 
 
-Viscosity, kinematic 
+10.3  Possibility of hazardous reactions 
 
-:  Not applicable  
+Heavy metals may form extremely explosive azides. 
+Violent reactions possible with: 
 
-Explosive properties 
+Sigma - V6389 
 
-:  Not explosive 
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
 
-Oxidizing properties 
+Page 5  of  10 
 
-:  The substance or mixture is not classified as oxidizing. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The generally known reaction partners of water. 
 
-SECTION 10. STABILITY AND REACTIVITY 
+10.4  Conditions to avoid 
 
-Reactivity 
+no information available 
 
-:   No dangerous reaction known under conditions of normal use. 
+10.5  Incompatible materials 
 
-Chemical stability 
+Heavy metalsStrong oxidizing agents 
 
-:   Stable under normal conditions. 
+10.6  Hazardous decomposition products 
+In the event of fire: see section 5 
 
-Possibility of hazardous reac-
-tions  
+SECTION 11: Toxicological information 
 
-:  No dangerous reaction known under conditions of normal use. 
+11.1  Information on toxicological effects 
 
-Stable under recommended storage conditions. 
-No hazards to be specially mentioned. 
-
-Conditions to avoid 
-
-:  Exposure to moisture. 
-
-Incompatible materials 
-
-:   Strong oxidizing agents 
-
-Hazardous decomposition 
-products 
-
-:    No decomposition if stored and applied as directed. 
-
-SECTION 11. TOXICOLOGICAL INFORMATION 
+Mixture 
 
 Acute toxicity 
-Not classified based on available information. 
+Oral: No data available 
+Acute toxicity estimate Inhalation - 4 h - 50.01 mg/l - dust/mist(Calculation method) 
 
-Product: 
-Acute oral toxicity 
-
-Components: 
-
-:   Acute toxicity estimate: > 5,000 mg/kg  
-
-Method: Calculation method 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-:   LD50 (Rat, female): > 5,000 mg/kg  
-Acute oral toxicity 
-Method: OECD Test Guideline 425 
-GLP: yes 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Acute oral toxicity 
-
-:   LD50 (Rat, female): > 5,000 mg/kg  
-Method: OECD Test Guideline 425 
-GLP: yes 
-
-5 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-Acute dermal toxicity 
-
-:   LD50 (Rat, male and female): > 5,000 mg/kg 
-
-Method: OECD Test Guideline 402 
-GLP: yes 
+Acute toxicity estimate Dermal - > 5,000 mg/kg 
+(Calculation method) 
 
 Skin corrosion/irritation 
-Not classified based on available information. 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Species 
-Exposure time 
-Method 
-Result 
-GLP 
-
-:  human keratinocytes 
-:  42 min 
-:  OECD Test Guideline 439 
-:  No skin irritation 
-:  yes 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Species 
-Exposure time 
-Method 
-Result 
-GLP 
-
-:  Rabbit 
-:  4 h 
-:  OECD Test Guideline 404 
-:  No skin irritation 
-:  yes 
+No data available 
 
 Serious eye damage/eye irritation 
-Not classified based on available information. 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Species 
-Result 
-Exposure time 
-Method 
-GLP 
-
-:  Bovine cornea 
-:  No eye irritation 
-:  240 min 
-:  OECD Test Guideline 437 
-:  yes 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Species 
-Result 
-Exposure time 
-Method 
-GLP 
-
-:  Rabbit 
-:  No eye irritation 
-:  72 h 
-:  OECD Test Guideline 405 
-:  yes 
+No data available 
 
 Respiratory or skin sensitization 
-
-Skin sensitization 
-Not classified based on available information. 
-
-Respiratory sensitization 
-Not classified based on available information. 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Test Type 
-
-:  Maximization Test 
-
-6 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-Species 
-Assessment 
-Method 
-GLP 
-
-:  Guinea pig 
-:  Does not cause skin sensitization. 
-:  OECD Test Guideline 406 
-:  yes 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Test Type 
-Assessment 
-GLP 
-Remarks 
-
-:  Direct Peptide Reactivity Assay (DPRA) 
-:  Does not cause skin sensitization. 
-:  yes 
-:  Based on data from similar materials 
-
-Expert judgment 
-
-Test Type 
-Species 
-Method 
-GLP 
-Remarks 
-
-Test Type 
-Species 
-GLP 
-Remarks 
-
-:  Buehler Test 
-:  Guinea pig 
-:  OECD Test Guideline 406 
-:  no 
-:  Based on data from similar materials 
-
-Intracutaneous test 
-
-: 
-:  Guinea pig 
-:  no 
-:  Based on data from similar materials 
+No data available 
 
 Germ cell mutagenicity 
-Not classified based on available information. 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Genotoxicity in vitro 
-
-:  Test Type: Microbial mutagenesis assay (Ames test) 
-
-Test system: Salmonella typhimurium 
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 471 
-Result: negative 
-GLP: yes 
-
-  Test Type: Microbial mutagenesis assay (Ames test) 
-
-Test system: Escherichia coli 
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 471 
-Result: negative 
-GLP: yes 
-
-  Test Type: In vitro mammalian cell gene mutation test 
-
-Test system: Chinese hamster ovary cells 
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 476 
-Result: negative 
-GLP: yes 
-
-  Test Type: Chromosome aberration test in vitro 
-
-Test system: Chinese hamster lung cells 
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 473 
-Result: negative 
-
-7 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-GLP: yes 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Genotoxicity in vitro 
-
-:  Test Type: Chromosome aberration test in vitro 
-
-Test system: Chinese hamster lung cells 
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 473 
-Result: negative 
-GLP: yes 
-
-  Test Type: In vitro mammalian cell gene mutation test 
-
-Test system: Chinese hamster ovary cells 
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 476 
-Result: negative 
-GLP: yes 
-
-  Test Type: Microbial mutagenesis assay (Ames test) 
-
-Test system: Salmonella typhimurium 
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 471 
-Result: negative 
-GLP: yes 
-Remarks: Based on data from similar materials 
+No data available 
 
 Carcinogenicity 
-Not classified based on available information. 
-IARC 
+
+IARC: 
+
+NTP: 
 
 No ingredient of this product present at levels greater than or equal to 0.1% is 
 identified as probable, possible or confirmed human carcinogen by IARC. 
 
-OSHA 
+No ingredient of this product present at levels greater than or equal to 0.1% is 
+identified as a known or anticipated carcinogen by NTP. 
 
-NTP 
+OSHA: 
 
 No component of this product present at levels greater than or equal to 0.1% is 
 on OSHA’s list of regulated carcinogens. 
 
-No ingredient of this product present at levels greater than or equal to 0.1% is 
-identified as a known or anticipated carcinogen by NTP. 
-
 Reproductive toxicity 
-Not classified based on available information. 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Effects on fertility 
-
-:   Species: Rat, male and female 
-
-Application Route: Oral 
-Dose: 100, 300, 1000 mg/kg bw/day 
-Duration of Single Treatment: 54 d 
-General Toxicity F1: NOAEL: > 1,000 mg/kg body weight 
-Method: OECD Test Guideline 421 
-Result: No effects on fertility. 
-GLP: yes 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Effects on fertility 
-
-:   Test Type: reproductive and developmental toxicity study 
-
-8 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-Effects on fetal development 
-
-Species: Rat, male and female 
-Application Route: Oral 
-Dose: 100, 300, 1000 mg/kg bw/day 
-General Toxicity Parent: NOAEL: > 1,000 mg/kg body weight 
-General Toxicity F1: NOAEL: > 1,000 mg/kg body weight 
-Method: OECD Test Guideline 421 
-Result: Animal testing did not show any effects on fertility. 
-GLP: yes 
-
-:   Test Type: Pre-natal 
-Species: Rat, female 
-Strain: wistar 
-Application Route: Oral 
-Dose: 100, 300, 1000 mg/kg bw/day 
-General Toxicity Maternal: NOAEL: > 1,000 mg/kg body 
-weight 
-Developmental Toxicity: NOAEL: 1,000 mg/kg body weight 
-Method: OECD Test Guideline 414 
-Result: No effects on fetal development. 
-GLP: yes 
-Remarks: Based on data from similar materials 
-
-STOT-single exposure 
-Not classified based on available information. 
-
-STOT-repeated exposure 
-Not classified based on available information. 
-
-Repeated dose toxicity 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Species 
-NOAEL 
-Application Route 
-Exposure time 
-Dose 
-Method 
-GLP 
-
-:  Rat, male and female 
-:  > 1000 mg/kg 
-:  Oral 
-:  54 d 
-:  100, 300, 1000 mg/kg bw/day  
-:  OECD Test Guideline 421 
-:  yes 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Species 
-NOAEL 
-LOAEL 
-Application Route 
-Exposure time 
-Number of exposures 
-Dose 
-Method 
-GLP 
-Remarks 
-
-:  Rat, male and female 
-:  250 mg/kg 
-:  1,000 mg/kg  
-:  Oral 
-:  90 d 
-:  daily 
-:  62.5, 250, 1000 mg/kg bw  
-:  OECD Test Guideline 408 
-:  yes 
-:  Based on data from similar materials 
-
-Aspiration toxicity 
-Not classified based on available information. 
-
-9 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-SECTION 12. ECOLOGICAL INFORMATION 
-
-Ecotoxicity 
-
-Product: 
-
-Ecotoxicology Assessment 
-Toxicity Data on Soil 
-
-:   Not expected to adsorb on soil. 
-
-Other organisms relevant to 
-the environment 
-
-:   No data available 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Toxicity to fish 
-
-:   LC50 (Leuciscus idus (Golden orfe)): 460 mg/l 
-
-End point: mortality 
-Exposure time: 96 h 
-Test Type: static test 
-Analytical monitoring: no 
-Method: OECD Test Guideline 203 
-GLP: No information available. 
-
-Toxicity to daphnia and other 
-aquatic invertebrates 
-
-Toxicity to algae/aquatic 
-plants 
-
-:   EC50 (Daphnia magna (Water flea)): > 117 mg/l 
-
-End point: Immobilization 
-Exposure time: 48 h 
-Test Type: static test 
-Analytical monitoring: yes 
-Method: OECD Test Guideline 202 
-GLP: yes 
-
-:   EC50 (Pseudokirchneriella subcapitata (green algae)): 397 
-
-mg/l 
-Exposure time: 72 h 
-Test Type: static test 
-Analytical monitoring: no 
-Method: OECD Test Guideline 201 
-GLP: No information available. 
-
-Toxicity to microorganisms 
-
-:   EC50 (activated sludge): > 1,000 mg/l 
-
-Exposure time: 3 h 
-Test Type: static test 
-Analytical monitoring: no 
-Method: OECD Test Guideline 209 
-GLP: yes 
-
-Ecotoxicology Assessment 
-Acute aquatic toxicity 
-
-:   This product has no known ecotoxicological effects. 
-
-Chronic aquatic toxicity 
-
-:   This product has no known ecotoxicological effects. 
-
-Toxicity Data on Soil 
-
-:   Not expected to adsorb on soil. 
-
-Other organisms relevant to 
-
-:   No data available 
-
-10 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-the environment 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Toxicity to fish 
-
-:   LC50 (Fish): > 4,000 mg/l 
-
-Exposure time: 96 h 
-Test Type: static test 
-Analytical monitoring: no 
-Method: DIN 38412 
-GLP: no 
-
-Toxicity to daphnia and other 
-aquatic invertebrates 
-
-Toxicity to algae/aquatic 
-plants 
-
-:   EC50 (Daphnia magna (Water flea)): > 980 mg/l 
-
-End point: Immobilization 
-Exposure time: 48 h 
-Test Type: static test 
-Analytical monitoring: yes 
-Method: OECD Test Guideline 202 
-GLP: yes 
-
-:   ErC50 (Pseudokirchneriella subcapitata (green algae)): 473 
-
-mg/l 
-End point: Growth rate 
-Exposure time: 48 h 
-Test Type: static test 
-Analytical monitoring: no 
-Method: OECD Test Guideline 201 
-GLP: No information available. 
-
-Toxicity to microorganisms 
-
-:   EC50 (activated sludge): > 1,000 mg/l 
-
-End point: Respiration inhibition 
-Exposure time: 3 h 
-Test Type: static test 
-Analytical monitoring: no 
-Method: OECD Test Guideline 209 
-GLP: yes 
-
-Ecotoxicology Assessment 
-Toxicity Data on Soil 
-
-:   Not expected to adsorb on soil. 
-
-Other organisms relevant to 
-the environment 
-
-:   No data available 
-
-Persistence and degradability 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Biodegradability 
-
-:   aerobic 
-
-Inoculum: activated sludge, non-adapted 
-Concentration: 30 mg/l 
-Result: Readily biodegradable. 
-Biodegradation:  97.1 % 
-Exposure time: 28 d 
-Method: OECD Test Guideline 301F 
-GLP: yes 
-
-11 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Biodegradability 
-
-:   aerobic 
-
-Inoculum: activated sludge 
-Result: Readily biodegradable. 
-Biodegradation:  100 % 
-Exposure time: 28 d 
-Method: OECD Test Guideline 301F 
-GLP: yes 
-
-Bioaccumulative potential 
-
-Components: 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride (1:1): 
-Bioaccumulation 
-
-:   Remarks: Due to the distribution coefficient n-octanol/water, 
-
-accumulation in organisms is not expected. 
-
-Partition coefficient: n-
-octanol/water 
-
-: 
-
-log Pow: -3.6 (68 °F / 20 °C) 
-pH: 5 - 7 
-Method: OECD Test Guideline 107 
-GLP: no 
-
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-: 
-Bioaccumulation 
-
-:   Remarks: Due to the distribution coefficient n-octanol/water, 
-
-accumulation in organisms is not expected. 
-
-Partition coefficient: n-
-octanol/water 
-
-: 
-
-log Pow: -2.31 (68 °F / 20 °C) 
-Method: OECD Test Guideline 107 
-GLP: no 
-
-Mobility in soil 
 No data available 
 
-Other adverse effects 
+Specific target organ toxicity - single exposure 
+No data available 
 
-Product: 
-Ozone-Depletion Potential 
+Specific target organ toxicity - repeated exposure 
+No data available 
 
-:  Regulation: 40 CFR Protection of Environment; Part 82 Pro-
-tection of Stratospheric Ozone - CAA Section 602 Class I 
-Substances 
-Remarks: This product neither contains, nor was manufac-
-tured with a Class I or Class II ODS as defined by the U.S. 
-Clean Air Act Section 602 (40 CFR 82, Subpt. A, App.A + B). 
+Aspiration hazard 
+No data available 
 
-SECTION 13. DISPOSAL CONSIDERATIONS 
+Sigma - V6389 
 
-Disposal methods 
-Waste from residues 
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
 
-:  Can be disposed as waste water, when in compliance with 
+Page 6  of  10 
 
-local regulations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11.2  Additional Information 
 
-Contaminated packaging 
+To the best of our knowledge, the chemical, physical, and toxicological properties have not 
+been thoroughly investigated. 
+Hazardous properties cannot  be excluded but are unlikely when the product is handled 
+appropriately. 
 
-:  Empty containers should be taken to an approved waste 
+Components   
 
-handling site for recycling or disposal. 
+sodium azide 
 
-12 / 16 
+Acute toxicity 
+LD50 Oral - Rat - 27 mg/kg 
+Remarks: (RTECS) 
+LC50 Inhalation - Rat - male and female - 4 h - 0.054 - 0.52 mg/l - dust/mist 
+(US-EPA) 
+LD50 Dermal - Rabbit - 20 mg/kg 
+Remarks: (RTECS) 
+No data available 
 
-  
+Skin corrosion/irritation 
+Skin - In vitro study 
+Result: No skin irritation 
+(OECD Test Guideline 439) 
+
+Serious eye damage/eye irritation 
+Eyes - Bovine cornea 
+Result: No eye irritation - 4 h 
+(OECD Test Guideline 437) 
+
+Respiratory or skin sensitization 
+Local lymph node assay (LLNA) - Mouse 
+Result: negative 
+(OECD Test Guideline 429) 
+
+Germ cell mutagenicity 
+Test Type: Mutagenicity (mammal cell test): chromosome aberration. 
+Test system: Chinese hamster ovary cells  
+Result: negative 
+Test Type: unscheduled DNA synthesis assay 
+Test system: Chinese hamster lung cells  
+Result: negative 
+Test Type: sister chromatid exchange assay 
+Test system: Chinese hamster ovary cells  
+Result: negative 
+
+Carcinogenicity 
+No data available 
+
+Reproductive toxicity 
+No data available 
+
+Specific target organ toxicity - single exposure 
+No data available 
+
+Sigma - V6389 
+
+Page 7  of  10 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Specific target organ toxicity - repeated exposure 
+Oral - May cause damage to organs through prolonged or repeated exposure. 
+ - Brain 
+
+Aspiration hazard 
+No data available 
+
+SECTION 12: Ecological information 
+
+12.1  Toxicity 
+
+Mixture 
+No data available 
+
+12.2  Persistence and degradability 
+
+No data available 
+
+12.3  Bioaccumulative potential 
+
+No data available 
+
+12.4  Mobility in soil 
+
+No data available 
+
+12.5  Results of PBT and vPvB assessment 
+
+PBT/vPvB assessment not available as chemical safety assessment not required/not 
+conducted 
+
+12.6  Endocrine disrupting properties 
+
+No data available 
+
+12.7 Other adverse effects 
+No data available 
+
+Components 
+
+sodium azide 
+
+Toxicity to fish 
+
+flow-through test LC50 - Oncorhynchus mykiss (rainbow trout) 
+- 2.75 mg/l  - 96 h 
+(OECD Test Guideline 203) 
+
+Toxicity to algae 
+
+static test ErC50 - Pseudokirchneriella subcapitata - 0.35 mg/l  
+- 96 h 
+(OECD Test Guideline 201) 
+
+Toxicity to bacteria 
+
+Sigma - V6389 
+
+Page 8  of  10 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
  
  
  
@@ -1488,403 +816,188 @@ handling site for recycling or disposal.
  
  
  
-SAFETY DATA SHEET  
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 13: Disposal considerations 
 
-Blocking Reagent for ELISA 
+13.1  Waste treatment methods 
 
-Version  
-1.7 
+Product 
+Waste material must be disposed of in accordance with the national and local regulations. 
+Leave chemicals in original containers. No mixing with other waste. Handle uncleaned 
+containers like the product itself.  
 
-Revision Date:  
-04-10-2022 
+SECTION 14: Transport information 
 
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
+DOT (US) 
+Not dangerous goods 
 
-Do not re-use empty containers. 
+IMDG 
+Not dangerous goods 
 
-SECTION 14. TRANSPORT INFORMATION 
+IATA 
+Not dangerous goods 
 
-International Regulations 
+Further information 
+Not classified as dangerous in the meaning of transport regulations. 
 
-UNRTDG 
-Not regulated as a dangerous good 
+SECTION 15: Regulatory information 
 
-IATA-DGR 
-Not regulated as a dangerous good 
-
-IMDG-Code 
-Not regulated as a dangerous good 
-
-Transport in bulk according to Annex II of MARPOL 73/78 and the IBC Code 
-Not applicable 
-
-Domestic regulation 
-
-49 CFR 
-Not regulated as a dangerous good 
-
-Special precautions for user 
-Remarks 
-
-:  Not dangerous goods in the meaning of ADR/RID, ADN, 
-
-IMDG-Code, ICAO/IATA-DGR 
-
-SECTION 15. REGULATORY INFORMATION 
-
-CERCLA Reportable Quantity 
-This material does not contain any components with a CERCLA RQ. 
-
-SARA 304 Extremely Hazardous Substances Reportable Quantity 
-This material does not contain any components with a section 304 EHS RQ. 
-
-SARA 302 Extremely Hazardous Substances Threshold Planning Quantity 
+SARA 302 Components 
 This material does not contain any components with a section 302 EHS TPQ. 
 
+SARA 313 Components 
+This material does not contain any chemical components with known CAS numbers that 
+exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 
+313. 
+
 SARA 311/312 Hazards 
+No SARA Hazards 
 
-:   No SARA Hazards 
+Massachusetts Right To Know Components 
 
-SARA 313 
+sodium azide 
 
-:   This material does not contain any chemical components with 
-known CAS numbers that exceed the threshold (De Minimis) 
-reporting levels established by SARA Title III, Section 313. 
+water 
 
-Clean Air Act 
-This product neither contains, nor was manufactured with a Class I or Class II ODS as defined by 
-the U.S. Clean Air Act Section 602 (40 CFR 82, Subpt. A, App.A + B). 
-This product does not contain any hazardous air pollutants (HAP), as defined by the U.S. Clean 
-Air Act Section 112 (40 CFR 61). 
-This product does not contain any chemicals listed under the U.S. Clean Air Act Section 112(r) for 
-Accidental Release Prevention (40 CFR 68.130, Subpart F). 
-This product does not contain any chemicals listed under the U.S. Clean Air Act Section 111 
-SOCMI Intermediate or Final VOC's (40 CFR 60.489). 
+sodium azide 
 
-13 / 16 
+CAS-No. 
+26628-22-8 
 
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
+Revision Date 
+2007-07-01 
 
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-Clean Water Act 
-This product does not contain any Hazardous Substances listed under the U.S. CleanWater Act, 
-Section 311, Table 116.4A. 
-This product does not contain any Hazardous Chemicals listed under the U.S. CleanWater Act, 
-Section 311, Table 117.3. 
-This product does not contain any toxic pollutants listed under the U.S. Clean Water Act Section 
-307 
-This product does not contain any priority pollutants related to the U.S. Clean Water Act 
-
-US State Regulations 
-
-Massachusetts Right To Know 
-
-No components are subject to the Massachusetts Right to Know Act. 
-
-Pennsylvania Right To Know 
-Collagenhydrolysate 
-Sodium chloride (NaCl) 
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)-, hydrochloride 
-(1:1) 
-1,3-Propanediol, 2-amino-2-(hydroxymethyl)- 
-
-92113-31-0 
-7647-14-5 
-1185-53-1 
-
-77-86-1 
-
-Maine Chemicals of High Concern 
-
-Product does not contain any listed chemicals 
-
-Vermont Chemicals of High Concern 
-
-Product does not contain any listed chemicals 
-
-Washington Chemicals of High Concern 
-
-Product does not contain any listed chemicals 
-
-The ingredients of this product are reported in the following inventories: 
-AIIC 
-
-:  On the inventory, or in compliance with the inventory 
-
-DSL 
-
-NZIoC 
-
-ENCS 
-
-ISHL 
-
-KECI 
-
-PICCS 
-
-IECSC 
-
-TCSI 
-
-TSCA 
-
-TECI 
-
-:  All components of this product are on the Canadian DSL 
-
-:  On the inventory, or in compliance with the inventory 
-
-:  Not in compliance with the inventory 
-
-:  Not in compliance with the inventory 
-
-:  Not in compliance with the inventory 
-
-:  On the inventory, or in compliance with the inventory 
-
-:  On the inventory, or in compliance with the inventory 
-
-:  On the inventory, or in compliance with the inventory 
-
-:  Product contains substance(s) not listed on TSCA inventory. 
-
-:  Not in compliance with the inventory 
-
-TSCA list 
-No substances are subject to a Significant New Use Rule. 
-
-14 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-No substances are subject to TSCA 12(b) export notification requirements. 
-
-SECTION 16. OTHER INFORMATION 
-
-NFPA 704: 
-
-Flammability 
-
-HMIS® IV: 
-
-HEALTH 
-
-0 
-
-FLAMMABILITY 
-
-Health 
-
-0 
-
-0 
-
-Instability 
-
-PHYSICAL HAZARD 
-
-/ 
-
-0 
-
-0 
-
-0 
-
-HMIS® ratings are based on a 0-4 rating 
-scale, with 0 representing minimal haz-
-ards or risks, and 4 representing signifi-
-cant hazards or risks. The "*" represents 
-a chronic hazard, while the "/" represents 
-the absence of a chronic hazard. 
-
-Special hazard 
-
-Distributor 
-MilliporeSigma 
-3050 Spruce Street 
-SAINT LOUIS 
-MO 63103 USA 
-
-Full text of other abbreviations 
-
-AIIC  -  Australian  Inventory  of Industrial  Chemicals;  ASTM  -  American  Society for  the  Testing  of 
-Materials; bw - Body weight; CERCLA - Comprehensive Environmental Response, Compensation, 
-and  Liability  Act;  CMR  -  Carcinogen,  Mutagen  or  Reproductive  Toxicant;  DIN  -  Standard  of  the 
-German Institute for Standardisation; DOT - Department of Transportation; DSL - Domestic Sub-
-stances List (Canada); ECx - Concentration associated with x% response; EHS - Extremely Haz-
-ardous Substance; ELx - Loading rate associated with x% response; EmS - Emergency Schedule; 
-ENCS  -  Existing  and  New  Chemical Substances  (Japan);  ErCx  -  Concentration  associated  with 
-x% growth rate response; ERG - Emergency Response Guide; GHS - Globally Harmonized Sys-
-tem; GLP - Good Laboratory Practice; HMIS - Hazardous Materials Identification System; IARC - 
-International Agency for Research on Cancer; IATA - International Air Transport Association; IBC 
-- International Code for the Construction and Equipment of Ships carrying Dangerous Chemicals 
-in Bulk; IC50 - Half maximal inhibitory concentration; ICAO - International Civil Aviation Organiza-
-tion; IECSC - Inventory of Existing Chemical Substances in China; IMDG - International Maritime 
-Dangerous Goods; IMO - International Maritime Organization; ISHL - Industrial Safety and Health 
-Law (Japan); ISO - International Organisation for Standardization; KECI - Korea Existing Chemi-
-cals Inventory; LC50 - Lethal Concentration to 50 % of a test population; LD50  - Lethal Dose to 
-50% of a test population (Median Lethal Dose); MARPOL - International Convention for the Pre-
-vention of Pollution from Ships; MSHA - Mine Safety and Health Administration; n.o.s. - Not Oth-
-erwise Specified; NFPA - National Fire Protection Association; NO(A)EC - No Observed (Adverse) 
-Effect  Concentration;  NO(A)EL  -  No Observed (Adverse)  Effect  Level;  NOELR  -  No Observable 
-Effect  Loading  Rate;  NTP  -  National  Toxicology  Program;  NZIoC  -  New  Zealand  Inventory  of 
-
-15 / 16 
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SAFETY DATA SHEET  
-
-Blocking Reagent for ELISA 
-
-Version  
-1.7 
-
-Revision Date:  
-04-10-2022 
-
-Date of last issue: 10-17-2021 
-Date of first issue: 11-18-2015 
-
-Chemicals; OECD - Organization for Economic Co-operation and Development; OPPTS - Office 
-of  Chemical  Safety  and  Pollution Prevention;  PBT  - Persistent,  Bioaccumulative  and  Toxic  sub-
-stance; PICCS - Philippines Inventory of Chemicals and Chemical Substances; (Q)SAR - (Quanti-
-tative)  Structure  Activity  Relationship;  RCRA  -  Resource  Conservation  and  Recovery  Act; 
-REACH - Regulation (EC) No 1907/2006 of the European Parliament and of the Council concern-
-ing  the  Registration,  Evaluation,  Authorisation  and  Restriction  of  Chemicals;  RQ  -  Reportable 
-Quantity;  SADT  -  Self-Accelerating  Decomposition  Temperature;  SARA  -  Superfund  Amend-
-ments  and  Reauthorization  Act;  SDS  -  Safety  Data  Sheet;  TCSI  -  Taiwan  Chemical  Substance 
-Inventory; TECI  -  Thailand  Existing  Chemicals  Inventory;  TSCA  - Toxic  Substances  Control  Act 
-(United  States);  UN  -  United  Nations;  UNRTDG  -  United  Nations  Recommendations  on  the 
-Transport of Dangerous Goods; vPvB - Very Persistent and Very Bioaccumulative 
+CAS-No. 
+7732-18-5 
 
 Revision Date 
 
-:   04-10-2022 
+26628-22-8 
 
-The information provided in this Safety Data Sheet is correct to the best of our knowledge, infor-
-mation and belief at the date of its publication. The information given is designed only as a guid-
-ance for safe handling, use, processing, storage, transportation, disposal and release and is not 
-to  be  considered  a  warranty  or  quality  specification.  The  information  relates  only  to  the  specific 
-material  designated  and  may  not  be  valid  for  such  material  used  in  combination  with  any  other 
-materials or in any process, unless specified in the text. 
+2007-07-01 
 
-US / Z8 / 2104 
+Pennsylvania Right To Know Components 
 
-16 / 16 
+Sigma - V6389 
 
-  
+Page 9  of  10 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Anti-GAPDH antibody, Mouse monoclonal 
+
+CAS-No. 
+ -  
+
+Revision Date 
+
+sodium azide 
+
+26628-22-8 
+
+2007-07-01 
+
+sodium azide 
+
+New Jersey Right To Know Components 
+Anti-GAPDH antibody, Mouse monoclonal 
+
+CAS-No. 
+26628-22-8 
+
+Revision Date 
+2007-07-01 
+
+CAS-No. 
+ -  
+
+Revision Date 
+
+SECTION 16: Other information 
+
+Further information 
+The information is believed to be correct but is not exhaustive and will be used solely as 
+a guideline, which is based on current knowledge of the chemical substance or mixture 
+and is applicable to appropriate safety precautions for the product. It does not represent 
+any guarantee of the properties of the product. Sigma-Aldrich Corporation and its 
+Affiliates shall not be held liable for any damage resulting from handling or from contact 
+with the above product. See www.sigma-aldrich.com and/or the reverse side of invoice 
+or packing slip for additional terms and conditions of sale. 
+Copyright 2020 Sigma-Aldrich Co. LLC. License granted to make unlimited paper copies 
+for internal use only. 
+The branding on the header and/or footer of this document may temporarily not visually 
+match the product purchased as we transition our branding. However, all of the 
+information in the document regarding the product remains unchanged and matches the 
+product ordered. For further information please contact mlsbranding@sial.com. 
+Version: 6.11 
+
+Revision Date: 03/02/2024 
+
+Print Date: 06/15/2024 
+
+Sigma - V6389 
+
+Page 10  of  10 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
