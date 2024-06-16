@@ -1,6 +1,12 @@
 import os # to let me manage files and install packages with pip
 
 try:
+	from pdfminer.high_level import extract_text # for extracting our SDS pdf into a text string
+except:
+	os.system("pip install pdfminer.six")
+	from pdfminer.high_level import extract_text
+
+try:
 	import pyperclip # for reading the SDS text content that we'll put into the Windows clipboard
 except:
 	os.system("pip install pyperclip")
@@ -145,44 +151,72 @@ def download_pdf(lnk):
 	"plugins.always_open_pdf_externally": True #It will not show PDF directly in chrome 
 	})
 	driver = webdriver.Chrome(options=options)
-	driver.get(lnk)
-	driver.close
-
-def get_info_from_pdf():
 	
-	return_GivenName = ""
+	driver.set_page_load_timeout(5) #It always hangs after downloading the PDF, for me
+
+	driver.get(lnk)
+	try:
+		driver.close()
+		# driver.quit()
+	except:
+		pass #Selenium must already be closed due to timeout being activated
+	print("PDF saved.\n")
+
+
+# Scrape our downloaded SDS (now called "1.pdf", in the current directory), to get data on the chemical
+def extract_our_SDS():
+	return_GivenName = ""  # The chemical name from the SDS. Let's get this in case we want to manually confirm later that the chemical is actually the one we're looking for, and not just a similar result that Sigma's search engine gave us
 	return_CAS = ""
 	return_DOT = ""
 	
-	for myline in SDS_content:
-		if myline[0:3] == "CAS":
-			return_CAS = myline
-			print(myline)
-			break
-	for myline in SDS_content:
-		if myline[0:12] == "Product name":
-			return_GivenName = myline[15:]
-			print(myline)
-			break
-	DOT_info = SDS_content[SDS_content.index("DOT") : SDS_content.index("IMDG") ]
-	
-	if "Not dangerous goods" in DOT_info:
-		return_DOT = "NA"
-	else:
-		DOT_class = DOT_info[DOT_info.index("Class") : DOT_info.index("Packing group")]
-		print(DOT_class)
-		return_DOT = DOT_class
+	# Extract the SDS content as a string
+	SDS_content = extract_text("1.pdf")
 
+	# Put hte SDS content into a text file, for debug purposes. Call it "SDS.txt", but delete the old file if it exists (due to a previous session) first.
+	try:
+		os.remove("SDS.txt")
+	except OSError:
+		pass
+	with open("SDS.txt", "w") as f:
+		f.write(SDS_content)
+
+	# Get the SDS's product name, which should be right before the word "Eur" on a standard Sigma SDS.
+	myspot1 = SDS_content.index("Product name") #I'm gonna mark two spots in the SDS string, and the string I want is in between spot 1 and spot 2
+	myspot2 = SDS_content.index("Eur")
+	return_GivenName = SDS_content[myspot1:myspot2].replace("\n","") #Deleting newlines is good, but we can't delete all whitespace with strip() here because many chemicals have spaces in the name
+
+	# Get the SDS's CAS number if it exists, which should be after a colon and right before the "1.2" section of the SDS
+	if "CAS" in SDS_content:		
+		myspot2 = SDS_content.index("1.2")
+		truncated_SDS_content = SDS_content[0:myspot2]
+		myspot1 = truncated_SDS_content.rfind(":") + 1
+		return_CAS = SDS_content[myspot1:myspot2].strip()
+	else:
+		return_CAS = "N/A"
+	
+	# Get the SDS's DOT info (class) IF it exists, which will be after the "Class:" text and before the "Proper" text
+
+	truncated_SDS_content = SDS_content[SDS_content.index("DOT") : SDS_content.index("Proper") ] #This is the entire DOT section, which will be on every SDS even if there's no DOT info (i.e. non-hazardous)	
+	if "Not dangerous goods" in truncated_SDS_content:
+		return_DOT = "N/A"
+	else:
+		return_DOT = truncated_SDS_content[truncated_SDS_content.index("Class") : -1 ].replace(":","") # Exclude the colon and final character which is a newline
+		
+	# Return all 3 values to end the function
 	return([return_GivenName,return_CAS,return_DOT])
 
 
 
 
 
-
 #pdf_url = get_sds_url("ethanolf")
-#get_info_from_pdf(pdf_url)
-download_pdf("https://www.sigmaaldrich.com/US/en/sds/mm/1.00967?userType=anonymous")
+#pdf_url = "https://www.sigmaaldrich.com/US/en/sds/mm/1.00967?userType=anonymous"
+
+#download_pdf(pdf_url)
+
+print( extract_our_SDS() )
+
+print("Done.")
 
 
 
