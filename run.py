@@ -247,16 +247,19 @@ def extract_our_SDS():
 # If Sigma finds an SDS but the chemical has no CAS or is non-DOT, then those categories will return as "N/A" (this is good and not an error).
 def get_chem_info(chem_name):
 	if chem_name.strip() == "": #If the name is just whitespace, return Unknowns (change this to blanks if you prefer). Usually, the input chem name is blank or just whitespace because it's from an empty cell of the spreadsheet the user pasted in to the TYPE CHEMICAL LIST HERE file.
+		print("\n\nReturning Unknowns for " + chem_name + " because this line is just whitespace.\n\n")
 		return ["Unknown","Unknown","Unknown"]
 	try:
 		pdf_url = get_sds_url(chem_name)
 		if pdf_url == "NO RESULTS FROM SIGMA":
+		print("\n\nReturning Unknowns for " + chem_name + "  because no results from Sigma.\n\n")
 			return ["Unknown","Unknown","Unknown"]
 		else:
 			download_pdf(pdf_url)
 			rename_and_move_SDS()
 			return extract_our_SDS()
 	except: # The program can have unexpected failures for various reasons. Most of the time, this is because Sigma gave you an SDS straight from a manufacturer (ie Roche), which isn't in Sigma's standard format
+		print("\n\nReturning Unknowns for " + chem_name + "  because of an unexpected failure inside get_chem_info().\n\n")
 		return ["Unknown","Unknown","Unknown"]
 	
 
@@ -286,6 +289,7 @@ for filename in ["RESULTS/Sigma Names.txt", "RESULTS/CAS Numbers.txt", "RESULTS/
 
 # Fill all 3 of the lists of data, one chemical at a time
 for item in chem_list:
+	print("$"+item+"$")
 	chem_data = get_chem_info(item)
 	with open("RESULTS/Sigma Names.txt", "a") as myfile:
 		myfile.write(chem_data[0])
@@ -300,6 +304,16 @@ for item in chem_list:
 print("\n\n\n\n\nDone.")
 
 
+# CURRENT ISSUES
+# - Right now if your input file is 1 chemical, it works. If you have multiple, it often or always fails and gives you "Unknown"s
 
+# SUGGESTED IMPROVEMENTS
+# - If the input text file has blank lines, their output should be blanks instead of "Unknown"s
+
+# - If there's no SDS results on Sigma, but there is a "Did you mean [this chemical]" suggestion link, that should be automatically clicked and the program moves on to grab the SDS
+
+# LESS GOOD SUGGESTED IDEAS
+# - If it works and would be clickable in an Excel cell, when a chemical produces an SDS with Sigma but glitches, the final output should be a link to the Sigma SDS
+# - And if there's no Sigma result at all, then the final output could be a google link that searches for the chemical?
 
 
