@@ -182,6 +182,7 @@ def download_pdf(lnk):
 		driver.get(lnk)
 	except: # Selenium stalled and timed out, but probably already downloaded the PDF successfully so we can continue with running
 		pass
+	print("\nPDF has been downloaded successfully.\n")
 
 # Find out what our SDS file, which has been downloaded into the current directory, is named
 def rename_and_move_SDS():
@@ -192,6 +193,7 @@ def rename_and_move_SDS():
 		print(item[-3:])
 		if item[-3:] == "pdf":
 			os.system( "move " + item + " CurrentSDS/CurrentSDS.pdf" )
+	print("\nPDF has been moved successfully.\n")
 
 # Scrape our downloaded SDS, to get data on the chemical
 def extract_our_SDS():
@@ -205,7 +207,7 @@ def extract_our_SDS():
 	# Put the SDS content into a text file, for debug purposes. Call it "sds.txt", but delete the old file if it exists (due to a previous session) first.
 	try:
 		os.remove("sds.txt")
-	except OSError:
+	except:
 		pass
 	with open("sds.txt", "w") as f:
 		f.write(SDS_content)
@@ -228,17 +230,22 @@ def extract_our_SDS():
 		return_CAS = SDS_content[myspot1:myspot2].strip()
 	else:
 		return_CAS = "N/A"
+
+	print("\nCheckpoint Alpha\n")
 	
 	# Get the SDS's DOT info (class) IF it exists, which will be after the "Class:" text and before the "Proper" text
-
-	truncated_SDS_content = SDS_content[SDS_content.index("DOT") : SDS_content.index("Proper") ] #This is the entire DOT section, which will be on every SDS even if there's no DOT info (i.e. non-hazardous)	
-	if "Not dangerous goods" in truncated_SDS_content:
+	if "Not dangerous goods" in SDS_content:
 		return_DOT = "N/A"
-	else:
+	else: # It lacks the "Not dangerous goods" string and therefore DOES have DOT info
+		truncated_SDS_content = SDS_content[SDS_content.index("DOT") : SDS_content.index("Proper") ] #This is the entire DOT section, which will be on every SDS even if there's no DOT info (i.e. non-hazardous)	
 		return_DOT = truncated_SDS_content[truncated_SDS_content.index("Class") : -1 ].replace(":","") # Exclude the colon and final character which is a newline
 		if return_DOT[-1] == " ": 
 			return_DOT = return_DOT[:-1] # If the final character is a space, delete that space (but not other spaces in the DOT classification phrase)
-		
+	
+	print("\nCheckpoint Beta\n")
+
+
+	print("\nSDS data has been extracted successfully.\n")
 	# Return all 3 values to end the function
 	return([return_GivenName,return_CAS,return_DOT])
 
@@ -252,7 +259,7 @@ def get_chem_info(chem_name):
 	try:
 		pdf_url = get_sds_url(chem_name)
 		if pdf_url == "NO RESULTS FROM SIGMA":
-		print("\n\nReturning Unknowns for " + chem_name + "  because no results from Sigma.\n\n")
+			print("\n\nReturning Unknowns for " + chem_name + "  because no results from Sigma.\n\n")
 			return ["Unknown","Unknown","Unknown"]
 		else:
 			download_pdf(pdf_url)
@@ -305,11 +312,10 @@ print("\n\n\n\n\nDone.")
 
 
 # CURRENT ISSUES
-# - Right now if your input file is 1 chemical, it works. If you have multiple, it often or always fails and gives you "Unknown"s
+# - It's possible (but not confirmed yet) that if you have an unexpected error for 1 chemical, even though the program moves on, all chenmicals afterward will be processed incorrectly and always return "Unknown"s
 
 # SUGGESTED IMPROVEMENTS
 # - If the input text file has blank lines, their output should be blanks instead of "Unknown"s
-
 # - If there's no SDS results on Sigma, but there is a "Did you mean [this chemical]" suggestion link, that should be automatically clicked and the program moves on to grab the SDS
 
 # LESS GOOD SUGGESTED IDEAS
