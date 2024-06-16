@@ -328,6 +328,7 @@ print("\n\n\n\n\nDone.")
 # - It's possible (but not confirmed yet) that if you have an unexpected error for 1 chemical, even though the program moves on, all chenmicals afterward will be processed incorrectly and always return "Unknown"s
 
 # SUGGESTED IMPROVEMENTS
+# - If a CAS number received isn't just digits and dashes, then that's definitely an error so just change it to "Unknown"
 # - Grab the CAS number from the Sigma website html directly, instead of the SDS which can be formatted in ways that show up on the text file inconsistently
 # - If the input text file has blank lines, their output should be blanks instead of "Unknown"s
 # - If there's no SDS results on Sigma, but there is a "Did you mean [this chemical]" suggestion link, that should be automatically clicked and the program moves on to grab the SDS

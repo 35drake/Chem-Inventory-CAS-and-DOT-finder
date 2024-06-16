@@ -1,7 +1,7 @@
 SAFETY DATA SHEET 
 
-Version 6.5 
-Revision Date 03/02/2024 
+Version 8.4 
+Revision Date 10/20/2023 
 Print Date 06/15/2024 
 
 SECTION 1: Identification of the substance/mixture and of the company/undertaking 
@@ -10,30 +10,21 @@ SECTION 1: Identification of the substance/mixture and of the company/undertakin
 
 Product name 
 
+:  Water 
+
 Product Number 
 Brand 
 CAS-No. 
 
-:  Carbon 
-
-:  484164 
-:  Aldrich 
-:  7440-44-0 
+:  MBD0025 
+:  Sigma 
+:  7732-18-5 
 
 1.2  Relevant identified uses of the substance or mixture and uses advised against 
 
 Identified uses 
 
 :  Laboratory chemicals, Synthesis of substances 
-
-Uses advised against 
-
-:  The product is being supplied under the TSCA R&D Exemption 
-(40 CFR Section 720.36). It is the recipient’s responsibility to 
-comply with the requirements of the R&D exemption. The 
-product may not be used for a non-exempt commercial purpose 
-under TSCA unless appropriate consent is granted in writing by 
-MilliporeSigma. 
 
 1.3  Details of the supplier of the safety data sheet 
 
@@ -62,17 +53,23 @@ SECTION 2: Hazards identification
 
 2.1  Classification of the substance or mixture 
 
-GHS Classification in accordance with 29 CFR 1910 (OSHA HCS) 
-
-Combustible dust,  
-
-For the full text of the H-Statements mentioned in this Section, see Section 16. 
+Not a hazardous substance or mixture according to the Globally Harmonized System (GHS). 
 
 2.2  GHS Label elements, including precautionary statements 
 
-Aldrich - 484164 
+Not a hazardous substance or mixture according to the Globally Harmonized System (GHS). 
 
-Page 1  of  9 
+2.3  Hazards not otherwise classified (HNOC) or not covered by GHS - none 
+
+SECTION 3: Composition/information on ingredients 
+
+3.1  Substances 
+Formula 
+Sigma - MBD0025 
+
+:  H2O 
+
+Page 1  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -100,42 +97,17 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-Pictogram 
-
-Signal Word 
-
-Hazard Statements 
-
-none 
-
-Warning 
-
-Precautionary Statements  none 
-
-May form combustible dust concentrations in air. 
-
-2.3  Hazards not otherwise classified (HNOC) or not covered by GHS 
-
-Combustible dust 
-May form explosible dust-air mixture if dispersed. 
-
-SECTION 3: Composition/information on ingredients 
-
-3.1  Substances 
-
-Synonyms 
-
-:  Charcoal activated 
-
-Formula 
-Molecular weight 
+ 
+ 
+ 
+ 
+Molecular weight 
 CAS-No. 
 EC-No. 
 
-:  C 
-:  12.01 g/mol 
-:  7440-44-0 
-:  231-153-3 
+:  18.02 g/mol 
+:  7732-18-5 
+:  231-791-2 
 
 No components need to be disclosed according to the applicable regulations. 
 
@@ -166,9 +138,36 @@ The most important known symptoms and effects are described in the labelling (se
 
 No data available 
 
-Aldrich - 484164 
+SECTION 5: Firefighting measures 
 
-Page 2  of  9 
+5.1  Extinguishing media 
+
+Unsuitable extinguishing media 
+For this substance/mixture no limitations of extinguishing agents are given. 
+
+5.2  Special hazards arising from the substance or mixture 
+
+Not combustible. 
+Ambient fire may liberate hazardous vapours. 
+
+5.3  Advice for firefighters 
+
+In the event of fire, wear self-contained breathing apparatus. 
+
+5.4  Further information 
+
+none 
+
+SECTION 6: Accidental release measures 
+
+6.1  Personal precautions, protective equipment and emergency procedures 
+
+Advice for non-emergency personnel: Do not breathe vapors, aerosols. Evacuate the 
+danger area, observe emergency procedures, consult an expert. 
+
+Sigma - MBD0025 
+
+Page 2  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -196,54 +195,16 @@ operates as MilliporeSigma in the US and Canada
  
  
  
- 
- 
- 
- 
- 
-SECTION 5: Firefighting measures 
-
-5.1  Extinguishing media 
-
-Suitable extinguishing media 
-Water Foam Carbon dioxide (CO2) Dry powder 
-
-Unsuitable extinguishing media 
-For this substance/mixture no limitations of extinguishing agents are given. 
-
-5.2  Special hazards arising from the substance or mixture 
-
-Carbon oxides 
-Combustible. 
-Risk of dust explosion. 
-Development of hazardous combustion gases or vapours possible in the event of fire. 
-
-5.3  Advice for firefighters 
-
-In the event of fire, wear self-contained breathing apparatus. 
-
-5.4  Further information 
-
-Prevent fire extinguishing water from contaminating surface water or the ground water 
-system. 
-
-SECTION 6: Accidental release measures 
-
-6.1  Personal precautions, protective equipment and emergency procedures 
-
-Advice for non-emergency personnel: Avoid inhalation of dusts. Evacuate the danger 
-area, observe emergency procedures, consult an expert. 
-For personal protection see section 8. 
+For personal protection see section 8. 
 
 6.2  Environmental precautions 
 
-Do not let product enter drains. 
+No special precautionary measures necessary. 
 
 6.3  Methods and materials for containment and cleaning up 
 
-Cover drains. Collect, bind, and pump off spills. Observe possible material restrictions 
-(see sections 7 and 10). Take up dry. Dispose of properly. Clean up affected area. Avoid 
-generation of dusts. 
+Observe possible material restrictions (see sections 7 and 10). Take up with liquid-
+absorbent material (e.g. Chemizorb® ). Dispose of properly. Clean up affected area. 
 
 6.4  Reference to other sections 
 
@@ -252,49 +213,19 @@ For disposal see section 13.
 SECTION 7: Handling and storage 
 
 7.1  Precautions for safe handling 
-
-Advice on protection against fire and explosion 
-Keep away from open flames, hot surfaces and sources of ignition.Take precautionary 
-measures against static discharge. 
-
-Hygiene measures 
-Change contaminated clothing. Wash hands after working with substance. 
 For precautions see section 2.2. 
 
-Aldrich - 484164 
-
-Page 3  of  9 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-7.2  Conditions for safe storage, including any incompatibilities 
+7.2  Conditions for safe storage, including any incompatibilities 
 
 Storage conditions 
-Tightly closed. Dry. 
+Tightly closed. 
+
+Storage stability 
+Recommended storage temperature 
+-20 °C 
 
 Storage class 
-Storage class (TRGS 510): 11: Combustible Solids 
+Storage class (TRGS 510): 12: Non Combustible Liquids 
 
 7.3  Specific end use(s) 
 
@@ -319,35 +250,14 @@ Use equipment for eye protection tested and approved under appropriate
 government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
 
 Skin protection 
-Handle with gloves. Gloves must be inspected prior to use. Use proper glove 
-removal technique (without touching glove's outer surface) to avoid skin contact 
-with this product. Dispose of contaminated gloves after use in accordance with 
-applicable laws and good laboratory practices. Wash and dry hands. 
+not required 
 
-Full contact 
-Material: Nitrile rubber 
-Minimum layer thickness: 0.11 mm 
-Break through time: 480 min 
-Material tested:Dermatril® (KCL 740 / Aldrich Z677272, Size M) 
+Respiratory protection 
+Not required; except in case of aerosol formation. 
 
-Splash contact 
-Material: Nitrile rubber 
-Minimum layer thickness: 0.11 mm 
-Break through time: 480 min 
-Material tested:Dermatril® (KCL 740 / Aldrich Z677272, Size M) 
+Sigma - MBD0025 
 
-data source: KCL GmbH, D-36124 Eichenzell, phone +49 (0)6659 87300, e-mail 
-sales@kcl.de, test method: EN374 
-If used in solution, or mixed with other substances, and under conditions which 
-differ from EN 374, contact the supplier of the EC approved gloves. This 
-recommendation is advisory only and must be evaluated by an industrial hygienist 
-and safety officer familiar with the specific situation of anticipated use by our 
-customers. It should not be construed as offering an approval for any specific use 
-scenario. 
-
-Aldrich - 484164 
-
-Page 4  of  9 
+Page 3  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -372,19 +282,8 @@ operates as MilliporeSigma in the US and Canada
  
  
  
- 
-Respiratory protection 
-Recommended Filter type: Filter type P1 
-The entrepeneur has to ensure that maintenance, cleaning and testing of respiratory 
-protective devices are carried out according to the instructions of the producer. 
-These measures have to be properly documented. 
-required when dusts are generated. 
-Our recommendations on filtering respiratory protection are based on the following 
-standards: DIN EN 143, DIN 14387 and other accompanying standards relating to 
-the used respiratory protection system. 
-
-Control of environmental exposure 
-Do not let product enter drains. 
+Control of environmental exposure 
+No special precautionary measures necessary. 
 
 SECTION 9: Physical and chemical properties 
 
@@ -392,8 +291,8 @@ SECTION 9: Physical and chemical properties
 
 a)  Appearance 
 
-Form: powder, granules, crystals 
-Color: black 
+Form: liquid 
+Color: colorless 
 
 b)  Odor 
 
@@ -414,15 +313,15 @@ f)
 Initial boiling point 
 and boiling range 
 
-No data available 
+6.0 - 8.0 at 25 °C (77 °F) 
 
-Melting point/range: 3,550 °C (6,422 °F) - lit. 
+Melting point/range: 0.0 °C (32.0 °F) 
 
-No data available 
+100.0 °C 212.0 °F at 1,013 hPa 
 
 g)  Flash point 
 
- ()No data available 
+ ()Not applicable 
 
 h)  Evaporation rate 
 
@@ -430,7 +329,7 @@ No data available
 
 i)  Flammability (solid, 
 
-May form combustible dust concentrations in air. 
+No data available 
 
 gas) 
 
@@ -443,7 +342,7 @@ explosive limits
 
 k)  Vapor pressure 
 
-1 hPa at 25 °C (77 °F) 
+No data available 
 
 l)  Vapor density 
 
@@ -451,7 +350,7 @@ No data available
 
 m)  Density 
 
-1.8 - 2.1 g/cm3 
+1.000 g/cm3 at 3.98 °C (39.16 °F) - lit. 
 
 Relative density 
 
@@ -459,21 +358,39 @@ No data available
 
 n)  Water solubility 
 
-insoluble 
+completely miscible 
 
 o)  Partition coefficient: 
 n-octanol/water 
 
-No data available 
-
 p)  Autoignition 
 temperature 
 
+log Pow: -0.467 - Bioaccumulation is not expected. 
+
 No data available 
 
-Aldrich - 484164 
+q)  Decomposition 
 
-Page 5  of  9 
+No data available 
+
+temperature 
+
+r)  Viscosity 
+
+No data available 
+
+s)  Explosive properties  No data available 
+
+t)  Oxidizing properties  none 
+
+9.2  Other safety information 
+
+No data available 
+
+Sigma - MBD0025 
+
+Page 4  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -497,39 +414,21 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-q)  Decomposition 
-
-No data available 
-
-temperature 
-
-r)  Viscosity 
-
-No data available 
-
-s)  Explosive properties  No data available 
-
-t)  Oxidizing properties  No data available 
-
-9.2  Other safety information 
-
-No data available 
-
-SECTION 10: Stability and reactivity 
+SECTION 10: Stability and reactivity 
 
 10.1  Reactivity 
 
-The following applies in general to flammable organic substances and mixtures: in 
-correspondingly fine distribution, when whirled up a dust explosion potential may generally 
-be assumed. 
+No data available 
 
 10.2  Chemical stability 
 
 The product is chemically stable under standard ambient conditions (room temperature) . 
 
 10.3  Possibility of hazardous reactions 
-
-No data available 
+Violent reactions possible with: 
+The generally known reaction partners of water. 
+Violent reactions possible with: 
+The generally known reaction partners of water. 
 
 10.4  Conditions to avoid 
 
@@ -537,7 +436,7 @@ no information available
 
 10.5  Incompatible materials 
 
-Strong oxidizing agents 
+No data available 
 
 10.6  Hazardous decomposition products 
 In the event of fire: see section 5 
@@ -547,7 +446,8 @@ SECTION 11: Toxicological information
 11.1  Information on toxicological effects 
 
 Acute toxicity 
-Oral: No data available 
+LD50 Oral - Rat - > 90,000 mg/kg 
+Remarks: (RTECS) 
 Inhalation: No data available 
 Dermal: No data available 
 
@@ -563,34 +463,7 @@ No data available
 Germ cell mutagenicity 
 No data available 
 
-Aldrich - 484164 
-
-Page 6  of  9 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Carcinogenicity 
+Carcinogenicity 
 
 IARC: 
 
@@ -607,7 +480,33 @@ OSHA:
 No component of this product present at levels greater than or equal to 0.1% is 
 on OSHA’s list of regulated carcinogens. 
 
-Reproductive toxicity 
+Sigma - MBD0025 
+
+Page 5  of  8 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reproductive toxicity 
 No data available 
 
 Specific target organ toxicity - single exposure 
@@ -621,7 +520,6 @@ No data available
 
 11.2  Additional Information 
 
-RTECS: FF5250100 
 To the best of our knowledge, the chemical, physical, and toxicological properties have not 
 been thoroughly investigated. 
 
@@ -653,11 +551,22 @@ conducted
 No data available 
 
 12.7 Other adverse effects 
-No data available 
 
-Aldrich - 484164 
+No ecological problems are to be expected when the product is handled and used with due 
+care and attention. 
 
-Page 7  of  9 
+SECTION 13: Disposal considerations 
+
+13.1  Waste treatment methods 
+
+Product 
+Waste material must be disposed of in accordance with the national and local regulations. 
+Leave chemicals in original containers. No mixing with other waste. Handle uncleaned 
+containers like the product itself.  
+
+Sigma - MBD0025 
+
+Page 6  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -684,16 +593,9 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-SECTION 13: Disposal considerations 
-
-13.1  Waste treatment methods 
-
-Product 
-Waste material must be disposed of in accordance with the national and local regulations. 
-Leave chemicals in original containers. No mixing with other waste. Handle uncleaned 
-containers like the product itself.  
-
-SECTION 14: Transport information 
+ 
+ 
+SECTION 14: Transport information 
 
 DOT (US) 
 Not dangerous goods 
@@ -710,99 +612,49 @@ Not classified as dangerous in the meaning of transport regulations.
 SECTION 15: Regulatory information 
 
 SARA 302 Components 
-No chemicals in this material are subject to the reporting requirements of SARA Title III, 
-Section 302. 
+This material does not contain any components with a section 302 EHS TPQ. 
 
 SARA 313 Components 
 This material does not contain any chemical components with known CAS numbers that 
 exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 
 313. 
 
-SARA 311/312 Hazards 
-No SARA Hazards 
-
 Massachusetts Right To Know Components 
-No components are subject to the Massachusetts Right to Know Act. 
 
-No components are subject to the Massachusetts Right to Know Act. 
-
-Pennsylvania Right To Know Components 
-Activated Carbon Not Transportation Regulated 
+water 
 
 CAS-No. 
-7440-44-0 
-
-Revision Date 
-
-New Jersey Right To Know Components 
-
-Aldrich - 484164 
-
-Page 8  of  9 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Activated Carbon Not Transportation Regulated 
-
-CAS-No. 
-7440-44-0 
+7732-18-5 
 
 Revision Date 
 
 SECTION 16: Other information 
 
 Further information 
-The information is believed to be correct but is not exhaustive and will be used solely as 
-a guideline, which is based on current knowledge of the chemical substance or mixture 
-and is applicable to appropriate safety precautions for the product. It does not represent 
-any guarantee of the properties of the product. Sigma-Aldrich Corporation and its 
-Affiliates shall not be held liable for any damage resulting from handling or from contact 
-with the above product. See www.sigma-aldrich.com and/or the reverse side of invoice 
-or packing slip for additional terms and conditions of sale. 
+The above information is believed to be correct but does not purport to be all inclusive 
+and shall be used only as a guide. The information in this document is based on the 
+present state of our knowledge and is applicable to the product with regard to 
+appropriate safety precautions. It does not represent any guarantee of the properties of 
+the product. Sigma-Aldrich Corporation and its Affiliates shall not be held liable for any 
+damage resulting from handling or from contact with the above product. See 
+www.sigma-aldrich.com and/or the reverse side of invoice or packing slip for additional 
+terms and conditions of sale. 
+
 Copyright 2020 Sigma-Aldrich Co. LLC. License granted to make unlimited paper copies 
 for internal use only. 
 The branding on the header and/or footer of this document may temporarily not visually 
 match the product purchased as we transition our branding. However, all of the 
 information in the document regarding the product remains unchanged and matches the 
 product ordered. For further information please contact mlsbranding@sial.com. 
-Version: 6.5 
+Version: 8.4 
 
-Revision Date: 03/02/2024 
+Revision Date: 10/20/2023 
 
 Print Date: 06/15/2024 
 
-Aldrich - 484164 
+Sigma - MBD0025 
 
-Page 9  of  9 
+Page 7  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -813,6 +665,39 @@ operates as MilliporeSigma in the US and Canada
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sigma - MBD0025 
+
+Page 8  of  8 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
  
  
  
