@@ -28,7 +28,7 @@ import time # for pausing
 #import requests
 #import urllib.request
 
-# This function finds a chemical's CAS number and DOT hazards. 
+# This function finds the url of chemical's SDS sheet (and if there's none findable, it'll return "NO RESULTS FROM SIGMA").
 # It does this by putting your queried chemical name into Millipore Sigma's search engine then pulling the 1st SDS.
 # If MS's website has results for your chemical, then it'll return it as a list of [MS-given chemical name, CAS number, DOT hazards]
 def get_sds_url(chemical_name):
@@ -86,22 +86,27 @@ def get_sds_url(chemical_name):
 	time.sleep(3)
 	html_string = driver.page_source
 
-	#delete output.txt if it already exists
+	#delete html_output.txt if it already exists
 	try:
-	    os.remove("output.txt")
+	    os.remove("html_output.txt")
 	except OSError:
 	    pass
 
-	# Create output.txt
-	with open("output.txt", "w", encoding='utf-8') as f:
+	# Create html_output.txt
+	with open("html_output.txt", "w", encoding='utf-8') as f:
 		f.write(driver.page_source)
-	with open("output.txt","r", encoding='utf-8') as f:
+	with open("html_output.txt","r", encoding='utf-8') as f:
 		html_formatted = f.read()
 
+	# Search the search-string for the download button's ID, which we know always begins with "sds-". If you can't find it in the search-string, you probably got a "No results" page from Sigma.
 	search_string = r"""data-testid="sds-"""	
-	spot = html_formatted.index(search_string)
+	try:
+		spot = html_formatted.index(search_string) # We now know where in our HTML code the clickable button's name is
+	except: # You probably got a "No results page" in Sigma's search engine
+		return "NO RESULTS FROM SIGMA"
 	print(spot)
-	
+
+	# We'll now find the download button's name
 	new_html = html_formatted[spot:spot+100] #This string should contain our button ID
 	print(new_html)
 
@@ -132,11 +137,11 @@ def get_sds_url(chemical_name):
 	print("Successfully found SDS link for ",chemical_name,". It is:\n" , pdf_url)
 	return(pdf_url)
 
-# Download a pdf in the current directory, as "1.pdf"
+# Download a pdf in the current directory, though we won't know what Selenium has named it
 def download_pdf(lnk):
-	# remove 1.pdf if it exists (possibly due to program ending unexpectedly last time)
+	# remove CurrentSDS/CurrentSDS.pdf if it exists (due to a program running last time)
 	try:
-		os.remove("1.pdf")
+		os.remove("CurrentSDS/CurrentSDS.pdf")
 	except OSError:
 		pass
 	
@@ -160,19 +165,28 @@ def download_pdf(lnk):
 		# driver.quit()
 	except:
 		pass #Selenium must already be closed due to timeout being activated
-	print("PDF saved.\n")
 
+# Find out what our SDS file, which has been downloaded into the current directory, is named
+def rename_and_move_SDS():
+	filenames = next(os.walk(os.getcwd()), (None, None, []))[2]  # Get a list of all files
+	print(filenames)
+	# Go through the list to find the pdf. Hopefully there will be just 1, our SDS's pdf
+	for item in filenames:
+		print(item[-3:])
+		if item[-3:] == "pdf":
+			os.system( "move " + item + " CurrentSDS/CurrentSDS.pdf" )
+	print("There isn't any pdf downloaded into the directory.")
 
-# Scrape our downloaded SDS (now called "1.pdf", in the current directory), to get data on the chemical
+# Scrape our downloaded SDS, to get data on the chemical
 def extract_our_SDS():
 	return_GivenName = ""  # The chemical name from the SDS. Let's get this in case we want to manually confirm later that the chemical is actually the one we're looking for, and not just a similar result that Sigma's search engine gave us
 	return_CAS = ""
 	return_DOT = ""
 	
 	# Extract the SDS content as a string
-	SDS_content = extract_text("1.pdf")
+	SDS_content = extract_text("CurrentSDS/CurrentSDS.pdf")
 
-	# Put hte SDS content into a text file, for debug purposes. Call it "SDS.txt", but delete the old file if it exists (due to a previous session) first.
+	# Put the SDS content into a text file, for debug purposes. Call it "SDS.txt", but delete the old file if it exists (due to a previous session) first.
 	try:
 		os.remove("SDS.txt")
 	except OSError:
@@ -180,10 +194,15 @@ def extract_our_SDS():
 	with open("SDS.txt", "w") as f:
 		f.write(SDS_content)
 
-	# Get the SDS's product name, which should be right before the word "Eur" on a standard Sigma SDS.
+	# Get the SDS's product name, which should be after the first colon that comes after "Product", and end with a newling, on a standard Sigma SDS.
 	myspot1 = SDS_content.index("Product name") #I'm gonna mark two spots in the SDS string, and the string I want is in between spot 1 and spot 2
-	myspot2 = SDS_content.index("Eur")
-	return_GivenName = SDS_content[myspot1:myspot2].replace("\n","") #Deleting newlines is good, but we can't delete all whitespace with strip() here because many chemicals have spaces in the name
+	myspot1 = myspot1 + SDS_content[myspot1:].index(":") #Move down the start point on the page to the colon that comes eventually after "Product". Note that index() will return the index on your current truncated string and not the original string. So, that's why I had to add myspot1 again; to get the abolute position on SDS_content and not just the relative one. If this is confusing, just rewrite this part of the code, honestly.
+	myspot2 = myspot1 + SDS_content[myspot1:].index("\n") #Set the endpoint at the first newline after that colon just found
+	return_GivenName = SDS_content[myspot1:myspot2].replace(":","")
+
+	# If the chemical name string starts with one or more spaces, delete those initial spaces till they're all gone
+	while return_GivenName[0] == " ":
+		return_GivenName = return_GivenName[1:] # Delete the first character if it's a space. Don't use strip() to do this, since some chemicals have spaces in the middle of their names that need to not be deleted (i.e. "diethyl ether")
 
 	# Get the SDS's CAS number if it exists, which should be after a colon and right before the "1.2" section of the SDS
 	if "CAS" in SDS_content:		
@@ -208,23 +227,12 @@ def extract_our_SDS():
 
 
 
-
-#pdf_url = get_sds_url("ethanolf")
-#pdf_url = "https://www.sigmaaldrich.com/US/en/sds/mm/1.00967?userType=anonymous"
-
-#download_pdf(pdf_url)
-
-print( extract_our_SDS() )
-
+chem_name = input("Chemical name: ")
+pdf_url = get_sds_url(chem_name)
+if pdf_url == "NO RESULTS FROM SIGMA":
+	print("No results, as Sigma doesn't have any chemicals that even sound like this chemical.\n")
+else:
+	download_pdf(pdf_url)
+	rename_and_move_SDS()
+	print(extract_our_SDS())
 print("Done.")
-
-
-
-
-
-
-
-
-
-# Does the chemical (or a similar one) come up on MS's search engine? If not, cancel.
-# Pull the SDS. Does the chemical have a CAS number? Does it have DOT info or is it "Not dangerous goods"?
