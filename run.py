@@ -16,6 +16,9 @@ import fitz
 import wget
 import urllib.request
 import os
+from time import sleep
+	
+
 
 
 
@@ -29,7 +32,10 @@ def get_sds_url(chemical_name):
 	# because for some reason this works better then the general page of https://www.sigmaaldrich.com/US/en/search/
 	url = "https://www.sigmaaldrich.com/US/en/search/testosterone?focus=products&page=1&perpage=30&sort=relevance&term=TESTosterone&type=product"
 	options = webdriver.ChromeOptions() ; options.headless = True
-	
+
+	#options.add_experimental_option('prefs', {"download.default_directory": r"""C:\Users\Bold\CODE\py\Chem-Inventory-CAS-and-DOT-finder""", "download.prompt_for_download": False, "download.directory_upgrade": True, "plugins.always_open_pdf_externally": True })
+	#self.driver = webdriver.Chrome(options=options)	
+
 	
 	
 
@@ -136,9 +142,31 @@ def get_sds_url(chemical_name):
 	print("Successfully found SDS link for ",chemical_name,". It is:\n" , pdf_url)
 	return(pdf_url)
 
+# Download a pdf in the current directory, as "1.pdf"
+def download_pdf(lnk):
+	# remove 1.pdf if it exists (possibly due to program ending unexpectedly last time)
+	try:
+		os.remove("1.pdf")
+	except OSError:
+		pass
+	
+	dir_path = os.path.dirname(os.path.realpath(__file__)) # get current directory
 
+	# Download the pdf with Selenium
+	options = webdriver.ChromeOptions()
+	options.add_experimental_option('prefs', {
+	"download.default_directory": dir_path, #Change default directory for downloads
+	#"download.prompt_for_download": False, #To auto download the file
+	#"download.directory_upgrade": True,
+	"plugins.always_open_pdf_externally": True #It will not show PDF directly in chrome 
+	})
+	driver = webdriver.Chrome(options=options)
+	driver.get(lnk)
 
-def get_info_from_pdf(pdf_url):
+def get_info_from_pdf():
+	
+	
+
 	return_GivenName = ""
 	return_CAS = ""
 	return_DOT = ""
@@ -166,7 +194,10 @@ def get_info_from_pdf(pdf_url):
 
 
 
-print(get_sds_url("ethanolf"))
+
+#pdf_url = get_sds_url("ethanolf")
+#get_info_from_pdf(pdf_url)
+download_pdf("https://www.sigmaaldrich.com/US/en/sds/mm/1.00967?userType=anonymous")
 
 
 
