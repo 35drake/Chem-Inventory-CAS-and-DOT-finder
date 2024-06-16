@@ -1,0 +1,1036 @@
+SAFETY DATA SHEET 
+
+Version 8.3 
+Revision Date 08/18/2022 
+Print Date 03/24/2024 
+
+SECTION 1: Identification of the substance/mixture and of the company/undertaking 
+
+1.1  Product identifiers 
+
+Product name 
+
+:  SSPE buffer, pH 7.4, pHast Pack™, powder 
+
+Product Number 
+Brand 
+
+:  PPB021 
+:  Sigma-Aldrich 
+
+1.2  Relevant identified uses of the substance or mixture and uses advised against 
+
+Identified uses 
+
+:  Laboratory chemicals, Synthesis of substances 
+
+1.3  Details of the supplier of the safety data sheet 
+
+Company 
+
+Telephone 
+Fax 
+
+:  Sigma-Aldrich Inc. 
+3050 SPRUCE ST 
+ST. LOUIS MO  63103 
+UNITED STATES 
+
+:  +1 314 771-5765 
+:  +1 800 325-5052 
+
+1.4  Emergency telephone 
+
+Emergency Phone # 
+
+:  800-424-9300 CHEMTREC (USA) +1-703-
+527-3887 CHEMTREC (International) 24 
+Hours/day; 7 Days/week 
+
+SECTION 2: Hazards identification 
+
+2.1  Classification of the substance or mixture 
+
+GHS Classification in accordance with 29 CFR 1910 (OSHA HCS) 
+
+Specific target organ toxicity - repeated exposure, Inhalation (Category 2), Respiratory 
+Tract, H373 
+
+For the full text of the H-Statements mentioned in this Section, see Section 16. 
+
+2.2  GHS Label elements, including precautionary statements 
+
+Pictogram 
+
+Signal Word 
+
+Warning 
+
+Hazard statement(s) 
+H373 
+
+Sigma-Aldrich - PPB021 
+
+May cause damage to organs (Respiratory Tract) through 
+prolonged or repeated exposure if inhaled. 
+
+Page 1  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Precautionary statement(s) 
+P260 
+P314 
+P501 
+
+Do not breathe dust/ fume/ gas/ mist/ vapors/ spray. 
+Get medical advice/ attention if you feel unwell. 
+Dispose of contents/ container to an approved waste disposal 
+plant. 
+
+2.3  Hazards not otherwise classified (HNOC) or not covered by GHS - none 
+
+SECTION 3: Composition/information on ingredients 
+
+3.2  Mixtures 
+
+Component 
+
+Edetate disodium dihydrate 
+
+Classification 
+
+Concentration 
+
+CAS-No. 
+EC-No. 
+Registration 
+number 
+
+6381-92-6 
+205-358-3 
+
+Acute Tox. 4; STOT RE 2; 
+H332, H373 
+
+>= 1 - < 5 % 
+
+01-2119486775-20-
+XXXX 
+
+Sodium phosphate tribasic dodecahydrate 
+
+CAS-No. 
+EC-No. 
+Registration 
+number 
+
+10101-89-0 
+231-509-8 
+
+01-2119489800-32-
+XXXX 
+
+Skin Irrit. 2; Eye Irrit. 2A; 
+STOT SE 3; H315, H319, 
+H335 
+
+>= 1 - < 5 % 
+
+For the full text of the H-Statements mentioned in this Section, see Section 16. 
+
+SECTION 4: First aid measures 
+
+4.1  Description of first-aid measures 
+
+If inhaled 
+After inhalation: fresh air. 
+
+In case of skin contact 
+In case of skin contact: Take off immediately all contaminated clothing. Rinse skin with 
+water/ shower. 
+
+In case of eye contact 
+After eye contact: rinse out with plenty of water. Remove contact lenses. 
+
+If swallowed 
+After swallowing: make victim drink water (two glasses at most). Consult doctor if feeling 
+unwell. 
+
+4.2  Most important symptoms and effects, both acute and delayed 
+
+The most important known symptoms and effects are described in the labelling (see section 
+2.2) and/or in section 11 
+
+4.3  Indication of any immediate medical attention and special treatment needed 
+
+No data available 
+
+Sigma-Aldrich - PPB021 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+Page 2  of  11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 5: Firefighting measures 
+
+5.1  Extinguishing media 
+
+Suitable extinguishing media 
+Water Foam Carbon dioxide (CO2) Dry powder 
+
+Unsuitable extinguishing media 
+For this substance/mixture no limitations of extinguishing agents are given. 
+
+5.2  Special hazards arising from the substance or mixture 
+
+Carbon oxides 
+Nitrogen oxides (NOx) 
+Oxides of phosphorus 
+Hydrogen chloride gas 
+Sodium oxides 
+Mixture with combustible ingredients. 
+Development of hazardous combustion gases or vapours possible in the event of fire. 
+
+5.3  Advice for firefighters 
+
+In the event of fire, wear self-contained breathing apparatus. 
+
+5.4  Further information 
+
+Suppress (knock down) gases/vapors/mists with a water spray jet. Prevent fire 
+extinguishing water from contaminating surface water or the ground water system. 
+
+SECTION 6: Accidental release measures 
+
+6.1  Personal precautions, protective equipment and emergency procedures 
+
+Advice for non-emergency personnel: Avoid inhalation of dusts. Ensure adequate 
+ventilation. Evacuate the danger area, observe emergency procedures, consult an expert. 
+For personal protection see section 8. 
+
+6.2  Environmental precautions 
+
+Do not let product enter drains. 
+
+6.3  Methods and materials for containment and cleaning up 
+
+Cover drains. Collect, bind, and pump off spills. Observe possible material restrictions 
+(see sections 7 and 10). Take up dry. Dispose of properly. Clean up affected area. Avoid 
+generation of dusts. 
+
+6.4  Reference to other sections 
+
+For disposal see section 13. 
+
+SECTION 7: Handling and storage 
+
+7.1  Precautions for safe handling 
+For precautions see section 2.2. 
+
+7.2  Conditions for safe storage, including any incompatibilities 
+
+Storage conditions 
+Tightly closed. Dry. 
+
+Storage class 
+Storage class (TRGS 510): 11: Combustible Solids 
+
+Sigma-Aldrich - PPB021 
+
+Page 3  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7.3  Specific end use(s) 
+
+Apart from the uses mentioned in section 1.2 no other specific uses are stipulated 
+
+SECTION 8: Exposure controls/personal protection 
+
+8.1  Control parameters 
+
+Ingredients with workplace control parameters 
+Component 
+
+CAS-No. 
+
+Value 
+
+Control 
+parameters 
+5 mg/m3 
+
+Basis 
+
+USA. Workplace Environmental 
+Exposure Levels (WEEL) 
+
+Sodium 
+phosphate tribasic 
+dodecahydrate 
+
+10101-89-
+0 
+
+STEL 
+
+8.2  Exposure controls 
+
+Appropriate engineering controls 
+Change contaminated clothing. Wash hands after working with substance. 
+
+Personal protective equipment 
+
+Eye/face protection 
+Use equipment for eye protection tested and approved under appropriate 
+government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
+
+Skin protection 
+Handle with impervious gloves. 
+
+This recommendation applies only to the product stated in the safety data sheet, 
+supplied by us and for the designated use. When dissolving in or mixing with other 
+substances and under conditions deviating from those stated in EN374 please 
+contact the supplier of CE-approved gloves (e.g. KCL GmbH, D-36124 Eichenzell, 
+Internet: www.kcl.de). 
+
+Full contact 
+Material: Nitrile rubber 
+Minimum layer thickness: 0.11 mm 
+Break through time: 480 min 
+Material tested:KCL 741 Dermatril® L 
+
+Splash contact 
+Material: Nitrile rubber 
+Minimum layer thickness: 0.11 mm 
+Break through time: 480 min 
+Material tested:KCL 741 Dermatril® L 
+
+Respiratory protection 
+required when dusts are generated. 
+Our recommendations on filtering respiratory protection are based on the following 
+standards: DIN EN 143, DIN 14387 and other accompanying standards relating to 
+the used respiratory protection system. 
+
+Control of environmental exposure 
+Do not let product enter drains. 
+
+Sigma-Aldrich - PPB021 
+
+Page 4  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 9: Physical and chemical properties 
+
+9.1  Information on basic physical and chemical properties 
+
+a)  Appearance 
+
+Form: solid 
+
+b)  Odor 
+
+No data available 
+
+c)  Odor Threshold 
+
+No data available 
+
+d)  pH 
+
+e)  Melting 
+
+point/freezing point 
+
+f) 
+
+Initial boiling point 
+and boiling range 
+
+No data available 
+
+No data available 
+
+No data available 
+
+g)  Flash point 
+
+No data available 
+
+h)  Evaporation rate 
+
+No data available 
+
+i)  Flammability (solid, 
+
+No data available 
+
+gas) 
+
+j)  Upper/lower 
+
+No data available 
+
+flammability or 
+explosive limits 
+
+k)  Vapor pressure 
+
+No data available 
+
+l)  Vapor density 
+
+No data available 
+
+m)  Density 
+
+No data available 
+
+Relative density 
+
+No data available 
+
+n)  Water solubility 
+
+No data available 
+
+o)  Partition coefficient: 
+n-octanol/water 
+
+No data available 
+
+p)  Autoignition 
+temperature 
+
+No data available 
+
+q)  Decomposition 
+
+No data available 
+
+temperature 
+
+r)  Viscosity 
+
+No data available 
+
+s)  Explosive properties  Not classified as explosive. 
+
+t)  Oxidizing properties  none 
+
+9.2  Other safety information 
+
+No data available 
+
+SECTION 10: Stability and reactivity 
+
+10.1  Reactivity 
+
+The following applies in general to flammable organic substances and mixtures: in 
+correspondingly fine distribution, when whirled up a dust explosion potential may generally 
+be assumed. 
+
+Sigma-Aldrich - PPB021 
+
+Page 5  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10.2  Chemical stability 
+
+The product is chemically stable under standard ambient conditions (room temperature) . 
+
+10.3  Possibility of hazardous reactions 
+
+No data available 
+
+10.4  Conditions to avoid 
+
+no information available 
+
+10.5  Incompatible materials 
+
+Strong oxidizing agents 
+
+10.6  Hazardous decomposition products 
+In the event of fire: see section 5 
+
+SECTION 11: Toxicological information 
+
+11.1  Information on toxicological effects 
+
+Mixture 
+
+Acute toxicity 
+Acute toxicity estimate Oral - > 5,000 mg/kg 
+(Calculation method) 
+Acute toxicity estimate Inhalation - 4 h - 46.24 mg/l - dust/mist(Calculation method) 
+
+Acute toxicity estimate Dermal - > 5,000 mg/kg 
+(Calculation method) 
+
+Skin corrosion/irritation 
+No data available 
+
+Serious eye damage/eye irritation 
+No data available 
+
+Respiratory or skin sensitization 
+No data available 
+
+Germ cell mutagenicity 
+No data available 
+
+Carcinogenicity 
+
+IARC: 
+
+NTP: 
+
+No ingredient of this product present at levels greater than or equal to 0.1% is 
+identified as probable, possible or confirmed human carcinogen by IARC. 
+
+No ingredient of this product present at levels greater than or equal to 0.1% is 
+identified as a known or anticipated carcinogen by NTP. 
+
+OSHA: 
+
+No component of this product present at levels greater than or equal to 0.1% is 
+on OSHA’s list of regulated carcinogens. 
+
+Reproductive toxicity 
+No data available 
+
+Specific target organ toxicity - single exposure 
+No data available 
+
+Specific target organ toxicity - repeated exposure 
+Mixture may cause damage to organs through prolonged or repeated exposure. - 
+Respiratory Tract 
+
+Sigma-Aldrich - PPB021 
+
+Page 6  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Aspiration hazard 
+No data available 
+
+11.2  Additional Information 
+
+To the best of our knowledge, the chemical, physical, and toxicological properties have not 
+been thoroughly investigated. 
+Hazardous properties cannot  be excluded but are unlikely when the product is handled 
+appropriately. 
+
+Components   
+
+Edetate disodium dihydrate 
+
+Acute toxicity 
+LD50 Oral - Rat - male and female - 2,800 mg/kg 
+(OECD Test Guideline 401) 
+Remarks: The value is given in analogy to the following substances: 
+Ethylenedinitrilotetraacetic acid disodium salt 
+Inhalation: No data available 
+Dermal: No data available 
+
+Skin corrosion/irritation 
+Skin - Rabbit 
+Result: No skin irritation 
+(OECD Test Guideline 404) 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid disodium salt 
+
+Serious eye damage/eye irritation 
+Eyes - Rabbit 
+Result: No eye irritation 
+(OECD Test Guideline 405) 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid disodium salt 
+
+Respiratory or skin sensitization 
+Maximization Test - Guinea pig 
+Result: negative 
+(OECD Test Guideline 406) 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid disodium salt 
+
+Germ cell mutagenicity 
+Test Type: Chromosome aberration test in vitro 
+Test system: Chinese hamster ovary cells  
+Result: negative 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid trisodium salt 
+Test Type: In vitro mammalian cell gene mutation test 
+Test system: mouse lymphoma cells  
+Result: negative 
+Remarks: (ECHA) 
+
+Sigma-Aldrich - PPB021 
+
+Page 7  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid disodium saltThe value is given in analogy to the following substances: 
+Ethylenedinitrilotetraacetic acid trisodium salt 
+
+Test Type: Ames test 
+Result: negative 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid trisodium salt 
+Method: OECD Test Guideline 474 
+Species: Mouse 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid disodium salt 
+
+Carcinogenicity 
+No data available 
+
+Reproductive toxicity 
+No data available 
+
+Specific target organ toxicity - single exposure 
+No data available 
+
+Specific target organ toxicity - repeated exposure 
+Inhalation - May cause damage to organs through prolonged or repeated exposure. 
+- Respiratory Tract 
+
+Aspiration hazard 
+No data available 
+
+Sodium phosphate tribasic dodecahydrate 
+
+Acute toxicity 
+LD50 Oral - Rat - 7,400 mg/kg 
+Remarks: (RTECS) 
+Inhalation: No data available 
+Dermal: No data available 
+No data available 
+
+Skin corrosion/irritation 
+Irritating to skin. 
+
+Serious eye damage/eye irritation 
+Eye irritation 
+
+Respiratory or skin sensitization 
+No data available 
+
+Germ cell mutagenicity 
+Test Type: Ames test 
+Result: negative 
+Remarks: (Lit.) 
+
+Carcinogenicity 
+No data available 
+
+Reproductive toxicity 
+No data available 
+
+Sigma-Aldrich - PPB021 
+
+Page 8  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Specific target organ toxicity - single exposure 
+May cause respiratory irritation. 
+
+Specific target organ toxicity - repeated exposure 
+No data available 
+
+Aspiration hazard 
+No data available 
+
+SECTION 12: Ecological information 
+
+12.1  Toxicity 
+
+Mixture 
+No data available 
+
+12.2  Persistence and degradability 
+
+No data available 
+
+12.3  Bioaccumulative potential 
+
+No data available 
+
+12.4  Mobility in soil 
+
+No data available 
+
+12.5  Results of PBT and vPvB assessment 
+
+PBT/vPvB assessment not available as chemical safety assessment not required/not 
+conducted 
+
+12.6  Endocrine disrupting properties 
+
+No data available 
+
+12.7 Other adverse effects 
+No data available 
+
+Components 
+
+Edetate disodium dihydrate 
+
+Toxicity to fish 
+
+semi-static test LC50 - Oncorhynchus mykiss (rainbow trout) - 
+> 100 mg/l  - 96 h 
+(OECD Test Guideline 203) 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: 
+Sodium feredetate 
+
+Toxicity to daphnia 
+and other aquatic 
+invertebrates 
+
+static test EC50 - Daphnia magna (Water flea) - 140 mg/l  - 48 
+h 
+(DIN 38412) 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: 
+Ethylenedinitrilotetraacetic acid disodium salt 
+
+NOEC - Daphnia magna (Water flea) - 25 mg/l  - 21 d 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: 
+Ethylenedinitrilotetraacetic acid disodium salt 
+
+Sigma-Aldrich - PPB021 
+
+Page 9  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Toxicity to algae 
+
+static test  - Pseudokirchneriella subcapitata (green algae) - > 
+60 mg/l  - 72 h 
+(OECD Test Guideline 201) 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: 
+Sodium feredetate 
+
+Toxicity to bacteria 
+
+NOEC - activated sludge - > 640 mg/l  - 3 h 
+(OECD Test Guideline 209) 
+Remarks: (ECHA) 
+The value is given in analogy to the following substances: 
+Sodium feredetate 
+
+Sodium phosphate tribasic dodecahydrate 
+No data available 
+
+SECTION 13: Disposal considerations 
+
+13.1  Waste treatment methods 
+
+Product 
+Waste material must be disposed of in accordance with the national and local regulations. 
+Leave chemicals in original containers. No mixing with other waste. Handle uncleaned 
+containers like the product itself. See www.retrologistik.com for processes regarding the 
+return of chemicals and containers, or contact us there if you have further questions.  
+
+SECTION 14: Transport information 
+
+DOT (US) 
+Not dangerous goods 
+
+IMDG 
+Not dangerous goods 
+
+IATA 
+Not dangerous goods 
+
+Further information 
+Not classified as dangerous in the meaning of transport regulations. 
+
+SECTION 15: Regulatory information 
+
+SARA 302 Components 
+This material does not contain any components with a section 302 EHS TPQ. 
+
+SARA 313 Components 
+
+Sigma-Aldrich - PPB021 
+
+Page 10  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This material does not contain any chemical components with known CAS numbers that 
+exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 
+313. 
+
+Massachusetts Right To Know Components 
+No components are subject to the Massachusetts Right to Know Act. 
+
+SECTION 16: Other information 
+
+Further information 
+The above information is believed to be correct but does not purport to be all inclusive 
+and shall be used only as a guide. The information in this document is based on the 
+present state of our knowledge and is applicable to the product with regard to 
+appropriate safety precautions. It does not represent any guarantee of the properties of 
+the product. Sigma-Aldrich Corporation and its Affiliates shall not be held liable for any 
+damage resulting from handling or from contact with the above product. See 
+www.sigma-aldrich.com and/or the reverse side of invoice or packing slip for additional 
+terms and conditions of sale. 
+
+Copyright 2020 Sigma-Aldrich Co. LLC. License granted to make unlimited paper copies 
+for internal use only. 
+The branding on the header and/or footer of this document may temporarily not visually 
+match the product purchased as we transition our branding. However, all of the 
+information in the document regarding the product remains unchanged and matches the 
+product ordered. For further information please contact mlsbranding@sial.com. 
+
+Version: 8.3 
+
+Revision Date: 08/18/2022 
+
+Print Date: 03/24/2024 
+
+Sigma-Aldrich - PPB021 
+
+Page 11  of  11 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

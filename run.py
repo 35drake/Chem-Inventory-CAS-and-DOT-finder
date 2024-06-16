@@ -52,6 +52,12 @@ import time # for pausing
 # If MS's website has results for your chemical, then it'll return it as a list of [MS-given chemical name, CAS number, DOT hazards]
 def get_sds_url(chemical_name):
 	
+	# THIS was an unnecessary "bug" fix that was only needed when the chemical_name started with a \t (which should be avoided anyway). The tab was being sent as a tab which took you out of the search box till you pressed a space key
+	# If there's a space in the chemical name, and that space isn't the final character (so that means the name has 2+ words), then add a sacrificial word to the beginning so that the glitch of sendkeys() doesn't mess things up
+	#if " " in chemical_name:	
+	#	if chemical_name.index(" ") != len(chemical_name) -1 :
+	#		chemical_name = "SACRIFICE " + chemical_name
+
 	# Make the browser headless and set the URL of some existing chemical search 
 	# because for some reason this works better then the general page of https://www.sigmaaldrich.com/US/en/search/
 	url = "https://www.sigmaaldrich.com/US/en/search/testosterone?focus=products&page=1&perpage=30&sort=relevance&term=TESTosterone&type=product"
@@ -80,14 +86,18 @@ def get_sds_url(chemical_name):
 			driver.find_element("xpath",r"""//*[@id="header-search-search-wrapper-input"]""").send_keys(Keys.BACKSPACE)
 		except: #The "wrapper" part may or may not be present in the element, depending on your screen size
 			driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(Keys.BACKSPACE)
-		#
+		
 		
 	# Type in your chemical name
+	print("\n\nSending keys: " + chemical_name + "\n\n")
 	time.sleep(1)
+	# Bug here, where the first word of a chemical name isn't typed.
 	try:
-		driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(chemical_name)
-	except:
 		driver.find_element("xpath",r"""//*[@id="header-search-search-wrapper-input"]""").send_keys(chemical_name)
+	except:
+		# driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").click()
+		driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(chemical_name)
+
 	
 	# Click the "Search" button
 	time.sleep(1)
@@ -284,6 +294,9 @@ with open("TYPE CHEMICAL LIST HERE.txt" , "r") as f:
 while chem_list[-1] == "\n":
 	chem_list = chem_list[:-1]
 
+# Delete any tabs
+chem_list = chem_list.replace("\t","")
+
 # Convert the string into a list of the chemicals
 chem_list = chem_list.split("\n") #separate each line of the user's text file as one chemical
 
@@ -315,6 +328,7 @@ print("\n\n\n\n\nDone.")
 # - It's possible (but not confirmed yet) that if you have an unexpected error for 1 chemical, even though the program moves on, all chenmicals afterward will be processed incorrectly and always return "Unknown"s
 
 # SUGGESTED IMPROVEMENTS
+# - Grab the CAS number from the Sigma website html directly, instead of the SDS which can be formatted in ways that show up on the text file inconsistently
 # - If the input text file has blank lines, their output should be blanks instead of "Unknown"s
 # - If there's no SDS results on Sigma, but there is a "Did you mean [this chemical]" suggestion link, that should be automatically clicked and the program moves on to grab the SDS
 
