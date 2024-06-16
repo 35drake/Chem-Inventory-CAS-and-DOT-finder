@@ -159,12 +159,10 @@ def download_pdf(lnk):
 	
 	driver.set_page_load_timeout(5) #It always hangs after downloading the PDF, for me
 
-	driver.get(lnk)
 	try:
-		driver.close()
-		# driver.quit()
-	except:
-		pass #Selenium must already be closed due to timeout being activated
+		driver.get(lnk)
+	except: # Selenium stalled and timed out, but probably already downloaded the PDF successfully so we can continue with running
+		pass
 
 # Find out what our SDS file, which has been downloaded into the current directory, is named
 def rename_and_move_SDS():
@@ -175,7 +173,6 @@ def rename_and_move_SDS():
 		print(item[-3:])
 		if item[-3:] == "pdf":
 			os.system( "move " + item + " CurrentSDS/CurrentSDS.pdf" )
-	print("There isn't any pdf downloaded into the directory.")
 
 # Scrape our downloaded SDS, to get data on the chemical
 def extract_our_SDS():
@@ -220,19 +217,32 @@ def extract_our_SDS():
 		return_DOT = "N/A"
 	else:
 		return_DOT = truncated_SDS_content[truncated_SDS_content.index("Class") : -1 ].replace(":","") # Exclude the colon and final character which is a newline
+		if return_DOT[-1] == " ": 
+			return_DOT = return_DOT[:-1] # If the final character is a space, delete that space (but not other spaces in the DOT classification phrase)
 		
 	# Return all 3 values to end the function
 	return([return_GivenName,return_CAS,return_DOT])
 
+# This function combines the others and gives you a chemical's Sigma name (or closest one Sigma can find), CAS number (if it exists), or DOT hazards (if there are any).
+# If Sigma can't find any SDSs for this chemical, then it'll return all properties as "Unknown" (basically, an error).
+# If Sigma finds an SDS but the chemical has no CAS or is non-DOT, then those categories will return as "N/A" (this is good and not an error).
+def get_chem_info(chem_name):
+	try:
+		pdf_url = get_sds_url(chem_name)
+		if pdf_url == "NO RESULTS FROM SIGMA":
+			return ["Unknown","Unknown","Unknown"]
+		else:
+			download_pdf(pdf_url)
+			rename_and_move_SDS()
+			return extract_our_SDS()
+	except: # The program can have unexpected failures for various reasons. Most of the time, this is because Sigma gave you an SDS straight from a manufacturer (ie Roche), which isn't in Sigma's standard format
+		return ["Unknown","Unknown","Unknown"]
+	
 
 
 
-chem_name = input("Chemical name: ")
-pdf_url = get_sds_url(chem_name)
-if pdf_url == "NO RESULTS FROM SIGMA":
-	print("No results, as Sigma doesn't have any chemicals that even sound like this chemical.\n")
-else:
-	download_pdf(pdf_url)
-	rename_and_move_SDS()
-	print(extract_our_SDS())
-print("Done.")
+print( get_chem_info("reagent") )
+print("\n\n\n\n\n")
+print( get_chem_info("bullshit") )
+print("\n\n\n\n\n")
+
