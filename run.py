@@ -1,3 +1,22 @@
+# Drake Sorkhab, phys152boi@gmail.com
+# Chem-Inventory-CAS-and-DOT-finder Python3.12 program for Windows
+
+# This program will help you find the CAS numbers and DOT classes for a list of chemicals. Here's how it works:
+# Step 1: You open the "TYPE CHEMICAL LIST HERE" file and type a list of chemicals, with one chemical per line. 
+#	You'll likely paste this in from a spreadsheet of chemical inventories.
+# Step 2: The program will go through your list, and try to locate an online SDS sheet for each one. It does this
+#	By searching the chemical on Sigma Aldrich's website.
+# Step 3: The program will attempt to find the chemical's data form the spreadsheet. It will find:
+#	A. The CAS number (or "N/A" if there is none)
+#	B. The DOT class and info phrase (or "N/A" if it's not a DOT hazard)
+#	C. The name given by Sigma Aldrich for the chemical (I recommend checking this manually to make sure the correct chemical was found).
+#	
+#	By the way, if the program can't find anything on the chemical, either because Sigma can't find it or similar chemicals or because the contents of my get_chem_info() threw some unexpected error.
+#
+# Step 4: You go to the RESULTS folder and find 3 text files with all the results. I recommend pasting these contents into your spreadsheet if you have one.
+
+
+
 import os # to let me manage files and install packages with pip
 
 try:
@@ -183,12 +202,12 @@ def extract_our_SDS():
 	# Extract the SDS content as a string
 	SDS_content = extract_text("CurrentSDS/CurrentSDS.pdf")
 
-	# Put the SDS content into a text file, for debug purposes. Call it "SDS.txt", but delete the old file if it exists (due to a previous session) first.
+	# Put the SDS content into a text file, for debug purposes. Call it "sds.txt", but delete the old file if it exists (due to a previous session) first.
 	try:
-		os.remove("SDS.txt")
+		os.remove("sds.txt")
 	except OSError:
 		pass
-	with open("SDS.txt", "w") as f:
+	with open("sds.txt", "w") as f:
 		f.write(SDS_content)
 
 	# Get the SDS's product name, which should be after the first colon that comes after "Product", and end with a newling, on a standard Sigma SDS.
@@ -239,6 +258,9 @@ def get_chem_info(chem_name):
 		return ["Unknown","Unknown","Unknown"]
 	
 
+
+
+
 # The main part of the program will take the user's lits of chemicals, and one-by-one find the data on them. 
 # In the end, the data will be written into the "RESULTS" text files.
 
@@ -253,22 +275,29 @@ while chem_list[-1] == "\n":
 # Convert the string into a list of the chemicals
 chem_list = chem_list.split("\n") #separate each line of the user's text file as one chemical
 
-#  Initialize the data lists (names of each chemical, CASs of each chemical, and DOTs of each chemical)
-Sigma_Names = []
-CASs = []
-DOTs= []
+# Delete the previous RESULTS files, if they exist
+for filename in ["RESULTS/Sigma Names.txt", "RESULTS/CAS Numbers.txt", "RESULTS/DOT infos.txt"]:
+	try:
+	    os.remove(filename)
+	except OSError:
+	    pass
 
 # Fill all 3 of the lists of data, one chemical at a time
 for item in chem_list:
 	chem_data = get_chem_info(item)
-	Sigma_Names = Sigma_Names + [chem_data[0]]
-	CASs = CASs + [chem_data[1]]
-	DOTs = DOTs + [chem_data[2]]
+	with open("RESULTS/Sigma Names.txt", "a") as myfile:
+		myfile.write(chem_data[0])
+		myfile.write("\n")
+	with open("RESULTS/CAS Numbers.txt", "a") as myfile:
+		myfile.write(chem_data[1])
+		myfile.write("\n")
+	with open("RESULTS/DOT infos.txt", "a") as myfile:
+		myfile.write(chem_data[2])	
+		myfile.write("\n")
 
 print("\n\n\n\n\nDone.")
-print(Sigma_Names)
-print(CASs)
-print(DOTs)
-	
+
+
+
 
 
