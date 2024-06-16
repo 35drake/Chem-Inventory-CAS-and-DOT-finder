@@ -246,6 +246,8 @@ def extract_our_SDS():
 # If Sigma can't find any SDSs for this chemical, then it'll return all properties as "Unknown" (basically, an error).
 # If Sigma finds an SDS but the chemical has no CAS or is non-DOT, then those categories will return as "N/A" (this is good and not an error).
 def get_chem_info(chem_name):
+	if chem_name.strip() == "": #If the name is just whitespace, return Unknowns (change this to blanks if you prefer). Usually, the input chem name is blank or just whitespace because it's from an empty cell of the spreadsheet the user pasted in to the TYPE CHEMICAL LIST HERE file.
+		return ["Unknown","Unknown","Unknown"]
 	try:
 		pdf_url = get_sds_url(chem_name)
 		if pdf_url == "NO RESULTS FROM SIGMA":
