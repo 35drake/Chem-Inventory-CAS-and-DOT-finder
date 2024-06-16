@@ -1,32 +1,31 @@
-import pyperclip # for reading the SDS text content that we'll put into the Windows clipboard
+import os # to let me manage files and install packages with pip
 
-import time # for pausing
-from selenium import webdriver # to launch an automated web browser
+try:
+	import pyperclip # for reading the SDS text content that we'll put into the Windows clipboard
+except:
+	os.system("pip install pyperclip")
+	import pyperclip
+
+try:
+	from selenium import webdriver # to launch an automated web browser
+except:
+	os.system("pip install selenium")
+	from selenium import webdriver # to launch an automated web browser
 from selenium.webdriver.chrome.service import Service as ChromeService # so that Chrome specifically can be used as the browser
 from selenium.webdriver import Keys # for backspace key to clear a text box
 #from selenium.webdriver.common.action_chains import ActionChains # to send key presses without specifying an HTML element to direct them at
+from selenium.common.exceptions import WebDriverException # Basically this is used to tell us when HTML buttons aren't clickable
 
-# Basically this is used to tell us when HTML buttons aren't clickable
-from selenium.common.exceptions import WebDriverException
+import time # for pausing	
 
 # These are to extract text from an online PDF
-import io
-import requests
-import fitz
-import wget
-import urllib.request
-import os
-from time import sleep
-	
-
-
-
+#import requests
+#import urllib.request
 
 # This function finds a chemical's CAS number and DOT hazards. 
 # It does this by putting your queried chemical name into Millipore Sigma's search engine then pulling the 1st SDS.
 # If MS's website has results for your chemical, then it'll return it as a list of [MS-given chemical name, CAS number, DOT hazards]
 def get_sds_url(chemical_name):
-
 	
 	# Make the browser headless and set the URL of some existing chemical search 
 	# because for some reason this works better then the general page of https://www.sigmaaldrich.com/US/en/search/
@@ -36,14 +35,8 @@ def get_sds_url(chemical_name):
 	#options.add_experimental_option('prefs', {"download.default_directory": r"""C:\Users\Bold\CODE\py\Chem-Inventory-CAS-and-DOT-finder""", "download.prompt_for_download": False, "download.directory_upgrade": True, "plugins.always_open_pdf_externally": True })
 	#self.driver = webdriver.Chrome(options=options)	
 
-	
-	
-
-
 	# Initialise the driver used by Selenium
-	driver = webdriver.Chrome()
-
-	
+	driver = webdriver.Chrome()	
 	
 	# Load the webpage
 	driver.get(url)
@@ -64,7 +57,6 @@ def get_sds_url(chemical_name):
 			driver.find_element("xpath",r"""//*[@id="header-search-search-input"]""").send_keys(Keys.BACKSPACE)
 		#
 		
-
 	# Type in your chemical name
 	time.sleep(1)
 	try:
@@ -77,12 +69,7 @@ def get_sds_url(chemical_name):
 	try:
 		driver.find_element("xpath",r"""//*[@id="header-search-submit-search"]""").click()
 	except:
-		driver.find_element("xpath",r"""//*[@id="header-search-submit-search-wrapper"]""").click()
-		
-
-
-
-	
+		driver.find_element("xpath",r"""//*[@id="header-search-submit-search-wrapper"]""").click()	
 	
 	# Click the download button for the first SDS. Hopefully this is the chemical we were looking for and not just a similarly-spelled one.
 	# We'll do this by extracting the html source, cleaning it through a text file somehow?, then finding the first download button's id from that, 		# then clicking the button.
@@ -126,12 +113,9 @@ def get_sds_url(chemical_name):
 			driver.execute_script("document.body.style.zoom='100%'")	
 			driver.find_element("id",button_name).click()
 			
-
-
 	# click the English button
 	time.sleep(3)
 	driver.find_element("xpath",r"""//*[@id="sds-link-EN"]""").click()
-
 
 	time.sleep(5)
 	# The PDF is now open; switch Selenium's brain to the new window and get the PDF's url
@@ -162,11 +146,10 @@ def download_pdf(lnk):
 	})
 	driver = webdriver.Chrome(options=options)
 	driver.get(lnk)
+	driver.close
 
 def get_info_from_pdf():
 	
-	
-
 	return_GivenName = ""
 	return_CAS = ""
 	return_DOT = ""
@@ -191,6 +174,8 @@ def get_info_from_pdf():
 		return_DOT = DOT_class
 
 	return([return_GivenName,return_CAS,return_DOT])
+
+
 
 
 
