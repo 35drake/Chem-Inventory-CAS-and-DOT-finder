@@ -186,7 +186,7 @@ def download_pdf(lnk):
 	})
 	driver = webdriver.Chrome(options=options)
 	
-	driver.set_page_load_timeout(5) #It always hangs after downloading the PDF, for me
+	driver.set_page_load_timeout(9) #It always hangs after downloading the PDF, for me. Setting this to only 5 seconds caused problems.
 
 	try:
 		driver.get(lnk)
@@ -204,9 +204,11 @@ def rename_and_move_SDS():
 		if item[-3:] == "pdf":
 			os.system( "move " + item + " CurrentSDS/CurrentSDS.pdf" )
 	print("\nPDF has been moved successfully.\n")
+	# unused_var = input("\nPause\n")
 
 # Scrape our downloaded SDS, to get data on the chemical
 def extract_our_SDS():
+	print("Starting extract_our_SDS().")
 	return_GivenName = ""  # The chemical name from the SDS. Let's get this in case we want to manually confirm later that the chemical is actually the one we're looking for, and not just a similar result that Sigma's search engine gave us
 	return_CAS = "" # I adjusted the program so that the CAS actually is pulled from the html code and not the SDS anymore. It will still be done inside this function, though.
 	return_DOT = ""
@@ -222,11 +224,11 @@ def extract_our_SDS():
 	with open("sds.txt", "w") as f:
 		f.write(SDS_content)
 
-	# Get the SDS's product name, which should be after the first colon that comes after "Product", and end with a newling, on a standard Sigma SDS.
-	myspot1 = SDS_content.index("Product name") #I'm gonna mark two spots in the SDS string, and the string I want is in between spot 1 and spot 2
-	myspot1 = myspot1 + SDS_content[myspot1:].index(":") #Move down the start point on the page to the colon that comes eventually after "Product". Note that index() will return the index on your current truncated string and not the original string. So, that's why I had to add myspot1 again; to get the abolute position on SDS_content and not just the relative one. If this is confusing, just rewrite this part of the code, honestly.
-	myspot2 = myspot1 + SDS_content[myspot1:].index("\n") #Set the endpoint at the first newline after that colon just found
 	try: # I don't care that much about the given name, so if it can't be found I'm just gonna let the program continue.
+		# Get the SDS's product name, which should be after the first colon that comes after "Product", and end with a newling, on a standard Sigma SDS.
+		myspot1 = SDS_content.index("Product name") #I'm gonna mark two spots in the SDS string, and the string I want is in between spot 1 and spot 2
+		myspot1 = myspot1 + SDS_content[myspot1:].index(":") #Move down the start point on the page to the colon that comes eventually after "Product". Note that index() will return the index on your current truncated string and not the original string. So, that's why I had to add myspot1 again; to get the abolute position on SDS_content and not just the relative one. If this is confusing, just rewrite this part of the code, honestly.
+		myspot2 = myspot1 + SDS_content[myspot1:].index("\n") #Set the endpoint at the first newline after that colon just found
 		return_GivenName = SDS_content[myspot1:myspot2].replace(":","")
 	except:
 		return_GivenName = "COULD NOT LOCATE NAME FROM SDS."
@@ -245,11 +247,18 @@ def extract_our_SDS():
 	#	return_CAS = "N/A"
 
 	# Get the CAS number from the webpage's source (which is now stored in our html_output.txt file from before)
-	with open("html_output.txt","r", encoding='utf-8') as f:
-		html_formatted = f.read()
-	myspot2 = html_formatted.index("-alias-link") #The CAS number is stored in the html right before the first $-alias-link$ and right after a $data-testid="$  (I'm delimiting my phrases with dollar signs here)
-	myspot1 = html_formatted[0:myspot2].rfind("data-testid")
-	return_CAS = html_formatted[ myspot1 + 13 : myspot2 ]
+	try:
+		with open("html_output.txt","r", encoding='utf-8') as f:
+			html_formatted = f.read()
+		myspot2 = html_formatted.index("-alias-link") #The CAS number is stored in the html right before the first $-alias-link$ and right after a $data-testid="$  (I'm delimiting my phrases with dollar signs here)
+		myspot1 = html_formatted[0:myspot2].rfind("data-testid")
+		return_CAS = html_formatted[ myspot1 + 13 : myspot2 ]
+		if return_CAS.replace("-","").isdigit(): #Make sure the CAS number is an actual CAS number and not nonsense
+			pass #it's just digits and dashes, good
+		else:
+			return_CAS = "Unknown" #it's not digits and dashes and therefore not a CAS number. Probably cuz Sigma didnt have a CAS number for it even though it brought up SDS results (i.e. Bovine Serum), so the html search was garbled
+	except:
+		return_CAS = "Unknown"
 
 	print("\nCheckpoint Alpha\n")
 	
@@ -267,6 +276,7 @@ def extract_our_SDS():
 
 	print("\nSDS data has been extracted successfully.\n")
 	# Return all 3 values to end the function
+	print("Finishing extract_our_SDS().")
 	return([return_GivenName,return_CAS,return_DOT])
 
 # This function combines the others and gives you a chemical's Sigma name (or closest one Sigma can find), CAS number (if it exists), or DOT hazards (if there are any).
@@ -335,7 +345,7 @@ print("\n\n\n\n\nDone.")
 
 
 # CURRENT ISSUES
-# - The SDSs from Sigma reliably give you DOT info the same way every time, but not the CAS number. It would be better to pull the CAS number from Sigma's uniform HTML pages, then continue grabbing the DOT from the SDS like normal.
+# - When "bovine serum" is the 2nd chemical input, it fails. Why? It turns out download_pdf() is failing for some reason, and won't download this chemical's pdf (f8067.pdf) if it's #2 on the list. It's ok for #1 and #3 though. SOLVED? Due to low timeout time for Selenium. I'm now giving it 9 seconds to download the SDS.
 
 # SUGGESTED IMPROVEMENTS
 # - If a CAS number received isn't just digits and dashes, then that's definitely an error so just change it to "Unknown"
