@@ -7,8 +7,8 @@
 # Step 2: The program will go through your list, and try to locate an online SDS sheet for each one. It does this
 #	By searching the chemical on Sigma Aldrich's website.
 # Step 3: The program will attempt to find the chemical's data form the spreadsheet. It will find:
-#	A. The CAS number (or "N/A" if there is none)
-#	B. The DOT class and info phrase (or "N/A" if it's not a DOT hazard)
+#	A. The CAS number (or "N/A" if there is none) [pulled from website]
+#	B. The DOT class and info phrase (or "N/A" if it's not a DOT hazard) [pulled from SDS]
 #	C. The name given by Sigma Aldrich for the chemical (I recommend checking this manually to make sure the correct chemical was found).
 #	
 #	By the way, if the program can't find anything on the chemical, either because Sigma can't find it or similar chemicals or because the contents of my get_chem_info() threw some unexpected error.
@@ -208,7 +208,7 @@ def rename_and_move_SDS():
 # Scrape our downloaded SDS, to get data on the chemical
 def extract_our_SDS():
 	return_GivenName = ""  # The chemical name from the SDS. Let's get this in case we want to manually confirm later that the chemical is actually the one we're looking for, and not just a similar result that Sigma's search engine gave us
-	return_CAS = ""
+	return_CAS = "" # I adjusted the program so that the CAS actually is pulled from the html code and not the SDS anymore. It will still be done inside this function, though.
 	return_DOT = ""
 	
 	# Extract the SDS content as a string
@@ -226,20 +226,30 @@ def extract_our_SDS():
 	myspot1 = SDS_content.index("Product name") #I'm gonna mark two spots in the SDS string, and the string I want is in between spot 1 and spot 2
 	myspot1 = myspot1 + SDS_content[myspot1:].index(":") #Move down the start point on the page to the colon that comes eventually after "Product". Note that index() will return the index on your current truncated string and not the original string. So, that's why I had to add myspot1 again; to get the abolute position on SDS_content and not just the relative one. If this is confusing, just rewrite this part of the code, honestly.
 	myspot2 = myspot1 + SDS_content[myspot1:].index("\n") #Set the endpoint at the first newline after that colon just found
-	return_GivenName = SDS_content[myspot1:myspot2].replace(":","")
-
+	try: # I don't care that much about the given name, so if it can't be found I'm just gonna let the program continue.
+		return_GivenName = SDS_content[myspot1:myspot2].replace(":","")
+	except:
+		return_GivenName = "COULD NOT LOCATE NAME FROM SDS."
 	# If the chemical name string starts with one or more spaces, delete those initial spaces till they're all gone
 	while return_GivenName[0] == " ":
 		return_GivenName = return_GivenName[1:] # Delete the first character if it's a space. Don't use strip() to do this, since some chemicals have spaces in the middle of their names that need to not be deleted (i.e. "diethyl ether")
 
+	# THIS SECTION'S NOW COMMENTED OUT CUZ THE SDS IS A NON-UNIFORMLY FORMATTED SOURCE FOR SCRAPING CAS DATA
 	# Get the SDS's CAS number if it exists, which should be after a colon and right before the "1.2" section of the SDS
-	if "CAS" in SDS_content:		
-		myspot2 = SDS_content.index("1.2")
-		truncated_SDS_content = SDS_content[0:myspot2]
-		myspot1 = truncated_SDS_content.rfind(":") + 1
-		return_CAS = SDS_content[myspot1:myspot2].strip()
-	else:
-		return_CAS = "N/A"
+	#if "CAS" in SDS_content:		
+	#	myspot2 = SDS_content.index("1.2")
+	#	truncated_SDS_content = SDS_content[0:myspot2]
+	#	myspot1 = truncated_SDS_content.rfind(":") + 1
+	#	return_CAS = SDS_content[myspot1:myspot2].strip()
+	#else:
+	#	return_CAS = "N/A"
+
+	# Get the CAS number from the webpage's source (which is now stored in our html_output.txt file from before)
+	with open("html_output.txt","r", encoding='utf-8') as f:
+		html_formatted = f.read()
+	myspot2 = html_formatted.index("-alias-link") #The CAS number is stored in the html right before the first $-alias-link$ and right after a $data-testid="$  (I'm delimiting my phrases with dollar signs here)
+	myspot1 = html_formatted[0:myspot2].rfind("data-testid")
+	return_CAS = html_formatted[ myspot1 + 13 : myspot2 ]
 
 	print("\nCheckpoint Alpha\n")
 	
