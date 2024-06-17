@@ -188,7 +188,7 @@ def download_pdf(lnk):
 	})
 	driver = webdriver.Chrome(options=options)
 	
-	driver.set_page_load_timeout(6) #It always hangs after downloading the PDF, for me. Setting this to only 5 seconds caused problems. Or maybe that wasn't the issue...
+	driver.set_page_load_timeout(9) #It always hangs after downloading the PDF, for me. Setting this to only 5 seconds caused problems. Or maybe that wasn't the issue...
 
 	try:
 		driver.get(lnk)
@@ -309,7 +309,7 @@ def get_chem_info(chem_name):
 		return ["Unknown","Unknown","Unknown"]
 
 	# DEBUG LINE BELOW!
-	if False: #set this to True if you're done debugging, and want the program to just move on if there's an error for a chemical, instead of stopping. Set this to False if you want the program to end when there's an error in this section, and tell you what the error is.
+	if True: #set this to True if you're done debugging, and want the program to just move on if there's an error for a chemical, instead of stopping. Set this to False if you want the program to end when there's an error in this section, and tell you what the error is.
 		try:
 			pdf_url = get_sds_url(chem_name)
 			if pdf_url == "NO RESULTS FROM SIGMA":
@@ -382,8 +382,7 @@ print("\n\n\n\n\nDone.")
 # - When you're giving the program to an inexperienced user, or are processing a large amount of chemicals, or just need the program to not stall at any error -- set the debug line in get_chem_info() to True!
 
 # CURRENT ISSUES
-# - Strange occurrences of "no results from Sigma" for chemicals when they're in certain spots. I.e., when "Tetramethylammonium chloride solution" is in spot #4 in our input file, it has no results. But it does as #1.
-#	However, this problem seems to be solved with increasing sleep() times. Hmm...
+# - Occasionally chemicals will give errors, which can also depend on their position in the input file. I increased sleep() times and it seems to have fixed this. Try increasing them even more if you experience issues.
 
 
 # SUGGESTED IMPROVEMENTS

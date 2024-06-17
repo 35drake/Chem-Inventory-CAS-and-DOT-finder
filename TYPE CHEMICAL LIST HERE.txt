@@ -1,4 +1,7 @@
-Tetramethylammonium chloride solution
-Sodium hydroxide solution 1N
-DEPC-treated H2O
-Distilled Water
+Dimethyl Sulfoxide DMSO 
+Ethyl Alcohol, Pure
+Methanol 99.8%
+Methanol, Optima
+Dimethyl Sulfoxide DMSO 
+FBS, heat inactivated
+FBS, heat inactivated

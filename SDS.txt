@@ -1,7 +1,7 @@
 SAFETY DATA SHEET 
 
-Version 8.1 
-Revision Date 01/23/2024 
+Version 6.3 
+Revision Date 03/15/2024 
 Print Date 06/15/2024 
 
 SECTION 1: Identification of the substance/mixture and of the company/undertaking 
@@ -10,25 +10,21 @@ SECTION 1: Identification of the substance/mixture and of the company/undertakin
 
 Product name 
 
-:  Water ASTM Type II Deionized, Distilled For 
-
-Microscopy Harleco® 
+:  Fetal Bovine Serum 
 
 Product Number 
-Catalogue No. 
 Brand 
 CAS-No. 
 
-:  6442 
-:  AA6442 
-:  Millipore 
-:  7732-18-5 
+:  12306C 
+:  Sigma 
+:  1943609-65-1 
 
 1.2  Relevant identified uses of the substance or mixture and uses advised against 
 
 Identified uses 
 
-:  Biochemical research/analysis 
+:  Laboratory chemicals, Synthesis of substances 
 
 1.3  Details of the supplier of the safety data sheet 
 
@@ -61,11 +57,15 @@ Not a hazardous substance or mixture.
 
 2.2  GHS Label elements, including precautionary statements 
 
-Not a hazardous substance or mixture. 
+No hazard pictogram, no signal word, no hazard statement(s), no precautionary 
+statement(s) required 
 
 2.3  Hazards not otherwise classified (HNOC) or not covered by GHS - none 
 
-Millipore - 6442 
+SECTION 3: Composition/information on ingredients 
+
+3.1  Substances 
+Sigma - 12306C 
 
 Page 1  of  8 
 
@@ -97,18 +97,15 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-SECTION 3: Composition/information on ingredients 
+ 
+ 
+Synonyms 
 
-3.1  Substances 
-Formula 
-Molecular weight 
+:  FBS 
+
 CAS-No. 
-EC-No. 
 
-:  H2O 
-:  18.02 g/mol 
-:  7732-18-5 
-:  231-791-2 
+:  1943609-65-1 
 
 No components need to be disclosed according to the applicable regulations. 
 
@@ -160,7 +157,12 @@ Ambient fire may liberate hazardous vapours.
 
 In the event of fire, wear self-contained breathing apparatus. 
 
-Millipore - 6442 
+5.4  Further information 
+
+Prevent fire extinguishing water from contaminating surface water or the ground water 
+system. 
+
+Sigma - 12306C 
 
 Page 2  of  8 
 
@@ -188,11 +190,9 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-5.4  Further information 
-
-none 
-
-SECTION 6: Accidental release measures 
+ 
+ 
+SECTION 6: Accidental release measures 
 
 6.1  Personal precautions, protective equipment and emergency procedures 
 
@@ -202,12 +202,13 @@ For personal protection see section 8.
 
 6.2  Environmental precautions 
 
-No special precautionary measures necessary. 
+Do not let product enter drains. 
 
 6.3  Methods and materials for containment and cleaning up 
 
-Observe possible material restrictions (see sections 7 and 10). Take up with liquid-
-absorbent material (e.g. Chemizorb® ). Dispose of properly. Clean up affected area. 
+Cover drains. Collect, bind, and pump off spills. Observe possible material restrictions 
+(see sections 7 and 10). Take up with liquid-absorbent material (e.g. Chemizorb® ). 
+Dispose of properly. Clean up affected area. 
 
 6.4  Reference to other sections 
 
@@ -222,9 +223,8 @@ For precautions see section 2.2.
 
 Storage conditions 
 Tightly closed. 
-
-Recommended storage temperature see product label.  
-
+Storage stabilityRecommended storage temperature 
+-20 °C 
 Storage class 
 Storage class (TRGS 510): 10: Combustible liquids 
 
@@ -244,7 +244,13 @@ Contains no substances with occupational exposure limit values.
 Appropriate engineering controls 
 Change contaminated clothing. Wash hands after working with substance. 
 
-Millipore - 6442 
+Personal protective equipment 
+
+Eye/face protection 
+Use equipment for eye protection tested and approved under appropriate 
+government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
+
+Sigma - 12306C 
 
 Page 3  of  8 
 
@@ -272,23 +278,14 @@ operates as MilliporeSigma in the US and Canada
  
  
  
- 
- 
- 
-Personal protective equipment 
-
-Eye/face protection 
-Use equipment for eye protection tested and approved under appropriate 
-government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
-
-Skin protection 
+Skin protection 
 not required 
 
 Respiratory protection 
 Not required; except in case of aerosol formation. 
 
 Control of environmental exposure 
-No special precautionary measures necessary. 
+Do not let product enter drains. 
 
 SECTION 9: Physical and chemical properties 
 
@@ -296,10 +293,10 @@ SECTION 9: Physical and chemical properties
 
 a)  Appearance 
 
-Form: liquid 
-Color: colorless 
-
 b)  Odor 
+
+Form: clear 
+Color: dark amber 
 
 No data available 
 
@@ -318,11 +315,11 @@ f)
 Initial boiling point 
 and boiling range 
 
-6.0 - 8.0 at 25 °C (77 °F) 
+6.5 - (External MSDS) 
 
-Melting point/range: 0.0 °C (32.0 °F) 
+No data available 
 
-100.0 °C 212.0 °F at 1,013 hPa 
+No data available 
 
 g)  Flash point 
 
@@ -355,7 +352,7 @@ No data available
 
 m)  Density 
 
-1.000 g/cm3 at 3.98 °C (39.16 °F) - lit. 
+No data available 
 
 Relative density 
 
@@ -363,15 +360,15 @@ No data available
 
 n)  Water solubility 
 
-completely miscible 
+No data available 
 
 o)  Partition coefficient: 
 n-octanol/water 
 
+No data available 
+
 p)  Autoignition 
 temperature 
-
-log Pow: -0.467 - Bioaccumulation is not expected. 
 
 No data available 
 
@@ -379,7 +376,15 @@ q)  Decomposition
 
 No data available 
 
-Millipore - 6442 
+temperature 
+
+r)  Viscosity 
+
+No data available 
+
+s)  Explosive properties  No data available 
+
+Sigma - 12306C 
 
 Page 4  of  8 
 
@@ -404,15 +409,7 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-temperature 
-
-r)  Viscosity 
-
-No data available 
-
-s)  Explosive properties  No data available 
-
-t)  Oxidizing properties  none 
+t)  Oxidizing properties  none 
 
 9.2  Other safety information 
 
@@ -430,12 +427,11 @@ The product is chemically stable under standard ambient conditions (room tempera
 
 10.3  Possibility of hazardous reactions 
 Violent reactions possible with: 
-The generally known reaction partners of water. 
-Violent reactions possible with: 
-The generally known reaction partners of water. 
+Strong oxidizing agents 
 
 10.4  Conditions to avoid 
 
+Heat. 
 no information available 
 
 10.5  Incompatible materials 
@@ -450,8 +446,7 @@ SECTION 11: Toxicological information
 11.1  Information on toxicological effects 
 
 Acute toxicity 
-LD50 Oral - Rat - > 90,000 mg/kg 
-Remarks: (RTECS) 
+Oral: No data available 
 Inhalation: No data available 
 Dermal: No data available 
 
@@ -465,45 +460,44 @@ Respiratory or skin sensitization
 No data available 
 
 Germ cell mutagenicity 
-
-Millipore - 6442 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
-Page 5  of  8 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-No data available 
+No data available 
 
 Carcinogenicity 
 
 IARC: 
 
-NTP: 
-
 No ingredient of this product present at levels greater than or equal to 0.1% is 
 identified as probable, possible or confirmed human carcinogen by IARC. 
+
+Sigma - 12306C 
+
+Page 5  of  8 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NTP: 
 
 No ingredient of this product present at levels greater than or equal to 0.1% is 
 identified as a known or anticipated carcinogen by NTP. 
@@ -558,17 +552,17 @@ conducted
 No data available 
 
 12.7 Other adverse effects 
+No data available 
 
-No ecological problems are to be expected when the product is handled and used with due 
-care and attention. 
-
-Millipore - 6442 
+Sigma - 12306C 
 
 Page 6  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
+ 
+ 
  
  
  
@@ -597,8 +591,7 @@ operates as MilliporeSigma in the US and Canada
 Product 
 Waste material must be disposed of in accordance with the national and local regulations. 
 Leave chemicals in original containers. No mixing with other waste. Handle uncleaned 
-containers like the product itself. See www.retrologistik.com for processes regarding the 
-return of chemicals and containers, or contact us there if you have further questions.  
+containers like the product itself.  
 
 SECTION 14: Transport information 
 
@@ -624,14 +617,11 @@ This material does not contain any chemical components with known CAS numbers th
 exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 
 313. 
 
+SARA 311/312 Hazards 
+No SARA Hazards 
+
 Massachusetts Right To Know Components 
-
-water 
-
-CAS-No. 
-7732-18-5 
-
-Revision Date 
+No components are subject to the Massachusetts Right to Know Act. 
 
 SECTION 16: Other information 
 
@@ -639,8 +629,10 @@ Further information
 The information is believed to be correct but is not exhaustive and will be used solely as 
 a guideline, which is based on current knowledge of the chemical substance or mixture 
 and is applicable to appropriate safety precautions for the product. It does not represent 
+any guarantee of the properties of the product. Sigma-Aldrich Corporation and its 
+Affiliates shall not be held liable for any damage resulting from handling or from contact 
 
-Millipore - 6442 
+Sigma - 12306C 
 
 Page 7  of  8 
 
@@ -675,15 +667,7 @@ operates as MilliporeSigma in the US and Canada
  
  
  
- 
- 
- 
- 
- 
- 
-any guarantee of the properties of the product. Sigma-Aldrich Corporation and its 
-Affiliates shall not be held liable for any damage resulting from handling or from contact 
-with the above product. See www.sigma-aldrich.com and/or the reverse side of invoice 
+with the above product. See www.sigma-aldrich.com and/or the reverse side of invoice 
 or packing slip for additional terms and conditions of sale. 
 Copyright 2020 Sigma-Aldrich Co. LLC. License granted to make unlimited paper copies 
 for internal use only. 
@@ -691,13 +675,13 @@ The branding on the header and/or footer of this document may temporarily not vi
 match the product purchased as we transition our branding. However, all of the 
 information in the document regarding the product remains unchanged and matches the 
 product ordered. For further information please contact mlsbranding@sial.com. 
-Version: 8.1 
+Version: 6.3 
 
-Revision Date: 01/23/2024 
+Revision Date: 03/15/2024 
 
 Print Date: 06/15/2024 
 
-Millipore - 6442 
+Sigma - 12306C 
 
 Page 8  of  8 
 
