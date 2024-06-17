@@ -19,6 +19,8 @@
 
 import os # to let me manage files and install packages with pip
 
+import sys # for debug, so you can initiate an exit (and inspect a file such as sds.txt) even when you're inside of a try statement
+
 try:
 	from pdfminer.high_level import extract_text # for extracting our SDS pdf into a text string
 except:
@@ -76,11 +78,11 @@ def get_sds_url(chemical_name):
 	driver.maximize_window()
 	
 	# Close the cookies statement
-	time.sleep(1)
+	time.sleep(2)
 	driver.find_element("xpath",r"""//*[@id="onetrust-accept-btn-handler"]""").click()
 
 	# Clear the search bar of the current word (TESTosterone)
-	time.sleep(1)
+	time.sleep(2)
 	for count in range(0,len("TESTosterone")):
 		try:
 			driver.find_element("xpath",r"""//*[@id="header-search-search-wrapper-input"]""").send_keys(Keys.BACKSPACE)
@@ -89,8 +91,8 @@ def get_sds_url(chemical_name):
 		
 		
 	# Type in your chemical name
-	print("\n\nSending keys: " + chemical_name + "\n\n")
-	time.sleep(1)
+	# print("\n\nSending keys: " + chemical_name + "\n\n")
+	time.sleep(2)
 	# Bug here, where the first word of a chemical name isn't typed.
 	try:
 		driver.find_element("xpath",r"""//*[@id="header-search-search-wrapper-input"]""").send_keys(chemical_name)
@@ -100,7 +102,7 @@ def get_sds_url(chemical_name):
 
 	
 	# Click the "Search" button
-	time.sleep(1)
+	time.sleep(2)
 	try:
 		driver.find_element("xpath",r"""//*[@id="header-search-submit-search"]""").click()
 	except:
@@ -112,7 +114,7 @@ def get_sds_url(chemical_name):
 	# driver.find_element("id","sds-MM1.94500").click()
 	
 	driver.execute_script("document.body.style.zoom='50%'")
-	time.sleep(3)
+	time.sleep(4)
 	html_string = driver.page_source
 
 	#delete html_output.txt if it already exists
@@ -133,16 +135,16 @@ def get_sds_url(chemical_name):
 		spot = html_formatted.index(search_string) # We now know where in our HTML code the clickable button's name is
 	except: # You probably got a "No results page" in Sigma's search engine
 		return "NO RESULTS FROM SIGMA"
-	print(spot)
+	# print(spot)
 
 	# We'll now find the download button's name
 	new_html = html_formatted[spot:spot+100] #This string should contain our button ID
-	print(new_html)
+	# print(new_html)
 
 	button_name = new_html[ new_html.index("\"")+1 : new_html.index(" ")-1 ]
-	print(button_name)
+	# print(button_name)
 	
-	time.sleep(4)
+	time.sleep(5)
 	try:
 		driver.find_element("id",button_name).click()
 	except:
@@ -154,10 +156,10 @@ def get_sds_url(chemical_name):
 			driver.find_element("id",button_name).click()
 			
 	# click the English button
-	time.sleep(3)
+	time.sleep(4)
 	driver.find_element("xpath",r"""//*[@id="sds-link-EN"]""").click()
 
-	time.sleep(5)
+	time.sleep(6)
 	# The PDF is now open; switch Selenium's brain to the new window and get the PDF's url
 	
 	driver.switch_to.window(driver.window_handles[1])
@@ -186,7 +188,7 @@ def download_pdf(lnk):
 	})
 	driver = webdriver.Chrome(options=options)
 	
-	driver.set_page_load_timeout(9) #It always hangs after downloading the PDF, for me. Setting this to only 5 seconds caused problems.
+	driver.set_page_load_timeout(6) #It always hangs after downloading the PDF, for me. Setting this to only 5 seconds caused problems. Or maybe that wasn't the issue...
 
 	try:
 		driver.get(lnk)
@@ -200,14 +202,18 @@ def rename_and_move_SDS():
 	print(filenames)
 	# Go through the list to find the pdf. Hopefully there will be just 1, our SDS's pdf
 	for item in filenames:
-		print(item[-3:])
+		# print(item[-3:])
 		if item[-3:] == "pdf":
 			os.system( "move " + item + " CurrentSDS/CurrentSDS.pdf" )
-	print("\nPDF has been moved successfully.\n")
+			# print(item + " just got moved.\n")
+	# print("\nPDF has been moved successfully.\n")
 	# unused_var = input("\nPause\n")
 
 # Scrape our downloaded SDS, to get data on the chemical
 def extract_our_SDS():
+	
+	# print("CHECKPOINT 000")
+
 	print("Starting extract_our_SDS().")
 	return_GivenName = ""  # The chemical name from the SDS. Let's get this in case we want to manually confirm later that the chemical is actually the one we're looking for, and not just a similar result that Sigma's search engine gave us
 	return_CAS = "" # I adjusted the program so that the CAS actually is pulled from the html code and not the SDS anymore. It will still be done inside this function, though.
@@ -216,13 +222,27 @@ def extract_our_SDS():
 	# Extract the SDS content as a string
 	SDS_content = extract_text("CurrentSDS/CurrentSDS.pdf")
 
+	# print("CHECKPOINT 001")
+
 	# Put the SDS content into a text file, for debug purposes. Call it "sds.txt", but delete the old file if it exists (due to a previous session) first.
 	try:
 		os.remove("sds.txt")
 	except:
 		pass
-	with open("sds.txt", "w") as f:
-		f.write(SDS_content)
+
+
+	# Some SDS's have strange characters that can't be written with write(). I should figure out why (ie characters aren't UTF-8), then find a fast way to exclude these characters.
+	# For now, I instead append to the file one character at a time, with a try statement. This process takes longer (about 30 seconds), but works.
+	for character in SDS_content:
+		try:
+			with open("sds.txt", "a") as f:
+				f.write(character)
+		except:
+			print("Unwriteable character found in SDS_content string. Skipping to the next character.")
+
+
+
+	# print("CHECKPOINT 002")
 
 	try: # I don't care that much about the given name, so if it can't be found I'm just gonna let the program continue.
 		# Get the SDS's product name, which should be after the first colon that comes after "Product", and end with a newling, on a standard Sigma SDS.
@@ -260,8 +280,9 @@ def extract_our_SDS():
 	except:
 		return_CAS = "Unknown"
 
-	print("\nCheckpoint Alpha\n")
+	# print("Checkpoint 003")
 	
+
 	# Get the SDS's DOT info (class) IF it exists, which will be after the "Class:" text and before the "Proper" text
 	if "Not dangerous goods" in SDS_content:
 		return_DOT = "N/A"
@@ -271,10 +292,10 @@ def extract_our_SDS():
 		if return_DOT[-1] == " ": 
 			return_DOT = return_DOT[:-1] # If the final character is a space, delete that space (but not other spaces in the DOT classification phrase)
 	
-	print("\nCheckpoint Beta\n")
+	# print("Checkpoint 004")
 
 
-	print("\nSDS data has been extracted successfully.\n")
+	# print("\nSDS data has been extracted successfully.\n")
 	# Return all 3 values to end the function
 	print("Finishing extract_our_SDS().")
 	return([return_GivenName,return_CAS,return_DOT])
@@ -286,7 +307,22 @@ def get_chem_info(chem_name):
 	if chem_name.strip() == "": #If the name is just whitespace, return Unknowns (change this to blanks if you prefer). Usually, the input chem name is blank or just whitespace because it's from an empty cell of the spreadsheet the user pasted in to the TYPE CHEMICAL LIST HERE file.
 		print("\n\nReturning Unknowns for " + chem_name + " because this line is just whitespace.\n\n")
 		return ["Unknown","Unknown","Unknown"]
-	try:
+
+	# DEBUG LINE BELOW!
+	if False: #set this to True if you're done debugging, and want the program to just move on if there's an error for a chemical, instead of stopping. Set this to False if you want the program to end when there's an error in this section, and tell you what the error is.
+		try:
+			pdf_url = get_sds_url(chem_name)
+			if pdf_url == "NO RESULTS FROM SIGMA":
+				print("\n\nReturning Unknowns for " + chem_name + "  because no results from Sigma.\n\n")
+				return ["Unknown","Unknown","Unknown"]
+			else:
+				download_pdf(pdf_url)
+				rename_and_move_SDS()
+				return extract_our_SDS()
+		except: # The program can have unexpected failures for various reasons. Most of the time, this is because Sigma gave you an SDS straight from a manufacturer (ie Roche), which isn't in Sigma's standard format
+			print("\n\nReturning Unknowns for " + chem_name + "  because of an unexpected failure inside get_chem_info().\n\n")
+			return ["Unknown","Unknown","Unknown"]
+	else:
 		pdf_url = get_sds_url(chem_name)
 		if pdf_url == "NO RESULTS FROM SIGMA":
 			print("\n\nReturning Unknowns for " + chem_name + "  because no results from Sigma.\n\n")
@@ -295,9 +331,6 @@ def get_chem_info(chem_name):
 			download_pdf(pdf_url)
 			rename_and_move_SDS()
 			return extract_our_SDS()
-	except: # The program can have unexpected failures for various reasons. Most of the time, this is because Sigma gave you an SDS straight from a manufacturer (ie Roche), which isn't in Sigma's standard format
-		print("\n\nReturning Unknowns for " + chem_name + "  because of an unexpected failure inside get_chem_info().\n\n")
-		return ["Unknown","Unknown","Unknown"]
 	
 
 
@@ -344,8 +377,14 @@ for item in chem_list:
 print("\n\n\n\n\nDone.")
 
 
+
+# DEBUG NOTE
+# - When you're giving the program to an inexperienced user, or are processing a large amount of chemicals, or just need the program to not stall at any error -- set the debug line in get_chem_info() to True!
+
 # CURRENT ISSUES
-# - When "bovine serum" is the 2nd chemical input, it fails. Why? It turns out download_pdf() is failing for some reason, and won't download this chemical's pdf (f8067.pdf) if it's #2 on the list. It's ok for #1 and #3 though. SOLVED? Due to low timeout time for Selenium. I'm now giving it 9 seconds to download the SDS.
+# - Strange occurrences of "no results from Sigma" for chemicals when they're in certain spots. I.e., when "Tetramethylammonium chloride solution" is in spot #4 in our input file, it has no results. But it does as #1.
+#	However, this problem seems to be solved with increasing sleep() times. Hmm...
+
 
 # SUGGESTED IMPROVEMENTS
 # - If a CAS number received isn't just digits and dashes, then that's definitely an error so just change it to "Unknown"
