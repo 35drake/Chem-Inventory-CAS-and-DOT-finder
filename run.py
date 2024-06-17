@@ -325,7 +325,7 @@ print("\n\n\n\n\nDone.")
 
 
 # CURRENT ISSUES
-# - It's possible (but not confirmed yet) that if you have an unexpected error for 1 chemical, even though the program moves on, all chenmicals afterward will be processed incorrectly and always return "Unknown"s
+# - The SDSs from Sigma reliably give you DOT info the same way every time, but not the CAS number. It would be better to pull the CAS number from Sigma's uniform HTML pages, then continue grabbing the DOT from the SDS like normal.
 
 # SUGGESTED IMPROVEMENTS
 # - If a CAS number received isn't just digits and dashes, then that's definitely an error so just change it to "Unknown"
