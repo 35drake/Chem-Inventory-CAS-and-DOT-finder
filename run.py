@@ -373,9 +373,11 @@ for filename in ["RESULTS/Sigma Names.txt", "RESULTS/CAS Numbers.txt", "RESULTS/
 for item in chem_list:
 	print("$"+item+"$")
 	chem_data = get_chem_info(item)
+
 	if chem_data[1] == "Unknown" and chem_data[2] != "Unknown": # If the chemical has a DOT result (whether its a class or "N/A") but no CAS number results, then it's not the CAS number is unknown/ not found successfully. This chemical just HAS NO CAS number, so let's change it's CAS status from "Unknown" to "None".
-		chem_data[1] == "None"
-		print(chem_data[0] + " just has no CAS number so its CAS status will be changed from Unknown to None.\n")
+		chem_data[1] = "None"
+		print("\"" + chem_data[0] + "\"" + " just has no CAS number so its CAS status will be changed from Unknown to None.\n")
+
 	with codecs.open("RESULTS/Sigma Names.txt", "a","utf-8") as myfile:
 		myfile.write(chem_data[0])
 		myfile.write("\n")
