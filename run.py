@@ -396,9 +396,11 @@ print("\n\n\n\n\nDone.")
 # - When you're giving the program to an inexperienced user, or are processing a large amount of chemicals, or just need the program to not stall at any error -- set the debug line in get_chem_info() to True!
 
 # CURRENT ISSUES
+# - Although the program's running very well now, the print statements (which are pretty much there for debugging) are warped. I think this is due to me using codec.open() for some reason. I could start printing with utf-8 encoding somehow? Not really worried about it cuz this program's console log isn't important honestly.
 # - If a chemical is listed two times in a row, sometimes an error/Unknowns result can come out for the second one even if the first one succeeded.
 # - Selenium runs twice in the program for each chemical: it runs to find the SDS url and it runs again to open/download that url. These two instances should be combined into one running of Selenium that doesn't close till it finishes both tasks.
 # - The use of sds.txt is unecessary, as we can clean out unreadable characters from the string with codec.open(), instead of cleaning it through a text file (sds.txt). So I should fix that code to make the program faster and easier to understand.
+# - I would add an option that lets you automatically KEEP all the downloaded SDSs in a folder, named by number (ie "001 - Methanol.pdf" , "002 - Toluene.pdf" , etc.). That would look nice and allow you to double check a couple of your results more thoroughly.
 # - Increasing sleep() times fixed some issues. Increasing it more is unlikely to fix any remaining issues, but I would try it anyway if you're debugging and are stumped by a glitch.
 
 
