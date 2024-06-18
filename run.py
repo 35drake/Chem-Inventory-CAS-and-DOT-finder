@@ -211,15 +211,15 @@ def rename_and_move_SDS():
 	# print("\nPDF has been moved successfully.\n")
 	# unused_var = input("\nPause\n")
 
-# Scrape our downloaded SDS, to get data on the chemical
+# Scrape our downloaded SDS, to get data on the chemical. "Unknowns" should only be returned if the chemical was unfindable by Sigma, if there was an unforeseen errror, or for the CAS number if there just is no CAS number (but then the main function will change the CAS to "None" later).
 def extract_our_SDS():
 	
 	# print("CHECKPOINT 000")
 
 	print("Starting extract_our_SDS().")
 	return_GivenName = ""  # The chemical name from the SDS. Let's get this in case we want to manually confirm later that the chemical is actually the one we're looking for, and not just a similar result that Sigma's search engine gave us
-	return_CAS = "" # I adjusted the program so that the CAS actually is pulled from the html code and not the SDS anymore. It will still be done inside this function, though.
-	return_DOT = ""
+	return_CAS = "" # I adjusted the program so that the CAS actually is pulled from the html code and not the SDS anymore. It will still be done inside this function, though. Anyway, it will return "Unknown" if the chemical was unfindable. "Unknown" will also be returned if the chemical WAS findable, but just has no CAS number. But this results will be changed to "None" in main(), as long as there's proof that the SDS was read properly and without error (this proof is that the DOT status wasn't returned as "Unknown").
+	return_DOT = "" # This will return as "N/A" or something such as "Class 8(5.1)" if pulled successfully. It will only return "Unknown" if the chemical was unfindable or if there was an error.
 	
 	# Extract the SDS content as a string
 	SDS_content = extract_text("CurrentSDS/CurrentSDS.pdf")
@@ -366,10 +366,16 @@ for filename in ["RESULTS/Sigma Names.txt", "RESULTS/CAS Numbers.txt", "RESULTS/
 	except OSError:
 	    pass
 
+
+
+
 # Fill all 3 of the lists of data, one chemical at a time
 for item in chem_list:
 	print("$"+item+"$")
 	chem_data = get_chem_info(item)
+	if chem_data[1] == "Unknown" and chem_data[2] != "Unknown": # If the chemical has a DOT result (whether its a class or "N/A") but no CAS number results, then it's not the CAS number is unknown/ not found successfully. This chemical just HAS NO CAS number, so let's change it's CAS status from "Unknown" to "None".
+		chem_data[1] == "None"
+		print(chem_data[0] + " just has no CAS number so its CAS status will be changed from Unknown to None.\n")
 	with codecs.open("RESULTS/Sigma Names.txt", "a","utf-8") as myfile:
 		myfile.write(chem_data[0])
 		myfile.write("\n")
@@ -388,7 +394,8 @@ print("\n\n\n\n\nDone.")
 # - When you're giving the program to an inexperienced user, or are processing a large amount of chemicals, or just need the program to not stall at any error -- set the debug line in get_chem_info() to True!
 
 # CURRENT ISSUES
-# - If a chemical is listed two times in a row, an error/Unknowns result can come out for the second one even if the first one succeeded.
+# - If a chemical is listed two times in a row, sometimes an error/Unknowns result can come out for the second one even if the first one succeeded.
+# - Selenium runs twice in the program for each chemical: it runs to find the SDS url and it runs again to open/download that url. These two instances should be combined into one running of Selenium that doesn't close till it finishes both tasks.
 # - The use of sds.txt is unecessary, as we can clean out unreadable characters from the string with codec.open(), instead of cleaning it through a text file (sds.txt). So I should fix that code to make the program faster and easier to understand.
 # - Increasing sleep() times fixed some issues. Increasing it more is unlikely to fix any remaining issues, but I would try it anyway if you're debugging and are stumped by a glitch.
 

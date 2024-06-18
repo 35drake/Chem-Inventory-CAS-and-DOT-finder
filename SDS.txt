@@ -1,6 +1,6 @@
 SAFETY DATA SHEET 
 
-Version 8.5 
+Version 6.8 
 Revision Date 03/02/2024 
 Print Date 06/15/2024 
 
@@ -10,17 +10,13 @@ SECTION 1: Identification of the substance/mixture and of the company/undertakin
 
 Product name 
 
-:  Thymol 
+:  SYLGARD® 184 
 
 Product Number 
 Brand 
-Index-No. 
-CAS-No. 
 
-:  W306606 
+:  761036 
 :  Aldrich 
-:  604-032-00-1 
-:  89-83-8 
 
 1.2  Relevant identified uses of the substance or mixture and uses advised against 
 
@@ -60,23 +56,27 @@ Emergency Phone #
 527-3887 CHEMTREC (International) 24 
 Hours/day; 7 Days/week 
 
+This is a summary SDS for a kit. For the full SDS for each of the components listed in section 
+16 please visit our website. 
+
+This is a summary SDS for a kit. For the full SDS for each of the components listed in 
+section 16 please visit our website. 
+
 SECTION 2: Hazards identification 
 
 2.1  Classification of the substance or mixture 
 
 GHS Classification in accordance with 29 CFR 1910 (OSHA HCS) 
 
-Acute toxicity, Oral (Category 4), H302 
-Skin corrosion (Category 1B), H314 
-Serious eye damage (Category 1), H318 
+Flammable liquids (Category 4), H227 
 
-Aldrich - W306606 
+Aldrich - 761036 
+
+Page 1  of  7 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
-Page 1  of  11 
-
  
  
  
@@ -100,8 +100,10 @@ Page 1  of  11
  
  
  
-Short-term (acute) aquatic hazard (Category 2), H401 
-Long-term (chronic) aquatic hazard (Category 2), H411 
+Skin irritation (Category 2), H315 
+Eye irritation (Category 2A), H319 
+Carcinogenicity (Category 2), H351 
+Specific target organ toxicity - single exposure (Category 3), Respiratory system, H335 
 
 For the full text of the H-Statements mentioned in this Section, see Section 16. 
 
@@ -111,355 +113,153 @@ Pictogram
 
 Signal Word 
 
-Danger 
+Warning 
 
 Hazard Statements 
-H302 
-H314 
-H411 
+H227 
+H315 
+H319 
+H335 
+H351 
 
 Precautionary Statements 
-P260 
+P201 
+P202 
+
+P210 
+
+P261 
 P264 
-P270 
-P273 
+P271 
 P280 
 
-P301 + P312 + P330 
+P302 + P352 
+P304 + P340 + P312 
 
-P301 + P330 + P331 
-P303 + P361 + P353 
+P305 + P351 + P338 
 
-P304 + P340 + P310 
+P308 + P313 
+P332 + P313 
+P337 + P313 
+P362 
+P370 + P378 
 
-P305 + P351 + P338 + 
-P310 
-
-P363 
-P391 
+P403 + P233 
+P403 + P235 
 P405 
 P501 
 
-Harmful if swallowed. 
-Causes severe skin burns and eye damage. 
-Toxic to aquatic life with long lasting effects. 
+Combustible liquid. 
+Causes skin irritation. 
+Causes serious eye irritation. 
+May cause respiratory irritation. 
+Suspected of causing cancer. 
 
-Do not breathe dust. 
+Obtain special instructions before use. 
+Do not handle until all safety precautions have been read and 
+understood. 
+Keep away from heat/ sparks/ open flames/ hot surfaces. No 
+smoking. 
+Avoid breathing mist or vapors. 
 Wash skin thoroughly after handling. 
-Do not eat, drink or smoke when using this product. 
-Avoid release to the environment. 
+Use only outdoors or in a well-ventilated area. 
 Wear protective gloves/ protective clothing/ eye protection/ face 
 protection. 
-IF SWALLOWED: Call a POISON CENTER/ doctor if you feel 
-unwell. Rinse mouth. 
-IF SWALLOWED: Rinse mouth. Do NOT induce vomiting. 
-IF ON SKIN (or hair): Take off immediately all contaminated 
-clothing. Rinse skin with water/ shower. 
+IF ON SKIN: Wash with plenty of soap and water. 
 IF INHALED: Remove person to fresh air and keep comfortable 
-for breathing. Immediately call a POISON CENTER/ doctor. 
+for breathing. Call a POISON CENTER/ doctor if you feel unwell. 
 IF IN EYES: Rinse cautiously with water for several minutes. 
 Remove contact lenses, if present and easy to do. Continue 
-rinsing. Immediately call a POISON CENTER/ doctor. 
-Wash contaminated clothing before reuse. 
-Collect spillage. 
+rinsing. 
+IF exposed or concerned: Get medical advice/ attention. 
+If skin irritation occurs: Get medical advice/ attention. 
+If eye irritation persists: Get medical advice/ attention. 
+Take off contaminated clothing and wash before reuse. 
+In case of fire: Use dry sand, dry chemical or alcohol-resistant 
+foam to extinguish. 
+Store in a well-ventilated place. Keep container tightly closed. 
+Store in a well-ventilated place. Keep cool. 
 Store locked up. 
 Dispose of contents/ container to an approved waste disposal 
 plant. 
 
 2.3  Hazards not otherwise classified (HNOC) or not covered by GHS - none 
 
-SECTION 3: Composition/information on ingredients 
+Aldrich - 761036 
 
-3.1  Substances 
-
-Synonyms 
-
-:  5-Methyl-2-isopropylphenol 
-
-5-Methyl-2-(1-methylethyl)phenol 
-2-Isopropyl-5-methylphenol 
-
-Formula 
-Molecular weight 
-CAS-No. 
-EC-No. 
-
-:  C10H14O 
-:  150.22 g/mol 
-:  89-83-8 
-:  201-944-8 
-
-Aldrich - W306606 
+Page 2  of  7 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
-Page 2  of  11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 3: Composition/information on ingredients 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Index-No. 
-
-Component 
-
-thymol 
-
-:  604-032-00-1 
-
-Classification 
-
-Concentration 
-
-<= 100 % 
-
-Acute Tox. 4; Skin Corr. 
-1B; Eye Dam. 1; Aquatic 
-Acute 2; Aquatic Chronic 
-2; H302, H314, H318, 
-H401, H411 
-
-For the full text of the H-Statements mentioned in this Section, see Section 16. 
+Refer to component SDS 
 
 SECTION 4: First aid measures 
 
-4.1  Description of first-aid measures 
-
-General advice 
-First aiders need to protect themselves. Show this material safety data sheet to the doctor 
-in attendance. 
-
-If inhaled 
-After inhalation: fresh air. Call in physician. 
-
-In case of skin contact 
-In case of skin contact: Take off immediately all contaminated clothing. Rinse skin with 
-water/ shower. Call a physician immediately. 
-
-In case of eye contact 
-After eye contact: rinse out with plenty of water. Immediately call in ophthalmologist. 
-Remove contact lenses. 
-
-If swallowed 
-After swallowing: make victim drink water (two glasses at most), avoid vomiting (risk of 
-perforation). Call a physician immediately. Do not attempt to neutralise. 
-
-4.2  Most important symptoms and effects, both acute and delayed 
-
-The most important known symptoms and effects are described in the labelling (see section 
-2.2) and/or in section 11 
-
-4.3  Indication of any immediate medical attention and special treatment needed 
-
-No data available 
+Refer to component SDS 
 
 SECTION 5: Firefighting measures 
 
-5.1  Extinguishing media 
-
-Suitable extinguishing media 
-Carbon dioxide (CO2) Foam Dry powder 
-
-Unsuitable extinguishing media 
-For this substance/mixture no limitations of extinguishing agents are given. 
-
-Aldrich - W306606 
-
-Page 3  of  11 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-5.2  Special hazards arising from the substance or mixture 
-
-Carbon oxides 
-Combustible. 
-Vapors are heavier than air and may spread along floors. 
-Forms explosive mixtures with air on intense heating. 
-Development of hazardous combustion gases or vapours possible in the event of fire. 
-
-5.3  Advice for firefighters 
-
-Stay in danger area only with self-contained breathing apparatus. Prevent skin contact by 
-keeping a safe distance or by wearing suitable protective clothing. 
-
-5.4  Further information 
-
-Prevent fire extinguishing water from contaminating surface water or the ground water 
-system. 
+Refer to component SDS 
 
 SECTION 6: Accidental release measures 
 
-6.1  Personal precautions, protective equipment and emergency procedures 
-
-Advice for non-emergency personnel: Avoid inhalation of dusts. Avoid substance contact. 
-Ensure adequate ventilation. Evacuate the danger area, observe emergency procedures, 
-consult an expert. 
-For personal protection see section 8. 
-
-6.2  Environmental precautions 
-
-Do not let product enter drains. 
-
-6.3  Methods and materials for containment and cleaning up 
-
-Cover drains. Collect, bind, and pump off spills. Observe possible material restrictions 
-(see sections 7 and 10). Take up dry. Dispose of properly. Clean up affected area. Avoid 
-generation of dusts. 
-
-6.4  Reference to other sections 
-
-For disposal see section 13. 
+Refer to component SDS 
 
 SECTION 7: Handling and storage 
 
 7.1  Precautions for safe handling 
+
+Advice on protection against fire and explosion 
+Keep away from open flames, hot surfaces and sources of ignition.Take precautionary 
+measures against static discharge. 
+
+Hygiene measures 
+Immediately change contaminated clothing. Apply preventive skin protection. Wash hands 
+and face after working with substance. 
 For precautions see section 2.2. 
 
 7.2  Conditions for safe storage, including any incompatibilities 
 
 Storage conditions 
-Tightly closed. Dry. 
+Tightly closed. 
 
 Storage class 
-Storage class (TRGS 510): 8A: Combustible, corrosive hazardous materials 
+Storage class (TRGS 510): 10: Combustible liquids 
 
 7.3  Specific end use(s) 
 
 Apart from the uses mentioned in section 1.2 no other specific uses are stipulated 
 
-Aldrich - W306606 
+SECTION 8: Exposure controls/personal protection 
 
-Page 4  of  11 
+Refer to component SDS 
 
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
+Aldrich - 761036 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SECTION 8: Exposure controls/personal protection 
-
-8.1  Control parameters 
-
-Ingredients with workplace control parameters 
-Contains no substances with occupational exposure limit values. 
-
-8.2  Exposure controls 
-
-Appropriate engineering controls 
-Immediately change contaminated clothing. Apply preventive skin protection. Wash 
-hands and face after working with substance. 
-
-Personal protective equipment 
-
-Eye/face protection 
-Use equipment for eye protection tested and approved under appropriate 
-government standards such as NIOSH (US) or EN 166(EU). Tightly fitting safety 
-goggles 
-
-Skin protection 
-This recommendation applies only to the product stated in the safety data sheet, 
-supplied by us and for the designated use. When dissolving in or mixing with other 
-substances and under conditions deviating from those stated in EN 16523-1 please 
-contact the supplier of CE-approved gloves (e.g. KCL GmbH, D-36124 Eichenzell, 
-Internet: www.kcl.de). 
-Full contact 
-Material: Nitrile rubber 
-Minimum layer thickness: 0.11 mm 
-Break through time: 480 min 
-Material tested:KCL 741 Dermatril® L 
-
-This recommendation applies only to the product stated in the safety data sheet, 
-supplied by us and for the designated use. When dissolving in or mixing with other 
-substances and under conditions deviating from those stated in EN 16523-1 please 
-contact the supplier of CE-approved gloves (e.g. KCL GmbH, D-36124 Eichenzell, 
-Internet: www.kcl.de). 
-Splash contact 
-Material: Nitrile rubber 
-Minimum layer thickness: 0.11 mm 
-Break through time: 480 min 
-Material tested:KCL 741 Dermatril® L 
-
-Body Protection 
-protective clothing 
-
-Respiratory protection 
-Recommended Filter type: Filter type P2 
-The entrepeneur has to ensure that maintenance, cleaning and testing of respiratory 
-protective devices are carried out according to the instructions of the producer. 
-These measures have to be properly documented. 
-required when dusts are generated. 
-Our recommendations on filtering respiratory protection are based on the following 
-standards: DIN EN 143, DIN 14387 and other accompanying standards relating to 
-the used respiratory protection system. 
-
-Aldrich - W306606 
-
-Page 5  of  11 
+Page 3  of  7 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -481,119 +281,6 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-Control of environmental exposure 
-Do not let product enter drains. 
-
-SECTION 9: Physical and chemical properties 
-
-9.1  Information on basic physical and chemical properties 
-
-a)  Appearance 
-
-Form: crystalline 
-Color: colorless, to, white 
-
-b)  Odor 
-
-No data available 
-
-c)  Odor Threshold 
-
-No data available 
-
-d)  pH 
-
-e)  Melting 
-
-point/freezing point 
-
-f) 
-
-Initial boiling point 
-and boiling range 
-
-No data available 
-
-Melting point/range: 48 - 51 °C (118 - 124 °F) - lit. 
-
-232 °C 450 °F - lit. 
-
-g)  Flash point 
-
-116 °C (241 °F) - closed cup - ISO 3679 
-
-h)  Evaporation rate 
-
-No data available 
-
-i)  Flammability (solid, 
-
-No data available 
-
-gas) 
-
-j)  Upper/lower 
-
-No data available 
-
-flammability or 
-explosive limits 
-
-k)  Vapor pressure 
-
-0.022 hPa at 25 °C (77 °F) 
-
-l)  Vapor density 
-
-No data available 
-
-m)  Density 
-
-0.965 g/cm3 at 25 °C (77 °F) - lit. 
-
-Relative density 
-
-No data available 
-
-n)  Water solubility 
-
-0.8 g/l at 20 - 25 °C (68 - 77 °F) 
-
-o)  Partition coefficient: 
-n-octanol/water 
-
-p)  Autoignition 
-temperature 
-
-log Pow: 3.3 - Bioaccumulation is not expected. 
-
-does not ignite 
-
-q)  Decomposition 
-
-No data available 
-
-temperature 
-
-r)  Viscosity 
-
-No data available 
-
-s)  Explosive properties  No data available 
-
-t)  Oxidizing properties  none 
-
-9.2  Other safety information 
-
-  Dissociation constant  10.62 at 20 °C (68 °F) 
-
-Aldrich - W306606 
-
-Page 6  of  11 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
  
  
  
@@ -610,401 +297,111 @@ operates as MilliporeSigma in the US and Canada
  
  
  
- 
- 
- 
-SECTION 10: Stability and reactivity 
+SECTION 9: Physical and chemical properties 
 
-10.1  Reactivity 
+Refer to component SDS 
 
-Forms explosive mixtures with air on intense heating. 
-A range from approx. 15 Kelvin below the flash point is to be rated as critical. 
-The following applies in general to flammable organic substances and mixtures: in 
-correspondingly fine distribution, when whirled up a dust explosion potential may generally 
-be assumed. 
+SECTION 10: Stability and reactivity 
 
-10.2  Chemical stability 
-
-The product is chemically stable under standard ambient conditions (room temperature) . 
-
-10.3  Possibility of hazardous reactions 
-Violent reactions possible with: 
-Strong bases 
-strong oxidising agents 
-
-10.4  Conditions to avoid 
-Strong heating. 
-
-10.5  Incompatible materials 
-
-No data available 
-
-10.6  Hazardous decomposition products 
-In the event of fire: see section 5 
+Refer to component SDS 
 
 SECTION 11: Toxicological information 
 
-11.1  Information on toxicological effects 
-
-Acute toxicity 
-LD50 Oral - Rat - male and female - 980 mg/kg 
-Remarks: Classified according to Regulation (EU) 1272/2008, Annex VI (Table 3.1/3.2) 
-(ECHA) 
-Inhalation: No data available 
-LD50 Dermal - Rat - male and female - > 2,000 mg/kg 
-Remarks: (ECHA) 
-No data available 
-
-Skin corrosion/irritation 
-Skin - Rabbit 
-Result: Causes burns. - 4 h 
-(OECD Test Guideline 404) 
-Remarks: Classified according to Regulation (EU) 1272/2008, Annex VI (Table 3.1/3.2) 
-
-Serious eye damage/eye irritation 
-Eyes - Rabbit 
-Result: Irreversible effects on the eye - 24 h 
-(OECD Test Guideline 405) 
-Remarks: Causes serious eye damage. 
-
-Aldrich - W306606 
-
-Page 7  of  11 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Respiratory or skin sensitization 
-Open epicutaneous test - Guinea pig 
-Result: negative 
-Remarks: (ECHA) 
-
-Germ cell mutagenicity 
-Test Type: Ames test 
-Test system:  Escherichia coli/Salmonella typhimurium  
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 471 
-Result: negative 
-Test Type: Mutagenicity (mammal cell test): chromosome aberration. 
-Test system:  Chinese hamster lung cells  
-Metabolic activation: with and without metabolic activation 
-Result: positive 
-Remarks: (ECHA) 
-Test Type: In vitro mammalian cell gene mutation test 
-Test system:  Chinese hamster lung cells  
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 476 
-Result: negative 
-
-Test Type: In vivo micronucleus test 
-Species: Rat 
-Cell type: Bone marrow 
-Application Route: Intraperitoneal injection 
-Method: OECD Test Guideline 475 
-Result: positive 
-
-Carcinogenicity 
-
-IARC: 
-
-NTP: 
-
-No ingredient of this product present at levels greater than or equal to 0.1% is 
-identified as probable, possible or confirmed human carcinogen by IARC. 
-
-No ingredient of this product present at levels greater than or equal to 0.1% is 
-identified as a known or anticipated carcinogen by NTP. 
-
-OSHA: 
-
-No component of this product present at levels greater than or equal to 0.1% is 
-on OSHA’s list of regulated carcinogens. 
-
-Reproductive toxicity 
-No data available 
-
-Specific target organ toxicity - single exposure 
-No data available 
-
-Specific target organ toxicity - repeated exposure 
-No data available 
-
-Aspiration hazard 
-No data available 
-
-11.2  Additional Information 
-
-Repeated dose toxicity - Rat - male and female - Oral - 43 Days - NOAEL (No observed 
-adverse effect level) - 8 mg/kg 
-Remarks: (ECHA) 
-
-Aldrich - W306606 
-
-Page 8  of  11 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-RTECS: XP2275000 
-Cough, Shortness of breath, Headache, Nausea, Vomiting, To the best of our knowledge, 
-the chemical, physical, and toxicological properties have not been thoroughly investigated. 
-
-After absorption: 
-
-Systemic effects: 
-
-CNS disorders 
-cardiovascular disorders 
-
-Toxic effect on: 
-
-Kidney 
-Liver 
-
-Effect potentiated by: ethanol 
-
-Substances which occur in nature 
-
-Other dangerous properties can not be excluded. 
-
-Handle in accordance with good industrial hygiene and safety practice. 
+Refer to component SDS 
 
 SECTION 12: Ecological information 
 
-12.1  Toxicity 
-
-Toxicity to fish 
-
-Toxicity to algae 
-
-Toxicity to bacteria 
-
-Toxicity to daphnia 
-and other aquatic 
-invertebrates(Chronic 
-toxicity) 
-
-static test LC50 - Pimephales promelas (fathead minnow) - 3.2 mg/l  
-- 96 h 
-(US-EPA) 
-
-ErC50 - Pseudokirchneriella subcapitata (green algae) - 14 mg/l  - 72 
-h 
-(OECD Test Guideline 201) 
-
-NOEC - Daphnia magna (Water flea) - 2 mg/l  - 21 d 
-(OECD Test Guideline 211) 
-
-12.2  Persistence and degradability 
-
-Biodegradability 
-
-aerobic  - Exposure time 28 d 
-Result: 83 % - Readily biodegradable.  
- (Closed Bottle test) 
-
-Chemical Oxygen 
-Demand (COD) 
-
-2,690 mg/g 
-Remarks: (IUCLID) 
-
-Theoretical oxygen 
-
-2,760 mg/g 
-
-Aldrich - W306606 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
-Page 9  of  11 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-demand 
-
-Remarks: (IUCLID) 
-
-12.3  Bioaccumulative potential 
-
-Bioaccumulation 
-
-Oryzias latipes - 6 Weeks 
- - 1 µg/l(thymol) 
-
-Bioconcentration factor (BCF): 48 
- (OECD Test Guideline 305C) 
-
-12.4  Mobility in soil 
-
-No data available 
-
-12.5  Results of PBT and vPvB assessment 
-
-PBT/vPvB assessment not available as chemical safety assessment not required/not 
-conducted 
-
-12.6  Endocrine disrupting properties 
-
-No data available 
-
-12.7 Other adverse effects 
+Refer to component SDS 
 
 SECTION 13: Disposal considerations 
 
-13.1  Waste treatment methods 
-
-Product 
-Waste material must be disposed of in accordance with the national and local regulations. 
-Leave chemicals in original containers. No mixing with other waste. Handle uncleaned 
-containers like the product itself.  
+Refer to component SDS 
 
 SECTION 14: Transport information 
 
 DOT (US) 
-UN number: 2430  Class: 8 
-Proper shipping name: Alkylphenols, solid, n.o.s. 
-Reportable Quantity (RQ):   
-
-Packing group: III 
-
-Poison Inhalation Hazard: No 
+Not dangerous goods 
 
 IMDG 
-UN number: 2430  Class: 8 
-Proper shipping name: ALKYLPHENOLS, SOLID, N.O.S. 
-Marine pollutant : yes 
-
-Packing group: III 
+Not dangerous goods 
 
 IATA 
-UN number: 2430  Class: 8 
-Proper shipping name: Alkylphenols, solid, n.o.s. 
+Not dangerous goods 
 
-Packing group: III 
+Further information 
+Not classified as dangerous in the meaning of transport regulations. 
 
-EMS-No: F-A, S-B 
+SECTION 15: Regulatory information 
 
-Aldrich - W306606 
+Refer to component SDS 
 
-Page 10  of  11 
+Aldrich - 761036 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SECTION 15: Regulatory information 
+Page 4  of  7 
 
-SARA 302 Components 
-This material does not contain any components with a section 302 EHS TPQ. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 16: Other information 
 
-SARA 313 Components 
-This material does not contain any chemical components with known CAS numbers that 
-exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 
-313. 
+Kit Components: 
+Sylgard(R) 184 Silicone 
+elastomer base 
+Sylgard(R) 184 silicone 
+elastomer curing agent 
 
-SARA 311/312 Hazards 
-Acute Health Hazard 
+Aldrich 
 
-Massachusetts Right To Know Components 
-No components are subject to the Massachusetts Right to Know Act. 
+761036A 
 
-SECTION 16: Other information 
+Aldrich 
+
+761036B 
+
+Flam. Liq. 4; Skin Irrit. 2; Eye 
+Irrit. 2A; STOT SE 3; H227, 
+H315, H319, H335 
 
 Further information 
 The information is believed to be correct but is not exhaustive and will be used solely as 
@@ -1020,15 +417,15 @@ The branding on the header and/or footer of this document may temporarily not vi
 match the product purchased as we transition our branding. However, all of the 
 information in the document regarding the product remains unchanged and matches the 
 product ordered. For further information please contact mlsbranding@sial.com. 
-Version: 8.5 
+Version: 6.8 
 
 Revision Date: 03/02/2024 
 
 Print Date: 06/15/2024 
 
-Aldrich - W306606 
+Aldrich - 761036 
 
-Page 11  of  11 
+Page 5  of  7 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -1039,6 +436,188 @@ operates as MilliporeSigma in the US and Canada
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Kit Components: 
+
+Sylgard(R) 184 Silicone elastomer base 
+Pictogram 
+Product 
+identifier 
+Aldrich - 
+761036A 
+
+Signal 
+Word 
+
+Hazard 
+Statements 
+
+Sylgard(R) 184 silicone elastomer curing agent 
+Product 
+identifier 
+Aldrich - 
+761036B 
+
+Signal 
+Word 
+Warning 
+
+Pictogram 
+
+Hazard 
+Statements 
+Combustible 
+liquid. 
+Causes skin 
+irritation. 
+Causes serious 
+eye irritation. 
+May cause 
+respiratory 
+irritation. 
+
+Supplemental 
+information 
+No hazard 
+pictogram, no 
+signal word, no 
+hazard 
+statement(s), no 
+precautionary 
+statement(s) 
+required  
+
+Supplemental 
+information 
+
+Precautionary 
+Statements 
+
+Precautionary 
+Statements 
+ Keep away 
+from heat/ 
+sparks/ open 
+flames/ hot 
+surfaces. No 
+smoking. IF ON 
+SKIN: Wash 
+with plenty of 
+soap and water. 
+Store in a well-
+ventilated place. 
+Keep container 
+tightly closed. 
+Dispose of 
+contents/ 
+container to an 
+approved waste 
+disposal plant.  
+Avoid breathing 
+mist or vapors. 
+IF INHALED: 
+Remove person 
+to fresh air and 
+keep 
+comfortable for 
+breathing. Call a 
+POISON 
+CENTER/ doctor 
+
+Aldrich - 761036 
+
+Page 6  of  7 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+      
+ 
+ 
+ 
+  
+if you feel 
+unwell. Store in 
+a well-ventilated 
+place. Keep 
+cool.   Wash 
+skin thoroughly 
+after handling. 
+IF IN EYES: 
+Rinse cautiously 
+with water for 
+several minutes. 
+Remove contact 
+lenses, if 
+present and 
+easy to do. 
+Continue 
+rinsing. Store 
+locked up.   Use 
+only outdoors or 
+in a well-
+ventilated area. 
+If skin irritation 
+occurs: Get 
+medical advice/ 
+attention.    
+Wear protective 
+gloves/ eye 
+protection/ face 
+protection. If 
+eye irritation 
+persists: Get 
+medical advice/ 
+attention.     
+Take off 
+contaminated 
+clothing and 
+wash before 
+reuse.     In 
+case of fire: Use 
+dry sand, dry 
+chemical or 
+alcohol-resistant 
+foam to 
+extinguish.    
+
+Aldrich - 761036 
+
+Page 7  of  7 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
  
  
  
