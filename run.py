@@ -19,6 +19,8 @@
 
 import os # to let me manage files and install packages with pip
 
+import codecs # to write weird characters to text files without throwing an error. It fixed my write statements that kept failing at characters such as beta (found in chemical names)
+
 import sys # for debug, so you can initiate an exit (and inspect a file such as sds.txt) even when you're inside of a try statement
 
 try:
@@ -230,15 +232,19 @@ def extract_our_SDS():
 	except:
 		pass
 
-
+	# Solution for strange characters that's now DEPRECATED. See better solution below this block.
 	# Some SDS's have strange characters that can't be written with write(). I should figure out why (ie characters aren't UTF-8), then find a fast way to exclude these characters.
 	# For now, I instead append to the file one character at a time, with a try statement. This process takes longer (about 30 seconds), but works.
-	for character in SDS_content:
-		try:
-			with open("sds.txt", "a") as f:
-				f.write(character)
-		except:
-			print("Unwriteable character found in SDS_content string. Skipping to the next character.")
+	# for character in SDS_content:
+	#	try:
+	#		with open("sds.txt", "a") as f:
+	#			f.write(character)
+	#	except:
+	#		print("Unwriteable character found in SDS_content string. Skipping to the next character.")
+
+	# Better solution using codecs to handle weird characters:
+	with codecs.open("sds.txt" , "a" , "utf-8") as f:
+		f.write(SDS_content)
 
 
 
@@ -364,13 +370,13 @@ for filename in ["RESULTS/Sigma Names.txt", "RESULTS/CAS Numbers.txt", "RESULTS/
 for item in chem_list:
 	print("$"+item+"$")
 	chem_data = get_chem_info(item)
-	with open("RESULTS/Sigma Names.txt", "a") as myfile:
+	with codecs.open("RESULTS/Sigma Names.txt", "a","utf-8") as myfile:
 		myfile.write(chem_data[0])
 		myfile.write("\n")
-	with open("RESULTS/CAS Numbers.txt", "a") as myfile:
+	with codecs.open("RESULTS/CAS Numbers.txt", "a","utf-8") as myfile:
 		myfile.write(chem_data[1])
 		myfile.write("\n")
-	with open("RESULTS/DOT infos.txt", "a") as myfile:
+	with codecs.open("RESULTS/DOT infos.txt", "a","utf-8") as myfile:
 		myfile.write(chem_data[2])	
 		myfile.write("\n")
 
@@ -382,12 +388,14 @@ print("\n\n\n\n\nDone.")
 # - When you're giving the program to an inexperienced user, or are processing a large amount of chemicals, or just need the program to not stall at any error -- set the debug line in get_chem_info() to True!
 
 # CURRENT ISSUES
-# - Occasionally chemicals will give errors, which can also depend on their position in the input file. I increased sleep() times and it seems to have fixed this. Try increasing them even more if you experience issues.
+# - If a chemical is listed two times in a row, an error/Unknowns result can come out for the second one even if the first one succeeded.
+# - The use of sds.txt is unecessary, as we can clean out unreadable characters from the string with codec.open(), instead of cleaning it through a text file (sds.txt). So I should fix that code to make the program faster and easier to understand.
+# - Increasing sleep() times fixed some issues. Increasing it more is unlikely to fix any remaining issues, but I would try it anyway if you're debugging and are stumped by a glitch.
+
 
 
 # SUGGESTED IMPROVEMENTS
-# - If a CAS number received isn't just digits and dashes, then that's definitely an error so just change it to "Unknown"
-# - Grab the CAS number from the Sigma website html directly, instead of the SDS which can be formatted in ways that show up on the text file inconsistently
+# - If a CAS number received isn't just digits and dashes, then that's definitely an error so just change it to "Unknown" (though this is unlikely to happen anyway).
 # - If the input text file has blank lines, their output should be blanks instead of "Unknown"s
 # - If there's no SDS results on Sigma, but there is a "Did you mean [this chemical]" suggestion link, that should be automatically clicked and the program moves on to grab the SDS
 
