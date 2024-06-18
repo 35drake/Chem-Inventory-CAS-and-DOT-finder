@@ -346,7 +346,7 @@ def get_chem_info(chem_name):
 # In the end, the data will be written into the "RESULTS" text files.
 
 # Take the user's list into a string
-with open("TYPE CHEMICAL LIST HERE.txt" , "r") as f:
+with codecs.open("TYPE CHEMICAL LIST HERE.txt" , "r" , "utf-8" ) as f: # This line has caused errors for certain inputs, but I think this fix should make it work for all possible inputs (user-entered chemical names) now
 	chem_list = f.read()
 
 # Delete any newlines at the end of the string. You don't want to delete all newlines, because any accidental newlines in the middle of the user's text file shouldn't be deleted. Thats because, if the user is copy-pasting from a spreadsheet, you want the results to also contain that accidental newline so that alignment is conserved.
