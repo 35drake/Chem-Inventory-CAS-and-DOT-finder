@@ -1,63 +1,41 @@
-Potassium chromate #
-Potassium chloride #
-Potassium sulfate
-Potassium permanganate
-Potassium phosphate monobasic
-Potassium phosphate dibasic
-Potassium nitrate #
-Potassium tellurite hydrate
-3-(2-Pyridyl)-5,6-diphenyl-1,2,4-triazine-p,p'-disulfonic acid monosodium salt hydrate
-
-Resazurin sodium salt
-Rnase way
-
-
-
-SB 225002
-Sodium acetate
-Sodium bicarbonate
-Sodium butyrate
-Sodium chloride
-Sodium Citrate dibasic dihydrate
-Sodium citrate dihydrate
-Sodium dodecyl sulphate
-Sodium glyoxylate monohydrate
-Sodium hypochlorite (Bleach) #
-Sodium hydroxide
-Sodium hydroxide 10N
-Sodium orthovamadate
-Sodium molybdate dihydrate
-Sodium phosphate monobasic
-Sodium phosphate dibasic
-Sodium phosphate dibasic, anhydrous
-Sodium tetraborate decahydrate
-Sodium Succinate dibasic
-Succinic acid
-Sucrose
-
-2,2,2,-Tribromoethanol, 99%
-Trypan blue Stain 0.4%
-Tryptone
-Tryptic soy broth
-Temed
-Trizma base
-Triton 100x ~
-Tween 80
-
-Urea
-
-Vesephene
-
-Yeast extract EMD
-Yeast extract Sigma
-
-Zein
-Zinc chloride
-Zinc sulphate heptahydrate
-
-Tris-buffered saline 10x
-Transfer buffer 10x
-Rnase Zap
-TAE 50X
-TBS Tween-20 10x
-0.5M EDTA
+Agencourt AMPure
+Ampicillin (sodium salt)
+Annexin V Binding Buffer
+Ascorbic Acid
+Bile Bovine
+BD Pharmlyse
+Bovine Serum Albumin
+Carbenicillin (disodium salt)
+Ceftazidime hydrate
+Chloramphenicol
+Colisitin sulphate salt
+Diethlypyrocarbonate
+DTT
+ELA2 Kit
+Fc Block 
+G 418 Disulfide Salt
+Gentamicin sulphate
+Hanks Balanced Salt Solution -
+Hanks Balanced Salt Solution +
+Histopaque
+Human CxCL8/IL-8
+Human 1L12 kit
+Interferon & Eliza kit
+Kanamycin Sulfate
+Lactofeorin
+Lipofectamine
+Lympholyte
+2-mercaptoethanol
+N-acetyl-c-cysteine
+Nupage (antioxidant)
+Polymyxin Bilsufate
+Propidium iodide
+Recombinant Human TNF-α
+Rnase A
+Rnase TI
+Syto 9 green flourescent stain
+Tetracycline HCl
+Tobramycin
+Trimethoprim
+Trireagent
+Ultrapure Water

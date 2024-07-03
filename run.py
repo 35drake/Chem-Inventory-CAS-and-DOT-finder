@@ -370,8 +370,13 @@ for filename in ["RESULTS/Sigma Names.txt", "RESULTS/CAS Numbers.txt", "RESULTS/
 
 
 # Fill all 3 of the lists of data, one chemical at a time
-for item in chem_list:
+for item_number in range(len(chem_list)):
+
+	item = chem_list[item_number] # The current item, aka chemical name, that we're on will be determined by the current index (item_number)
+
+	print( "Now doing chemical" , item_number+1 , "of" , len(chem_list) ) #add one to item_number so we're counting from one and not zero
 	print("$"+item+"$")
+
 	chem_data = get_chem_info(item)
 
 	if chem_data[1] == "Unknown" and chem_data[2] != "Unknown": # If the chemical has a DOT result (whether its a class or "N/A") but no CAS number results, then it's not the CAS number is unknown/ not found successfully. This chemical just HAS NO CAS number, so let's change it's CAS status from "Unknown" to "None".
