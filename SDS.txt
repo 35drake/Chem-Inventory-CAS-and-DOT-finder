@@ -1,8 +1,8 @@
 SAFETY DATA SHEET 
 
-Version 6.7 
-Revision Date 04/16/2024 
-Print Date 06/15/2024 
+Version 8.7 
+Revision Date 03/02/2024 
+Print Date 06/23/2024 
 
 SECTION 1: Identification of the substance/mixture and of the company/undertaking 
 
@@ -10,23 +10,28 @@ SECTION 1: Identification of the substance/mixture and of the company/undertakin
 
 Product name 
 
-:  Methyl Alcohol (3 x 1.5 mL) 
+:  0.5M EDTA 
 
 Product Number 
+Catalogue No. 
 Brand 
-Index-No. 
-CAS-No. 
 
-:  1424109 
-:  US Pharmacopeia 
-:  603-001-00-X 
-:  67-56-1 
+:  20-158 
+:  632415 
+:  Millipore 
 
 1.2  Relevant identified uses of the substance or mixture and uses advised against 
 
 Identified uses 
+Uses advised against 
 
-:  Laboratory chemicals, Synthesis of substances 
+:  Reagent for development and research 
+:  The product is being supplied under the TSCA R&D Exemption 
+(40 CFR Section 720.36). It is the recipient’s responsibility to 
+comply with the requirements of the R&D exemption. The 
+product may not be used for a non-exempt commercial purpose 
+under TSCA unless appropriate consent is granted in writing by 
+MilliporeSigma. 
 
 1.3  Details of the supplier of the safety data sheet 
 
@@ -57,25 +62,19 @@ SECTION 2: Hazards identification
 
 GHS Classification in accordance with 29 CFR 1910 (OSHA HCS) 
 
-Flammable liquids (Category 2), H225 
-Acute toxicity, Oral (Category 3), H301 
-Acute toxicity, Inhalation (Category 3), H331 
-Acute toxicity, Dermal (Category 3), H311 
-Specific target organ toxicity - single exposure (Category 1), Eyes, Central nervous system, 
-H370 
+Eye irritation (Category 2A), H319 
 
 For the full text of the H-Statements mentioned in this Section, see Section 16. 
 
 2.2  GHS Label elements, including precautionary statements 
 
-US Pharmacopeia - 1424109 
+Millipore - 20-158 
 
-Page 1  of  12 
+Page 1  of  10 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
- 
  
  
  
@@ -102,99 +101,86 @@ operates as MilliporeSigma in the US and Canada
 
 Signal Word 
 
-Danger 
+Warning 
 
 Hazard Statements 
-H225 
-H301 + H311 + H331 
-H370 
+H319 
 
 Precautionary Statements 
-P210 
-
-P233 
-P240 
-P241 
-P242 
-P243 
-P260 
 P264 
-P270 
-P271 
 P280 
-P301 + P310 + P330 
+P305 + P351 + P338 
 
-P303 + P361 + P353 
+P337 + P313 
 
-P304 + P340 + P311 
+Causes serious eye irritation. 
 
-P307 + P311 
-P362 
-P370 + P378 
-
-P403 + P233 
-P403 + P235 
-P405 
-P501 
-
-Highly flammable liquid and vapor. 
-Toxic if swallowed, in contact with skin or if inhaled. 
-Causes damage to organs (Eyes, Central nervous system). 
-
-Keep away from heat/ sparks/ open flames/ hot surfaces. No 
-smoking. 
-Keep container tightly closed. 
-Ground/bond container and receiving equipment. 
-Use explosion-proof electrical/ ventilating/ lighting/ equipment. 
-Use only non-sparking tools. 
-Take precautionary measures against static discharge. 
-Do not breathe mist or vapors. 
 Wash skin thoroughly after handling. 
-Do not eat, drink or smoke when using this product. 
-Use only outdoors or in a well-ventilated area. 
-Wear protective gloves/ eye protection/ face protection. 
-IF SWALLOWED: Immediately call a POISON CENTER/ doctor. 
-Rinse mouth. 
-IF ON SKIN (or hair): Take off immediately all contaminated 
-clothing. Rinse skin with water/ shower. 
-IF INHALED: Remove person to fresh air and keep comfortable 
-for breathing. Call a POISON CENTER/ doctor. 
-IF exposed: Call a POISON CENTER or doctor/ physician. 
-Take off contaminated clothing and wash before reuse. 
-In case of fire: Use dry sand, dry chemical or alcohol-resistant 
-foam to extinguish. 
-Store in a well-ventilated place. Keep container tightly closed. 
-Store in a well-ventilated place. Keep cool. 
-Store locked up. 
-Dispose of contents/ container to an approved waste disposal 
-plant. 
+Wear eye protection/ face protection. 
+IF IN EYES: Rinse cautiously with water for several minutes. 
+Remove contact lenses, if present and easy to do. Continue 
+rinsing. 
+If eye irritation persists: Get medical advice/ attention. 
 
 2.3  Hazards not otherwise classified (HNOC) or not covered by GHS - none 
 
 SECTION 3: Composition/information on ingredients 
 
-3.1  Substances 
-Formula 
-Molecular weight 
-CAS-No. 
-EC-No. 
-Index-No. 
+3.2  Mixtures 
 
 Component 
 
-US Pharmacopeia - 1424109 
+Ethylenediaminetetraacetic acid 
 
-:  CH4O 
-:  32.04 g/mol 
-:  67-56-1 
-:  200-659-6 
-:  603-001-00-X 
+CAS-No. 
+EC-No. 
+Index-No. 
+Registration 
+number 
+
+60-00-4 
+200-449-4 
+607-429-00-8 
+01-2119486399-18-
+XXXX 
 
 Classification 
 
 Concentration 
 
-Page 2  of  12 
+Eye Irrit. 2A; Aquatic 
+Acute 3; H319, H402 
+
+>= 10 - < 20 
+% 
+
+For the full text of the H-Statements mentioned in this Section, see Section 16. 
+
+SECTION 4: First aid measures 
+
+4.1  Description of first-aid measures 
+
+General advice 
+Show this material safety data sheet to the doctor in attendance. 
+
+If inhaled 
+After inhalation: fresh air. 
+
+In case of skin contact 
+In case of skin contact: Take off immediately all contaminated clothing. Rinse skin with 
+water/ shower. 
+
+In case of eye contact 
+After eye contact: rinse out with plenty of water. Call in ophthalmologist. Remove contact 
+lenses. 
+
+If swallowed 
+After swallowing: immediately make victim drink water (two glasses at most). Consult a 
+physician. 
+
+Millipore - 20-158 
+
+Page 2  of  10 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -221,27 +207,11 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-Methanol 
-
-<= 100 % 
-
-Flam. Liq. 2; Acute Tox. 3; 
-STOT SE 1; H225, H301, 
-H331, H311, H370 
-Concentration limits: 
- >= 10 %: STOT SE 1, 
-H370; 3 - < 10 %: STOT 
-SE 2, H371; 
-
-For the full text of the H-Statements mentioned in this Section, see Section 16. 
-
-SECTION 4: First aid measures 
-
-4.1  Description of first-aid measures 
-
-No data available 
-
-4.2  Most important symptoms and effects, both acute and delayed 
+ 
+ 
+ 
+ 
+4.2  Most important symptoms and effects, both acute and delayed 
 
 The most important known symptoms and effects are described in the labelling (see section 
 2.2) and/or in section 11 
@@ -253,36 +223,58 @@ No data available
 SECTION 5: Firefighting measures 
 
 5.1  Extinguishing media 
-No data available 
+
+Suitable extinguishing media 
+Use extinguishing measures that are appropriate to local circumstances and the 
+surrounding environment. 
+
+Unsuitable extinguishing media 
+For this substance/mixture no limitations of extinguishing agents are given. 
 
 5.2  Special hazards arising from the substance or mixture 
 
 Carbon oxides 
-Combustible. 
+Nitrogen oxides (NOx) 
+Not combustible. 
+Fire may cause evolution of: 
+nitrogen oxides 
+Ambient fire may liberate hazardous vapours. 
 
 5.3  Advice for firefighters 
-No data available 
+
+In the event of fire, wear self-contained breathing apparatus. 
 
 5.4  Further information 
-No data available 
+
+Suppress (knock down) gases/vapors/mists with a water spray jet. Prevent fire 
+extinguishing water from contaminating surface water or the ground water system. 
 
 SECTION 6: Accidental release measures 
 
 6.1  Personal precautions, protective equipment and emergency procedures 
 
+Advice for non-emergency personnel: Do not breathe vapors, aerosols. Avoid substance 
+contact. Ensure adequate ventilation. Evacuate the danger area, observe emergency 
+procedures, consult an expert. 
 For personal protection see section 8. 
 
 6.2  Environmental precautions 
 
-No data available 
+Do not let product enter drains. 
 
 6.3  Methods and materials for containment and cleaning up 
 
-No data available 
+Cover drains. Collect, bind, and pump off spills. Observe possible material restrictions 
+(see sections 7 and 10). Take up with liquid-absorbent material (e.g. Chemizorb® ). 
+Dispose of properly. Clean up affected area. 
 
-US Pharmacopeia - 1424109 
+6.4  Reference to other sections 
 
-Page 3  of  12 
+For disposal see section 13. 
+
+Millipore - 20-158 
+
+Page 3  of  10 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -308,23 +300,20 @@ operates as MilliporeSigma in the US and Canada
  
  
  
- 
- 
- 
- 
- 
-6.4  Reference to other sections 
-
-For disposal see section 13. 
-
-SECTION 7: Handling and storage 
+SECTION 7: Handling and storage 
 
 7.1  Precautions for safe handling 
 For precautions see section 2.2. 
 
 7.2  Conditions for safe storage, including any incompatibilities 
 
-No data available 
+Storage conditions 
+Tightly closed. 
+
+Recommended storage temperature see product label.  
+
+Storage class 
+Storage class (TRGS 510): 12: Non Combustible Liquids 
 
 7.3  Specific end use(s) 
 
@@ -335,183 +324,18 @@ SECTION 8: Exposure controls/personal protection
 8.1  Control parameters 
 
 Ingredients with workplace control parameters 
-Component 
-
-CAS-No. 
-
-Value 
-
-Methanol 
-
-67-56-1 
-
-TWA 
-
-Control 
-parameters 
-200 ppm  
-
-Basis 
-
-USA. ACGIH Threshold Limit 
-Values (TLV) 
-
-Remarks 
-
-Danger of cutaneous absorption 
-250 ppm  
-STEL 
-
-USA. ACGIH Threshold Limit 
-Values (TLV) 
-
-Danger of cutaneous absorption 
-250 ppm  
-ST 
-325 mg/m3 
-
-USA. NIOSH Recommended 
-Exposure Limits 
-
-Potential for dermal absorption 
-TWA 
-
-200 ppm  
-260 mg/m3 
-
-USA. NIOSH Recommended 
-Exposure Limits 
-
-Potential for dermal absorption 
-TWA 
-
-200 ppm  
-260 mg/m3 
-
-200 ppm  
-260 mg/m3 
-
-1,000 ppm  
-
-PEL 
-
-Skin 
-C 
-
-Skin 
-
-USA. Occupational Exposure 
-Limits (OSHA) - Table Z-1 
-Limits for Air Contaminants 
-California permissible exposure 
-limits for chemical 
-contaminants (Title 8, Article 
-107) 
-
-California permissible exposure 
-limits for chemical 
-contaminants (Title 8, Article 
-107) 
-
-US Pharmacopeia - 1424109 
-
-Page 4  of  12 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-STEL 
-
-250 ppm  
-325 mg/m3 
-
-California permissible exposure 
-limits for chemical 
-contaminants (Title 8, Article 
-107) 
-
-Skin 
-
-Biological occupational exposure limits 
-Component 
-
-CAS-No. 
-
-Parameters  Value 
-
-Biological 
-specimen 
-
-Basis 
-
-Methanol 
-
-67-56-1 
-
-Methanol 
-
-15 mg/l  Urine 
-
-ACGIH - 
-Biological 
-Exposure Indices 
-(BEI) 
-
-Remarks 
-
-End of shift (As soon as possible after exposure ceases) 
+Contains no substances with occupational exposure limit values. 
 
 8.2  Exposure controls 
 
+Appropriate engineering controls 
+Change contaminated clothing. Wash hands after working with substance. 
+
 Personal protective equipment 
+
+Eye/face protection 
+Use equipment for eye protection tested and approved under appropriate 
+government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
 
 Skin protection 
 This recommendation applies only to the product stated in the safety data sheet, 
@@ -520,10 +344,10 @@ substances and under conditions deviating from those stated in EN 16523-1 please
 contact the supplier of CE-approved gloves (e.g. KCL GmbH, D-36124 Eichenzell, 
 Internet: www.kcl.de). 
 Full contact 
-Material: butyl-rubber 
-Minimum layer thickness: 0.7 mm 
+Material: Nitrile rubber 
+Minimum layer thickness: 0.11 mm 
 Break through time: 480 min 
-Material tested:Butoject® (KCL 898) 
+Material tested:KCL 741 Dermatril® L 
 
 This recommendation applies only to the product stated in the safety data sheet, 
 supplied by us and for the designated use. When dissolving in or mixing with other 
@@ -531,26 +355,10 @@ substances and under conditions deviating from those stated in EN 16523-1 please
 contact the supplier of CE-approved gloves (e.g. KCL GmbH, D-36124 Eichenzell, 
 Internet: www.kcl.de). 
 Splash contact 
-Material: Viton® 
-Minimum layer thickness: 0.7 mm 
-Break through time: 120 min 
-Material tested:Vitoject® (KCL 890 / Aldrich Z677698, Size M) 
 
-Control of environmental exposure 
-Prevent product from entering drains. 
+Millipore - 20-158 
 
-SECTION 9: Physical and chemical properties 
-
-9.1  Information on basic physical and chemical properties 
-
-a)  Appearance 
-
-Form: liquid 
-Color: colorless 
-
-US Pharmacopeia - 1424109 
-
-Page 5  of  12 
+Page 4  of  10 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -575,18 +383,43 @@ operates as MilliporeSigma in the US and Canada
  
  
  
- 
- 
- 
- 
- 
-b)  Odor 
+Material: Nitrile rubber 
+Minimum layer thickness: 0.11 mm 
+Break through time: 480 min 
+Material tested:KCL 741 Dermatril® L 
 
-characteristic 
+Body Protection 
+protective clothing 
+
+Respiratory protection 
+Recommended Filter type: Filter type ABEK 
+The entrepeneur has to ensure that maintenance, cleaning and testing of respiratory 
+protective devices are carried out according to the instructions of the producer. 
+These measures have to be properly documented. 
+required when vapours/aerosols are generated. 
+Our recommendations on filtering respiratory protection are based on the following 
+standards: DIN EN 143, DIN 14387 and other accompanying standards relating to 
+the used respiratory protection system. 
+
+Control of environmental exposure 
+Do not let product enter drains. 
+
+SECTION 9: Physical and chemical properties 
+
+9.1  Information on basic physical and chemical properties 
+
+a)  Appearance 
+
+Form: liquid 
+Color: clear, colorless 
+
+b)  Odor 
+
+No data available 
 
 c)  Odor Threshold 
 
-10 ppm 
+No data available 
 
 d)  pH 
 
@@ -599,20 +432,19 @@ f)
 Initial boiling point 
 and boiling range 
 
-g)  Flash point 
+7.2 at 20 °C (68 °F) 
 
 No data available 
 
-Melting point: -97.8 °C (-144.0 °F) - (ECHA) 
+No data available 
 
-64.7 °C 148.5 °F at 1,013 hPa - (ECHA) 
+g)  Flash point 
 
-9.7 °C (49.5 °F) - closed cup - Regulation (EC) No. 440/2008, 
-Annex, A.9 
+ ()Not applicable 
 
 h)  Evaporation rate 
 
-6.3 - Diethyl ether1.9 - n-butyl acetate 
+No data available 
 
 i)  Flammability (solid, 
 
@@ -622,52 +454,76 @@ gas)
 
 j)  Upper/lower 
 
+No data available 
+
 flammability or 
 explosive limits 
 
-Upper explosion limit: 44 %(V) 
-Lower explosion limit: 5.5 %(V) 
-
 k)  Vapor pressure 
 
-169.27 hPa at 25 °C (77 °F) 
+No data available 
 
 l)  Vapor density 
 
-1.11 
+No data available 
 
 m)  Density 
 
-0.79 g/cm3 at 20 °C (68 °F) 
+No data available 
 
 Relative density 
 
-0.79 - 0.820 °C 
+No data available 
 
-n)  Water solubility 
+Millipore - 20-158 
 
-1,000 g/l at 20 °C (68 °F) - completely miscible 
+Page 5  of  10 
+
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+n)  Water solubility 
+
+soluble 
 
 o)  Partition coefficient: 
 n-octanol/water 
 
-log Pow: -0.77 at 25 °C (77 °F) - (HSDB), Bioaccumulation is 
-not expected. 
+No data available 
 
 p)  Autoignition 
 temperature 
 
-455.0 °C (851.0 °F) at 1,013 hPa - DIN 51794 
+Not applicable 
 
 q)  Decomposition 
 
-Distillable in an undecomposed state at normal pressure. 
+No data available 
 
 temperature 
 
 r)  Viscosity 
 
-0.54 - 0.59 mm2/s at 20 °C (68 °F) -  
+No data available 
 
 s)  Explosive properties  Not classified as explosive. 
 
@@ -675,48 +531,9 @@ t)  Oxidizing properties  none
 
 9.2  Other safety information 
 
-  Minimum ignition 
+No data available 
 
-0.14 mJ 
-
-energy 
-
-Conductivity 
-
-< 1 µS/cm 
-
-Relative vapor 
-density 
-
-1.11 
-
-US Pharmacopeia - 1424109 
-
-Page 6  of  12 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-SECTION 10: Stability and reactivity 
+SECTION 10: Stability and reactivity 
 
 10.1  Reactivity 
 
@@ -724,76 +541,21 @@ No data available
 
 10.2  Chemical stability 
 
-No data available 
+The product is chemically stable under standard ambient conditions (room temperature) . 
 
 10.3  Possibility of hazardous reactions 
-
-Risk of explosion with: 
-Oxidizing agents 
-perchloric acid 
-perchlorates 
-salts of oxyhalogenic acids 
-chromium(VI) oxide 
-halogen oxides 
-nitrogen oxides 
-nonmetallic oxides 
-chromosulfuric acid 
-chlorates 
-hydrides 
-zinc diethyl 
-halogens 
-powdered magnesium 
-hydrogen peroxide 
-Nitric acid 
-sulfuric acid 
-permanganic acid 
-sodium hypochlorite 
-Exothermic reaction with: 
-acid halides 
-Acid anhydrides 
-Reducing agents 
-acids 
-Bromine 
-Chlorine 
-Chloroform 
-magnesium 
-tetrachloromethane 
-Risk of ignition or formation of inflammable gases or vapours with: 
-Fluorine 
-Oxides of phosphorus 
-Raney-nickel 
-Generates dangerous gases or fumes in contact with: 
-Alkaline earth metals 
-Alkali metals 
+Violent reactions possible with: 
+The generally known reaction partners of water. 
+Violent reactions possible with: 
+The generally known reaction partners of water. 
 
 10.4  Conditions to avoid 
-No data available 
 
-US Pharmacopeia - 1424109 
+no information available 
 
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
+10.5  Incompatible materials 
 
-Page 7  of  12 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-10.5  Incompatible materials 
-
-No data available 
+Copper, Copper alloys, Nickel 
 
 10.6  Hazardous decomposition products 
 In the event of fire: see section 5 
@@ -802,56 +564,21 @@ SECTION 11: Toxicological information
 
 11.1  Information on toxicological effects 
 
+Mixture 
+
 Acute toxicity 
-Acute toxicity estimate Oral - 100.1 mg/kg 
-(Expert judgment) 
-Remarks: Classified according to Regulation (EU) 1272/2008, Annex VI (Table 3.1/3.2) 
-Symptoms: Nausea, Vomiting 
-Acute toxicity estimate Inhalation - 4 h - 3.1 mg/l - vapor 
+Acute toxicity estimate Oral - > 5,000 mg/kg 
+(Calculation method) 
+Symptoms: Possible symptoms:, mucosal irritations 
+Dermal: No data available 
 
-(Expert judgment) 
-Remarks: Classified according to Regulation (EU) 1272/2008, Annex VI (Table 3.1/3.2) 
-Symptoms: Irritation symptoms in the respiratory tract. 
-Acute toxicity estimate Dermal - 300.1 mg/kg 
-(Expert judgment) 
-Remarks: Classified according to Regulation (EU) 1272/2008, Annex VI (Table 3.1/3.2) 
-
-Skin corrosion/irritation 
-Skin - Rabbit 
-Result: No skin irritation 
-Remarks: (ECHA) 
-Remarks: Drying-out effect resulting in rough and chapped skin. 
-
-Serious eye damage/eye irritation 
-Eyes - Rabbit 
-Result: No eye irritation 
-Remarks: (ECHA) 
-
-Respiratory or skin sensitization 
-Sensitisation test: - Guinea pig 
-Result: negative 
-(OECD Test Guideline 406) 
-
-Germ cell mutagenicity 
-Based on available data the classification criteria are not met. 
-Test Type: Ames test 
-Test system:  Salmonella typhimurium  
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 471 
-Result: negative 
-Test Type: In vitro mammalian cell gene mutation test 
-Test system:  Chinese hamster lung cells  
-Metabolic activation: with and without metabolic activation 
-Method: OECD Test Guideline 476 
-Result: negative 
-
-US Pharmacopeia - 1424109 
-
-Page 8  of  12 
+Millipore - 20-158 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
+Page 6  of  10 
+
  
  
  
@@ -869,15 +596,23 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-Test Type: Micronucleus test 
-Species: Mouse 
-Cell type: Bone marrow 
-Application Route: Intraperitoneal injection 
-Method: OECD Test Guideline 474 
-Result: negative 
+ 
+ 
+ 
+ 
+Skin corrosion/irritation 
+No data available 
+
+Serious eye damage/eye irritation 
+Remarks: Mixture causes serious eye irritation. 
+
+Respiratory or skin sensitization 
+No data available 
+
+Germ cell mutagenicity 
+No data available 
 
 Carcinogenicity 
-Did not show carcinogenic effects in animal experiments. 
 
 IARC: 
 
@@ -895,11 +630,10 @@ No component of this product present at levels greater than or equal to 0.1% is
 on OSHA’s list of regulated carcinogens. 
 
 Reproductive toxicity 
-Based on available data the classification criteria are not met. 
+No data available 
 
 Specific target organ toxicity - single exposure 
-Causes damage to organs. - Eyes, Central nervous system 
-Remarks: Classified according to Regulation (EU) 1272/2008, Annex VI (Table 3.1/3.2) 
+No data available 
 
 Specific target organ toxicity - repeated exposure 
 No data available 
@@ -909,186 +643,100 @@ No data available
 
 11.2  Additional Information 
 
-Acute effects:, Headache, Dizziness, Drowsiness, narcosis, Blindness, Impairment of vision, 
-irritant effects, Nausea, Vomiting, agitation, spasms, inebriation, Coma 
-Drying-out effect resulting in rough and chapped skin. 
-To the best of our knowledge, the chemical, physical, and toxicological properties have not 
-been thoroughly investigated. 
+Other dangerous properties can not be excluded. 
 
-Systemic effects: 
+Handle in accordance with good industrial hygiene and safety practice. 
 
-acidosis 
-drop in blood pressure 
-agitation, spasms 
-inebriation 
-Dizziness 
-Drowsiness 
-Headache 
-Impairment of vision 
-Blindness 
-narcosis 
-Coma 
+Components   
 
-Symptoms may be delayed. 
+Ethylenediaminetetraacetic acid 
 
-US Pharmacopeia - 1424109 
+Acute toxicity 
+LD50 Oral - Rat - male and female - 4,500 mg/kg 
+(OECD Test Guideline 401) 
+Inhalation: No data available 
+Dermal: No data available 
+No data available 
+
+Skin corrosion/irritation 
+Skin - Rabbit 
+Result: No skin irritation - 20 h 
+Remarks: (ECHA) 
+
+Millipore - 20-158 
+
+Page 7  of  10 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
-Page 9  of  12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Serious eye damage/eye irritation 
+Eyes - Rabbit 
+Result: Eye irritation 
+Remarks: (ECHA) 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Damage to: 
+Respiratory or skin sensitization 
+Maximization Test - Guinea pig 
+Result: negative 
+(OECD Test Guideline 406) 
+Remarks: (in analogy to similar products) 
+The value is given in analogy to the following substances: Ethylenedinitrilotetraacetic 
+acid disodium salt 
+Maximization Test - Rabbit 
+Result: Does not cause skin sensitization. 
 
-Liver 
-Kidney 
-Cardiac 
-Irreversible damage of the optical nerve. 
+Germ cell mutagenicity 
+No data available 
 
-Other dangerous properties can not be excluded. 
+Carcinogenicity 
+No data available 
 
-This substance should be handled with particular care. 
+Reproductive toxicity 
+No data available 
 
-Stomach - Irregularities - Based on Human Evidence 
+Specific target organ toxicity - single exposure 
+No data available 
 
-Stomach - Irregularities - Based on Human Evidence 
+Specific target organ toxicity - repeated exposure 
+No data available 
+
+Aspiration hazard 
+No data available 
 
 SECTION 12: Ecological information 
 
 12.1  Toxicity 
 
-Toxicity to fish 
-
-flow-through test LC50 - Lepomis macrochirus (Bluegill) - 15,400.0 
-mg/l  - 96 h 
-(US-EPA) 
-
-Toxicity to daphnia 
-and other aquatic 
-invertebrates 
-
-semi-static test EC50 - Daphnia magna (Water flea) - 18,260 mg/l  - 
-96 h 
-(OECD Test Guideline 202) 
-
-Toxicity to algae 
-
-static test ErC50 - Pseudokirchneriella subcapitata (green algae) - ca. 
-22,000.0 mg/l  - 96 h 
-(OECD Test Guideline 201) 
-
-Toxicity to bacteria 
-
-static test IC50 - activated sludge - > 1,000 mg/l  - 3 h 
-(OECD Test Guideline 209) 
-
-Toxicity to 
-fish(Chronic toxicity) 
-
-NOEC - Oryzias latipes (Orange-red killifish) - 7,900 mg/l  - 200 h 
-Remarks: (External MSDS) 
+Mixture 
+No data available 
 
 12.2  Persistence and degradability 
 
-Biodegradability 
-
-Result: 99 % - Readily biodegradable.  
- (OECD Test Guideline 301D) 
-
-Biochemical Oxygen 
-Demand (BOD) 
-
-600 - 1,120 mg/g 
-Remarks: (IUCLID) 
-
-Chemical Oxygen 
-Demand (COD) 
-
-1,420 mg/g 
-Remarks: (IUCLID) 
-
-Theoretical oxygen 
-demand 
-
-1,500 mg/g 
-Remarks: (Lit.) 
-
-Ratio BOD/ThBOD 
-
-76 % 
-
-US Pharmacopeia - 1424109 
-
-The life science business of Merck KGaA, Darmstadt, Germany 
-operates as MilliporeSigma in the US and Canada 
-
-Page 10  of  12 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Remarks: Closed Bottle test(IUCLID) 
+No data available 
 
 12.3  Bioaccumulative potential 
 
-Bioaccumulation 
-
-Cyprinus carpio (Carp) - 72 d 
-at 20 °C - 5 mg/l(Methanol) 
-
-Bioconcentration factor (BCF): 1.0 
+No data available 
 
 12.4  Mobility in soil 
 
-Will not adsorb on soil. 
+No data available 
 
 12.5  Results of PBT and vPvB assessment 
 
@@ -1101,51 +749,90 @@ No data available
 
 12.7 Other adverse effects 
 
-Additional ecological 
-information 
+Discharge into the environment must be avoided. 
 
-Stability in water 
+Millipore - 20-158 
 
-Avoid release to the environment. 
+The life science business of Merck KGaA, Darmstadt, Germany 
+operates as MilliporeSigma in the US and Canada 
 
- at 19 °C83 - 91 % - 72 h 
-Remarks: Hydrolyzes on contact with water.Hydrolyzes readily. 
- - 2.2 yr 
-Remarks: reaction with hydroxyl radicals(IUCLID) 
+Page 8  of  10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Components 
+
+Ethylenediaminetetraacetic acid 
+
+Toxicity to fish 
+
+static test LC50 - Lepomis macrochirus (Bluegill sunfish) - 41 
+mg/l  - 96 h 
+Remarks: (ECHA) 
+
+Toxicity to daphnia 
+and other aquatic 
+invertebrates 
+
+static test EC50 - Daphnia magna (Water flea) - 625 mg/l  - 24 
+h 
+(DIN 38412) 
+
+Toxicity to 
+fish(Chronic toxicity) 
+
+flow-through test NOEC - Danio rerio (zebra fish) - >= 25.7 
+mg/l  - 35 d 
+(OECD Test Guideline 210) 
+
+Toxicity to daphnia 
+and other aquatic 
+invertebrates(Chronic 
+toxicity) 
+
+semi-static test NOEC - Daphnia magna (Water flea) - 25 mg/l  
+- 21 d 
 
 SECTION 13: Disposal considerations 
 
 13.1  Waste treatment methods 
 
-No data available 
+Product 
+Waste material must be disposed of in accordance with the national and local regulations. 
+Leave chemicals in original containers. No mixing with other waste. Handle uncleaned 
+containers like the product itself.  
 
 SECTION 14: Transport information 
 
 DOT (US) 
-UN number: 1230  Class: 3 
-Proper shipping name: Methanol 
-Reportable Quantity (RQ): 5000 lbs 
-
-Poison Inhalation Hazard: No 
+Not dangerous goods 
 
 IMDG 
-UN number: 1230  Class: 3 (6.1) 
-Proper shipping name: METHANOL 
-
-Packing group: II 
-
-Packing group: II 
-
-EMS-No: F-E, S-D 
+Not dangerous goods 
 
 IATA 
-UN number: 1230  Class: 3 (6.1) 
+Not dangerous goods 
 
-Packing group: II 
+Further information 
+Not classified as dangerous in the meaning of transport regulations. 
 
-US Pharmacopeia - 1424109 
+Millipore - 20-158 
 
-Page 11  of  12 
+Page 9  of  10 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -1181,79 +868,71 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-Proper shipping name: Methanol 
-
-SECTION 15: Regulatory information 
+ 
+ 
+SECTION 15: Regulatory information 
 
 SARA 302 Components 
 This material does not contain any components with a section 302 EHS TPQ. 
 
 SARA 313 Components 
-The following components are subject to reporting levels established by SARA Title III, 
-Section 313: 
-
-Methanol 
-
-CAS-No. 
-67-56-1 
-
-Revision Date 
-2007-07-01 
-
-SARA 311/312 Hazards 
-Fire Hazard, Chronic Health Hazard 
+This material does not contain any chemical components with known CAS numbers that 
+exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 
+313. 
 
 Massachusetts Right To Know Components 
 
-Methanol 
+water 
+
+Ethylenediaminetetraacetic acid 
 
 Pennsylvania Right To Know Components 
-Methanol 
-
-California Prop. 65 Components 
-, which is/are known to the State of California to 
-cause birth defects or other reproductive harm. For 
-more information go to 
-www.P65Warnings.ca.gov.Methanol 
+Ethylenediaminetetraacetic acid 
 
 CAS-No. 
-67-56-1 
+7732-18-5 
 
 Revision Date 
-2007-07-01 
+
+60-00-4 
+
+2007-03-01 
 
 CAS-No. 
-67-56-1 
+60-00-4 
 
 Revision Date 
-2007-07-01 
-
-CAS-No. 
-67-56-1 
-
-Revision Date 
-2012-03-16 
+2007-03-01 
 
 SECTION 16: Other information 
 
+Further information 
+The information is believed to be correct but is not exhaustive and will be used solely as 
+a guideline, which is based on current knowledge of the chemical substance or mixture 
+and is applicable to appropriate safety precautions for the product. It does not represent 
+any guarantee of the properties of the product. Sigma-Aldrich Corporation and its 
+Affiliates shall not be held liable for any damage resulting from handling or from contact 
+with the above product. See www.sigma-aldrich.com and/or the reverse side of invoice 
+or packing slip for additional terms and conditions of sale. 
+Copyright 2020 Sigma-Aldrich Co. LLC. License granted to make unlimited paper copies 
+for internal use only. 
 The branding on the header and/or footer of this document may temporarily not visually 
 match the product purchased as we transition our branding. However, all of the 
 information in the document regarding the product remains unchanged and matches the 
 product ordered. For further information please contact mlsbranding@sial.com. 
-Version: 6.7 
+Version: 8.7 
 
-Revision Date: 04/16/2024 
+Revision Date: 03/02/2024 
 
-Print Date: 06/15/2024 
+Print Date: 06/23/2024 
 
-US Pharmacopeia - 1424109 
+Millipore - 20-158 
 
-Page 12  of  12 
+Page 10  of  10 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
- 
  
  
  

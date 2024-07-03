@@ -385,6 +385,7 @@ for item in chem_list:
 		myfile.write(chem_data[1])
 		myfile.write("\n")
 	with codecs.open("RESULTS/DOT infos.txt", "a","utf-8") as myfile:
+		chem_data[2] = chem_data[2].replace("\n","") # Since the dot info string, chem_data[2], is a pure string ripped from the SDS sheet, it may contain strange characters -- namely newlines. Let's remove these so that it doesn't mess up the whole output text file
 		myfile.write(chem_data[2])	
 		myfile.write("\n")
 
@@ -396,6 +397,9 @@ print("\n\n\n\n\nDone.")
 # - When you're giving the program to an inexperienced user, or are processing a large amount of chemicals, or just need the program to not stall at any error -- set the debug line in get_chem_info() to True!
 
 # CURRENT ISSUES
+# - Sometimes at the end of the program, ".crdownload" files are leftover in the main folder. The program should delete these before finishing.
+# - The program only runs properly from the terminal. I'm not sure why. When you click on the run.py file from Windows Explorer, it doesn't run properly.
+# - I should put a progress print statement that prints every time a chemical is done (i.e. "41/89 chemicals done")
 # - Although the program's running very well now, the print statements (which are pretty much there for debugging) are warped. I think this is due to me using codec.open() for some reason. I could start printing with utf-8 encoding somehow? Not really worried about it cuz this program's console log isn't important honestly.
 # - If a chemical is listed two times in a row, sometimes an error/Unknowns result can come out for the second one even if the first one succeeded.
 # - Selenium runs twice in the program for each chemical: it runs to find the SDS url and it runs again to open/download that url. These two instances should be combined into one running of Selenium that doesn't close till it finishes both tasks.

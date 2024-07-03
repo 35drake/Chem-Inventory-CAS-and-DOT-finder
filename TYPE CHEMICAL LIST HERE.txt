@@ -1,41 +1,63 @@
-(3-Aminopropyl)trimethoxysilane
-10X Blue Juice gel loading buffer
-2-Hydroxy-2-methylpropiophenone
-2-Hydroxypropiophenone
-2-Methylebutane
-3, 3′,5 ,5′-Tetramethylbenzidine Liquid Substrate
-Acetone
-Acrylic acid N-hydroxysuccinimide ester
-Actalyke QC kit
-Adenosine 5” Diphosphate
-Agarose
-Albumin from bovine serum
-Amonium persulfate
-Arachidonic Acid
-Bangs Bead Coupling Buffer, pH 4.5 and 7.4
-Bangs Bead Storage Buffer, pH 4.5 and 7.4
-Calcium Chloride
-Calcium Chloride solution
-Carbon
-CellLight Actin-RFP & -GFP
-Chicago Sky Blue 6B
-Clopidogrel Bisulfate
-Dimethyl sulfoxide
-D-Lactose
-Ethylene glycol
-Gelatin from Bovine skin type B
-Giemsa stain
-Glycerol
-Glycine
-Graphite
-GSNO
-HEPES solution
-Hydrogen Peroxide (30 wt.%)
-Intralipid
-Iron(III)oxide
-Isopropyle Alcohol
-Kaolin
-LB broth (Lennox)
-Magnesium Chloride solution
-MES monohydrate
-Methanol
+Potassium chromate #
+Potassium chloride #
+Potassium sulfate
+Potassium permanganate
+Potassium phosphate monobasic
+Potassium phosphate dibasic
+Potassium nitrate #
+Potassium tellurite hydrate
+3-(2-Pyridyl)-5,6-diphenyl-1,2,4-triazine-p,p'-disulfonic acid monosodium salt hydrate
+
+Resazurin sodium salt
+Rnase way
+
+
+
+SB 225002
+Sodium acetate
+Sodium bicarbonate
+Sodium butyrate
+Sodium chloride
+Sodium Citrate dibasic dihydrate
+Sodium citrate dihydrate
+Sodium dodecyl sulphate
+Sodium glyoxylate monohydrate
+Sodium hypochlorite (Bleach) #
+Sodium hydroxide
+Sodium hydroxide 10N
+Sodium orthovamadate
+Sodium molybdate dihydrate
+Sodium phosphate monobasic
+Sodium phosphate dibasic
+Sodium phosphate dibasic, anhydrous
+Sodium tetraborate decahydrate
+Sodium Succinate dibasic
+Succinic acid
+Sucrose
+
+2,2,2,-Tribromoethanol, 99%
+Trypan blue Stain 0.4%
+Tryptone
+Tryptic soy broth
+Temed
+Trizma base
+Triton 100x ~
+Tween 80
+
+Urea
+
+Vesephene
+
+Yeast extract EMD
+Yeast extract Sigma
+
+Zein
+Zinc chloride
+Zinc sulphate heptahydrate
+
+Tris-buffered saline 10x
+Transfer buffer 10x
+Rnase Zap
+TAE 50X
+TBS Tween-20 10x
+0.5M EDTA
