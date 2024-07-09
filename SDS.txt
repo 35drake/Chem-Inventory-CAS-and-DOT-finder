@@ -1,8 +1,8 @@
 SAFETY DATA SHEET 
 
-Version 8.6 
-Revision Date 06/28/2023 
-Print Date 06/22/2024 
+Version 6.4 
+Revision Date 03/02/2024 
+Print Date 07/09/2024 
 
 SECTION 1: Identification of the substance/mixture and of the company/undertaking 
 
@@ -10,23 +10,30 @@ SECTION 1: Identification of the substance/mixture and of the company/undertakin
 
 Product name 
 
-:  Bromophenol blue indicator ACS,Reag. Ph Eur 
+:  Caffeic acid phenethyl ester 
 
 Product Number 
-Catalogue No. 
 Brand 
 CAS-No. 
 
-:  1.08122 
-:  108122 
-:  Millipore 
-:  115-39-9 
+:  C8221 
+:  Sigma 
+:  104594-70-9 
 
 1.2  Relevant identified uses of the substance or mixture and uses advised against 
 
 Identified uses 
 
-:  Reagent for analysis 
+:  Laboratory chemicals, Synthesis of substances 
+
+Uses advised against 
+
+:  The product is being supplied under the TSCA R&D Exemption 
+(40 CFR Section 720.36). It is the recipient’s responsibility to 
+comply with the requirements of the R&D exemption. The 
+product may not be used for a non-exempt commercial purpose 
+under TSCA unless appropriate consent is granted in writing by 
+MilliporeSigma. 
 
 1.3  Details of the supplier of the safety data sheet 
 
@@ -59,57 +66,56 @@ Not a hazardous substance or mixture.
 
 2.2  GHS Label elements, including precautionary statements 
 
-No hazard pictogram, no signal word, no hazard statement(s), no precautionary 
-statement(s) required 
+Not a hazardous substance or mixture. 
 
 2.3  Hazards not otherwise classified (HNOC) or not covered by GHS - none 
 
-SECTION 3: Composition/information on ingredients 
+Sigma - C8221 
 
-3.1  Substances 
-Formula 
-
-Millipore - 1.08122 
-
-:  C19H10Br4O5S 
+Page 1  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
-Page 1  of  8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 3: Composition/information on ingredients 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Molecular weight 
+3.1  Substances 
+
+Synonyms 
+
+:  CAPE 
+
+Formula 
+Molecular weight 
 CAS-No. 
-EC-No. 
 
-:  669.98 g/mol 
-:  115-39-9 
-:  204-086-2 
+:  C17H16O4 
+:  284.31 g/mol 
+:  104594-70-9 
 
 No components need to be disclosed according to the applicable regulations. 
 
@@ -144,21 +150,12 @@ SECTION 5: Firefighting measures
 
 5.1  Extinguishing media 
 
-Suitable extinguishing media 
-Water Foam Carbon dioxide (CO2) Dry powder 
-
 Unsuitable extinguishing media 
 For this substance/mixture no limitations of extinguishing agents are given. 
 
 5.2  Special hazards arising from the substance or mixture 
 
 Carbon oxides 
-Sulfur oxides 
-Hydrogen bromide gas 
-Combustible. 
-Fire may cause evolution of: 
-Sulfur oxides, hydrogen bromide 
-Development of hazardous combustion gases or vapours possible in the event of fire. 
 
 5.3  Advice for firefighters 
 
@@ -166,16 +163,21 @@ In the event of fire, wear self-contained breathing apparatus.
 
 5.4  Further information 
 
-Suppress (knock down) gases/vapors/mists with a water spray jet. Prevent fire 
-extinguishing water from contaminating surface water or the ground water system. 
+Prevent fire extinguishing water from contaminating surface water or the ground water 
+system. 
 
-Millipore - 1.08122 
+Sigma - C8221 
 
 Page 2  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -225,9 +227,11 @@ For precautions see section 2.2.
 7.2  Conditions for safe storage, including any incompatibilities 
 
 Storage conditions 
+Keep container tightly closed in a dry and well-ventilated place. Store under argon.  
 Tightly closed. Dry. 
-
-Recommended storage temperature see product label.  
+Storage stabilityRecommended storage temperature 
+-20 °C 
+Light sensitive.  
 
 Storage class 
 Storage class (TRGS 510): 11: Combustible Solids 
@@ -248,13 +252,7 @@ Contains no substances with occupational exposure limit values.
 Appropriate engineering controls 
 Change contaminated clothing. Wash hands after working with substance. 
 
-Personal protective equipment 
-
-Eye/face protection 
-Use equipment for eye protection tested and approved under appropriate 
-government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
-
-Millipore - 1.08122 
+Sigma - C8221 
 
 Page 3  of  8 
 
@@ -282,23 +280,29 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-Skin protection 
+ 
+ 
+Personal protective equipment 
+
+Eye/face protection 
+Use equipment for eye protection tested and approved under appropriate 
+government standards such as NIOSH (US) or EN 166(EU). Safety glasses 
+
+Skin protection 
+Handle with impervious gloves. 
+
 This recommendation applies only to the product stated in the safety data sheet, 
 supplied by us and for the designated use. When dissolving in or mixing with other 
-substances and under conditions deviating from those stated in EN374 please 
+substances and under conditions deviating from those stated in EN 16523-1 please 
 contact the supplier of CE-approved gloves (e.g. KCL GmbH, D-36124 Eichenzell, 
 Internet: www.kcl.de). 
+
 Full contact 
 Material: Nitrile rubber 
 Minimum layer thickness: 0.11 mm 
 Break through time: 480 min 
 Material tested:KCL 741 Dermatril® L 
 
-This recommendation applies only to the product stated in the safety data sheet, 
-supplied by us and for the designated use. When dissolving in or mixing with other 
-substances and under conditions deviating from those stated in EN374 please 
-contact the supplier of CE-approved gloves (e.g. KCL GmbH, D-36124 Eichenzell, 
-Internet: www.kcl.de). 
 Splash contact 
 Material: Nitrile rubber 
 Minimum layer thickness: 0.11 mm 
@@ -324,12 +328,11 @@ SECTION 9: Physical and chemical properties
 
 a)  Appearance 
 
-Form: solid 
-Color: pink, to, red brown 
+Form: powder 
 
 b)  Odor 
 
-phenol-like 
+No data available 
 
 c)  Odor Threshold 
 
@@ -339,26 +342,24 @@ d)  pH
 
 e)  Melting 
 
+No data available 
+
+No data available 
+
 point/freezing point 
 
 f) 
+Sigma - C8221 
 
 Initial boiling point 
-and boiling range 
-
-Millipore - 1.08122 
 
 No data available 
-
-Melting point/range: 273 °C (523 °F) - Decomposition 
-
-No data available 
-
-Page 4  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
+Page 4  of  8 
+
  
  
  
@@ -377,7 +378,12 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-g)  Flash point 
+ 
+ 
+ 
+and boiling range 
+
+g)  Flash point 
 
  ()No data available 
 
@@ -416,15 +422,15 @@ No data available
 
 n)  Water solubility 
 
-practically insoluble 
+No data available 
 
 o)  Partition coefficient: 
 n-octanol/water 
 
+No data available 
+
 p)  Autoignition 
 temperature 
-
-log Pow: ca.6.77 - Potential bioaccumulation 
 
 No data available 
 
@@ -444,36 +450,34 @@ t)  Oxidizing properties  No data available
 
 9.2  Other safety information 
 
-Bulk density 
-
-ca.730 kg/m3 
+No data available 
 
 SECTION 10: Stability and reactivity 
 
 10.1  Reactivity 
 
-The following applies in general to flammable organic substances and mixtures: in 
-correspondingly fine distribution, when whirled up a dust explosion potential may generally 
-be assumed. 
+No data available 
 
 10.2  Chemical stability 
 
 The product is chemically stable under standard ambient conditions (room temperature) . 
 
 10.3  Possibility of hazardous reactions 
-Violent reactions possible with: 
-Strong oxidizing agents 
+
+No data available 
 
 10.4  Conditions to avoid 
 
-Heat. 
 no information available 
 
 10.5  Incompatible materials 
 
-No data available 
+Strong oxidizing agents 
 
-Millipore - 1.08122 
+10.6  Hazardous decomposition products 
+In the event of fire: see section 5 
+
+Sigma - C8221 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
@@ -498,11 +502,7 @@ Page 5  of  8
  
  
  
- 
-10.6  Hazardous decomposition products 
-In the event of fire: see section 5 
-
-SECTION 11: Toxicological information 
+SECTION 11: Toxicological information 
 
 11.1  Information on toxicological effects 
 
@@ -513,17 +513,21 @@ Dermal: No data available
 No data available 
 
 Skin corrosion/irritation 
-Remarks: No data available 
+No data available 
 
 Serious eye damage/eye irritation 
-Remarks: No data available 
+No data available 
 
 Respiratory or skin sensitization 
 No data available 
 
 Germ cell mutagenicity 
-Result: Equivocal evidence. 
-Remarks: Histidine reversion (Ames) 
+Test Type: Human 
+Test system:  HeLa cell  
+Remarks: DNA inhibition 
+Test Type: Human 
+Test system:  HeLa cell  
+Remarks: Other mutation test systems 
 
 Carcinogenicity 
 
@@ -544,6 +548,7 @@ on OSHA’s list of regulated carcinogens.
 
 Reproductive toxicity 
 No data available 
+No data available 
 
 Specific target organ toxicity - single exposure 
 No data available 
@@ -556,17 +561,17 @@ No data available
 
 11.2  Additional Information 
 
+RTECS: UD3334375 
 To the best of our knowledge, the chemical, physical, and toxicological properties have not 
 been thoroughly investigated. 
 
-Millipore - 1.08122 
+Sigma - C8221 
 
 Page 6  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
- 
  
  
  
@@ -637,9 +642,7 @@ Not dangerous goods
 Further information 
 Not classified as dangerous in the meaning of transport regulations. 
 
-SECTION 15: Regulatory information 
-
-Millipore - 1.08122 
+Sigma - C8221 
 
 Page 7  of  8 
 
@@ -674,48 +677,80 @@ operates as MilliporeSigma in the US and Canada
  
  
  
-SARA 302 Components 
-This material does not contain any components with a section 302 EHS TPQ. 
+ 
+SECTION 15: Regulatory information 
+
+SARA 302 Components 
+No chemicals in this material are subject to the reporting requirements of SARA Title III, 
+Section 302. 
 
 SARA 313 Components 
 This material does not contain any chemical components with known CAS numbers that 
 exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 
 313. 
 
+SARA 311/312 Hazards 
+No SARA Hazards 
+
 Massachusetts Right To Know Components 
 No components are subject to the Massachusetts Right to Know Act. 
+
+Pennsylvania Right To Know Components 
+Phenethyl 3,4-dihydroxycinnamate 
+
+New Jersey Right To Know Components 
+Phenethyl 3,4-dihydroxycinnamate 
+
+CAS-No. 
+104594-70-9 
+
+Revision Date 
+
+CAS-No. 
+104594-70-9 
+
+Revision Date 
+
+California Prop. 65 Components 
+This product does not contain any chemicals known to the State of California to cause 
+cancer, birth, or any other reproductive defects. 
 
 SECTION 16: Other information 
 
 Further information 
-The above information is believed to be correct but does not purport to be all inclusive 
-and shall be used only as a guide. The information in this document is based on the 
-present state of our knowledge and is applicable to the product with regard to 
-appropriate safety precautions. It does not represent any guarantee of the properties of 
-the product. Sigma-Aldrich Corporation and its Affiliates shall not be held liable for any 
-damage resulting from handling or from contact with the above product. See 
-www.sigma-aldrich.com and/or the reverse side of invoice or packing slip for additional 
-terms and conditions of sale. 
-
+The information is believed to be correct but is not exhaustive and will be used solely as 
+a guideline, which is based on current knowledge of the chemical substance or mixture 
+and is applicable to appropriate safety precautions for the product. It does not represent 
+any guarantee of the properties of the product. Sigma-Aldrich Corporation and its 
+Affiliates shall not be held liable for any damage resulting from handling or from contact 
+with the above product. See www.sigma-aldrich.com and/or the reverse side of invoice 
+or packing slip for additional terms and conditions of sale. 
 Copyright 2020 Sigma-Aldrich Co. LLC. License granted to make unlimited paper copies 
 for internal use only. 
 The branding on the header and/or footer of this document may temporarily not visually 
 match the product purchased as we transition our branding. However, all of the 
 information in the document regarding the product remains unchanged and matches the 
 product ordered. For further information please contact mlsbranding@sial.com. 
-Version: 8.6 
+Version: 6.4 
 
-Revision Date: 06/28/2023 
+Revision Date: 03/02/2024 
 
-Print Date: 06/22/2024 
+Print Date: 07/09/2024 
 
-Millipore - 1.08122 
+Sigma - C8221 
 
 Page 8  of  8 
 
 The life science business of Merck KGaA, Darmstadt, Germany 
 operates as MilliporeSigma in the US and Canada 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  

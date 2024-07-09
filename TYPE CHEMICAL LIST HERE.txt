@@ -1,41 +1,31 @@
-Agencourt AMPure
-Ampicillin (sodium salt)
-Annexin V Binding Buffer
-Ascorbic Acid
-Bile Bovine
-BD Pharmlyse
-Bovine Serum Albumin
-Carbenicillin (disodium salt)
-Ceftazidime hydrate
-Chloramphenicol
-Colisitin sulphate salt
-Diethlypyrocarbonate
-DTT
-ELA2 Kit
-Fc Block 
-G 418 Disulfide Salt
-Gentamicin sulphate
-Hanks Balanced Salt Solution -
-Hanks Balanced Salt Solution +
-Histopaque
-Human CxCL8/IL-8
-Human 1L12 kit
-Interferon & Eliza kit
-Kanamycin Sulfate
-Lactofeorin
-Lipofectamine
-Lympholyte
-2-mercaptoethanol
-N-acetyl-c-cysteine
-Nupage (antioxidant)
-Polymyxin Bilsufate
-Propidium iodide
-Recombinant Human TNF-α
-Rnase A
-Rnase TI
-Syto 9 green flourescent stain
-Tetracycline HCl
-Tobramycin
-Trimethoprim
-Trireagent
-Ultrapure Water
+GF 109203X
+PD 150606
+Smoothened Agonist, SAG
+20 (s) HXC
+20(S)-Hydroxycholesterol, 10 mg
+E64
+AICAR
+FR 180204
+GTP(gamma)S
+A-83-01
+PIK75
+PP242
+Roscovitine
+AG494
+SJN2511
+AG1478
+CHIR 99021
+ZSTK474
+Abitrexate (Methotrexate)
+Hydrocortisone
+Rifapentine 
+Carvedilol
+Triclabendazole
+Phenothiazine
+pp121
+Altanserin hydrochloride
+Benproperine phosphate
+Caffeic acid phenethyl ester (CAPE)
+WY14643
+Ciglitazone
+PI 828

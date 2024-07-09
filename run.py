@@ -374,7 +374,7 @@ for item_number in range(len(chem_list)):
 
 	item = chem_list[item_number] # The current item, aka chemical name, that we're on will be determined by the current index (item_number)
 
-	print( "Now doing chemical" , item_number+1 , "of" , len(chem_list) ) #add one to item_number so we're counting from one and not zero
+	print( "\nNow doing chemical" , item_number+1 , "of" , len(chem_list) ) #add one to item_number so we're counting from one and not zero
 	print("$"+item+"$")
 
 	chem_data = get_chem_info(item)
@@ -402,7 +402,9 @@ print("\n\n\n\n\nDone.")
 # - When you're giving the program to an inexperienced user, or are processing a large amount of chemicals, or just need the program to not stall at any error -- set the debug line in get_chem_info() to True!
 
 # CURRENT ISSUES
-# - Sometimes at the end of the program, ".crdownload" files are leftover in the main folder. The program should delete these before finishing.
+# - Sometimes at the end of the program, ".crdownload" and ".tmp" files are leftover in the main folder. The program should delete these before finishing.
+# - For some reason the "Successfully found" progress print statement prints weird characters instead, such as the colon.
+# - It would be good if, when the program found Unknowns (no results on Sigma's website), it checked a 2nd website. A good choice would be the official "https://commonchemistry.cas.org/". But, then again it has no DOT info :(
 # - The program only runs properly from the terminal. I'm not sure why. When you click on the run.py file from Windows Explorer, it doesn't run properly.
 # - I should put a progress print statement that prints every time a chemical is done (i.e. "41/89 chemicals done")
 # - Although the program's running very well now, the print statements (which are pretty much there for debugging) are warped. I think this is due to me using codec.open() for some reason. I could start printing with utf-8 encoding somehow? Not really worried about it cuz this program's console log isn't important honestly.
